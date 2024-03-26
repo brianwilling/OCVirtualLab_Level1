@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/StarterContent/Maps/StarterMap_BuiltData.uasset",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/LVL_1.umap",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/StarterContent/Materials/M_Basic_Wall.uasset",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_BS_Dino.uasset",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_Rack.uasset",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_Rolling_Cupboard.uasset",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_Sink.uasset",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_UV_Lamp.uasset",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset",
+				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/WBP_Crosshair.uasset"
+			]
+		}
+	]
+}
