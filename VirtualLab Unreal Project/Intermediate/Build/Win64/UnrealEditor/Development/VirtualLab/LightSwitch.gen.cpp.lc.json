@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\chris\\documents\\unreal projects\\virtuallab\\intermediate\\build\\win64\\unrealeditor\\inc\\virtuallab\\lightswitch.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\chris\\documents\\unreal projects\\virtuallab\\intermediate\\build\\win64\\virtuallabeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\chris\\documents\\unreal projects\\virtuallab\\intermediate\\build\\win64\\unrealeditor\\development\\virtuallab\\definitions.virtuallab.h",
+            "c:\\users\\chris\\documents\\unreal projects\\virtuallab\\source\\virtuallab\\lightswitch.h",
+            "c:\\users\\chris\\documents\\unreal projects\\virtuallab\\intermediate\\build\\win64\\unrealeditor\\inc\\virtuallab\\lightswitch.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

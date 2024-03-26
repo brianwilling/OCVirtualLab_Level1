@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "VirtualLab",
+			"Path": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VirtualLabEditor",
+			"Path": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLabEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
