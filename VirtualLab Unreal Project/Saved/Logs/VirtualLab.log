@@ -1346,3 +1346,1343 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.03-09.59.41:487][644]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairMeshesDefaultMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairMeshesDefaultMaterial', but the path contains illegal characters '.:'
 [2024.04.03-09.59.41:487][644]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/NiagaraHairMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/NiagaraHairMaterial', but the path contains illegal characters '.:'
 [2024.04.03-09.59.41:491][644]EditorErrors: Warning: No assets to check in!
+[2024.04.03-10.04.50:450][893]LogViewport: Scene viewport resized to 702x530, mode Windowed.
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Total job queries 231, among them cache hits 117 (50.65%)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Tracking 99 distinct input hashes that result in 64 distinct outputs (64.65%)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: RAM used: 314,09 KiB of 819,20 MiB budget. Usage: 0.04%
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Shaders Compiled: 68
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Jobs assigned 71, completed 68 (95.77%)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Average time worker was idle: 46.92 s
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Time job spent in pending queue: average 0.98 s, longest 3.84 s
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Job execution time: average 1.10 s, max 4.21 s
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Job life time (pending + execution): average 2.13 s, max 4.59
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Shader code size: average 7,909 KiB, min 432 B, max 42,906 KiB
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.60 s
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Jobs were issued in 71 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Average processing rate: 5.00 jobs/sec
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Total thread time: 51,355 s
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Total thread preprocess time: 6,385 s
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Percentage time preprocessing: 12.43%
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Effective parallelization: 3.78 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.58 sec, max 1.58 sec, min 1.58 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 41.61% of total time (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 14.60% of total time (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.60% of total time (compiled    7 times, average 0.56 sec, max 0.78 sec, min 0.37 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.79% of total time (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.04.52:214][ 49]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.90% of total time (compiled    5 times, average 0.50 sec, max 0.60 sec, min 0.38 sec)
+[2024.04.03-10.04.52:215][ 49]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.08.41:921][835]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.04.03-10.08.41:927][835]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.04.03-10.08.41:948][836]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.04.03-10.08.52:367][ 75]LogContentBrowser: Attempting asset rename: NewMaterial -> MAT_movingLiquid
+[2024.04.03-10.08.52:629][ 75]LogContentBrowser: End creating deferred item NewMaterial
+[2024.04.03-10.08.54:933][267]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/0_MY_STUFF/MAT_movingLiquid.MAT_movingLiquid
+[2024.04.03-10.08.54:940][267]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.08.54:940][267]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.08.55:383][267]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.08.55:383][267]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.08.55:383][267]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.08.55:395][267]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.04.03-10.08.55:403][267]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Total job queries 239, among them cache hits 121 (50.63%)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Tracking 106 distinct input hashes that result in 66 distinct outputs (62.26%)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: RAM used: 326,41 KiB of 819,20 MiB budget. Usage: 0.04%
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Shaders Compiled: 71
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Jobs assigned 71, completed 71 (100%)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Average time worker was idle: 46.92 s
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Time job spent in pending queue: average 0.98 s, longest 3.84 s
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Job execution time: average 1.14 s, max 4.21 s
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Job life time (pending + execution): average 2.12 s, max 4.59
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Shader code size: average 7,766 KiB, min 432 B, max 42,906 KiB
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.11 s
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Jobs were issued in 71 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Average processing rate: 5.03 jobs/sec
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Total thread time: 52,481 s
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Total thread preprocess time: 6,491 s
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Percentage time preprocessing: 12.37%
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Effective parallelization: 3.72 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.58 sec, max 1.58 sec, min 1.58 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 40.72% of total time (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 14.29% of total time (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.44% of total time (compiled    7 times, average 0.56 sec, max 0.78 sec, min 0.37 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.66% of total time (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkVS - 4.92% of total time (compiled    5 times, average 0.52 sec, max 0.55 sec, min 0.48 sec)
+[2024.04.03-10.08.55:471][268]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.08.55:644][269]MaterialEditorStats: Base pass shader: 141 instructions
+[2024.04.03-10.08.55:644][269]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.08.55:644][269]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.08.55:644][269]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.08.55:644][269]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.08.57:367][378]LogViewport: Scene viewport resized to 375x460, mode Windowed.
+[2024.04.03-10.08.57:422][380]LogViewport: Scene viewport resized to 221x252, mode Windowed.
+[2024.04.03-10.08.57:444][381]LogViewport: Scene viewport resized to 151x157, mode Windowed.
+[2024.04.03-10.08.59:683][647]LogSlate: Window 'MAT_movingLiquid' being destroyed
+[2024.04.03-10.08.59:742][647]LogViewport: Scene viewport resized to 152x162, mode Windowed.
+[2024.04.03-10.09.06:981][333]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.09.06:981][333]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.06:981][333]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.09.07:058][335]MaterialEditorStats: Base pass shader: 141 instructions
+[2024.04.03-10.09.07:058][335]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.09.07:058][335]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.09.07:058][335]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.07:058][335]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.09.11:268][667]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.09.11:268][667]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.11:268][667]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.09.12:054][709]MaterialEditorStats: Base pass shader: 141 instructions
+[2024.04.03-10.09.12:054][709]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.09.12:054][709]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.12:054][709]MaterialEditorStats: Shader Count: 3
+[2024.04.03-10.09.12:148][715]MaterialEditorStats: Base pass shader: 141 instructions
+[2024.04.03-10.09.12:148][715]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.09.12:148][715]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.09.12:148][715]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.12:148][715]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.09.17:908][160]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.09.17:908][160]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.17:908][160]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.09.17:953][161]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.09.17:953][161]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.09.17:953][161]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.09.17:953][161]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.17:953][161]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.09.28:344][ 10]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.09.28:344][ 10]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.28:344][ 10]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.09.28:416][ 13]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.09.28:416][ 13]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.09.28:416][ 13]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.09.28:416][ 13]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.28:416][ 13]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.09.32:262][252]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.03-10.09.32:269][252]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.09.32:269][252]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.32:269][252]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.09.32:327][255]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.09.32:327][255]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.09.32:327][255]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.09.32:327][255]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.09.32:327][255]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.09.38:053][605]LogViewport: Scene viewport resized to 183x445, mode Windowed.
+[2024.04.03-10.09.46:431][631]LogViewport: Scene viewport resized to 352x445, mode Windowed.
+[2024.04.03-10.09.46:446][632]LogViewport: Scene viewport resized to 360x445, mode Windowed.
+[2024.04.03-10.09.46:472][633]LogViewport: Scene viewport resized to 369x445, mode Windowed.
+[2024.04.03-10.09.46:489][634]LogViewport: Scene viewport resized to 373x445, mode Windowed.
+[2024.04.03-10.09.46:505][635]LogViewport: Scene viewport resized to 374x445, mode Windowed.
+[2024.04.03-10.09.46:519][636]LogViewport: Scene viewport resized to 377x445, mode Windowed.
+[2024.04.03-10.09.46:534][637]LogViewport: Scene viewport resized to 378x445, mode Windowed.
+[2024.04.03-10.09.46:556][639]LogViewport: Scene viewport resized to 380x445, mode Windowed.
+[2024.04.03-10.09.46:695][655]LogViewport: Scene viewport resized to 383x445, mode Windowed.
+[2024.04.03-10.09.46:711][656]LogViewport: Scene viewport resized to 385x445, mode Windowed.
+[2024.04.03-10.09.46:727][657]LogViewport: Scene viewport resized to 390x445, mode Windowed.
+[2024.04.03-10.09.46:742][658]LogViewport: Scene viewport resized to 396x445, mode Windowed.
+[2024.04.03-10.09.46:757][659]LogViewport: Scene viewport resized to 401x445, mode Windowed.
+[2024.04.03-10.09.46:771][660]LogViewport: Scene viewport resized to 411x445, mode Windowed.
+[2024.04.03-10.09.46:794][661]LogViewport: Scene viewport resized to 430x445, mode Windowed.
+[2024.04.03-10.09.46:810][662]LogViewport: Scene viewport resized to 444x445, mode Windowed.
+[2024.04.03-10.09.46:825][663]LogViewport: Scene viewport resized to 449x445, mode Windowed.
+[2024.04.03-10.09.46:840][664]LogViewport: Scene viewport resized to 453x445, mode Windowed.
+[2024.04.03-10.10.12:745][366]LogViewport: Scene viewport resized to 931x448, mode Windowed.
+[2024.04.03-10.10.14:674][493]LogViewport: Scene viewport resized to 932x448, mode Windowed.
+[2024.04.03-10.10.14:689][494]LogViewport: Scene viewport resized to 930x448, mode Windowed.
+[2024.04.03-10.10.14:709][495]LogViewport: Scene viewport resized to 928x448, mode Windowed.
+[2024.04.03-10.10.14:725][496]LogViewport: Scene viewport resized to 922x448, mode Windowed.
+[2024.04.03-10.10.14:742][497]LogViewport: Scene viewport resized to 910x448, mode Windowed.
+[2024.04.03-10.10.14:757][498]LogViewport: Scene viewport resized to 892x448, mode Windowed.
+[2024.04.03-10.10.14:771][499]LogViewport: Scene viewport resized to 868x448, mode Windowed.
+[2024.04.03-10.10.14:808][500]LogViewport: Scene viewport resized to 804x448, mode Windowed.
+[2024.04.03-10.10.14:836][501]LogViewport: Scene viewport resized to 764x448, mode Windowed.
+[2024.04.03-10.10.14:868][502]LogViewport: Scene viewport resized to 723x448, mode Windowed.
+[2024.04.03-10.10.14:898][503]LogViewport: Scene viewport resized to 699x448, mode Windowed.
+[2024.04.03-10.10.14:913][504]LogViewport: Scene viewport resized to 685x448, mode Windowed.
+[2024.04.03-10.10.14:928][505]LogViewport: Scene viewport resized to 674x448, mode Windowed.
+[2024.04.03-10.10.14:942][506]LogViewport: Scene viewport resized to 662x448, mode Windowed.
+[2024.04.03-10.10.14:957][507]LogViewport: Scene viewport resized to 648x448, mode Windowed.
+[2024.04.03-10.10.14:985][508]LogViewport: Scene viewport resized to 613x448, mode Windowed.
+[2024.04.03-10.10.15:000][509]LogViewport: Scene viewport resized to 592x448, mode Windowed.
+[2024.04.03-10.10.15:015][510]LogViewport: Scene viewport resized to 563x448, mode Windowed.
+[2024.04.03-10.10.15:030][511]LogViewport: Scene viewport resized to 532x448, mode Windowed.
+[2024.04.03-10.10.15:045][512]LogViewport: Scene viewport resized to 496x448, mode Windowed.
+[2024.04.03-10.10.15:061][513]LogViewport: Scene viewport resized to 466x448, mode Windowed.
+[2024.04.03-10.10.15:077][514]LogViewport: Scene viewport resized to 435x448, mode Windowed.
+[2024.04.03-10.10.15:093][515]LogViewport: Scene viewport resized to 412x448, mode Windowed.
+[2024.04.03-10.10.15:108][516]LogViewport: Scene viewport resized to 402x448, mode Windowed.
+[2024.04.03-10.10.15:123][517]LogViewport: Scene viewport resized to 388x448, mode Windowed.
+[2024.04.03-10.10.15:138][518]LogViewport: Scene viewport resized to 381x448, mode Windowed.
+[2024.04.03-10.10.15:153][519]LogViewport: Scene viewport resized to 373x448, mode Windowed.
+[2024.04.03-10.10.15:169][520]LogViewport: Scene viewport resized to 369x448, mode Windowed.
+[2024.04.03-10.10.15:184][521]LogViewport: Scene viewport resized to 366x448, mode Windowed.
+[2024.04.03-10.10.15:199][522]LogViewport: Scene viewport resized to 364x448, mode Windowed.
+[2024.04.03-10.10.15:214][523]LogViewport: Scene viewport resized to 361x448, mode Windowed.
+[2024.04.03-10.10.15:245][526]LogViewport: Scene viewport resized to 359x448, mode Windowed.
+[2024.04.03-10.10.15:276][529]LogViewport: Scene viewport resized to 357x448, mode Windowed.
+[2024.04.03-10.10.15:290][530]LogViewport: Scene viewport resized to 356x448, mode Windowed.
+[2024.04.03-10.10.15:307][531]LogViewport: Scene viewport resized to 354x448, mode Windowed.
+[2024.04.03-10.10.19:760][885]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.19:768][885]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.19:771][885]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.19:778][885]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+[2024.04.03-10.10.21:694][ 75]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.10.21:694][ 75]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.10.21:694][ 75]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.10.24:600][337]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.24:603][337]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.24:606][337]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.24:613][337]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+[2024.04.03-10.10.26:623][510]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.26:626][510]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.26:629][510]LogMaterial: Warning: [AssetLog] /Engine/Transient.MAT_movingLiquid: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Material using the DeferredDecal domain can only use the BlendModes Translucent, AlphaComposite or Modulate
+
+[2024.04.03-10.10.28:516][677]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.10.28:516][677]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.10.28:516][677]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.10.55:065][827]LogMaterialEditor: Applying material MAT_movingLiquid
+[2024.04.03-10.10.55:200][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.04.03-10.10.55:265][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.04.03-10.11.01:907][271]LogSlate: Window 'MAT_movingLiquid' being destroyed
+[2024.04.03-10.11.02:068][271]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-10.11.02:068][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.11.36:879][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.04.03-10.11.36:885][498]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.060
+[2024.04.03-10.11.36:886][498]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/MAT_movingLiquid] ([1] browsable assets)...
+[2024.04.03-10.11.37:175][498]OBJ SavePackage:     Rendered thumbnail for [Material /Game/0_MY_STUFF/MAT_movingLiquid.MAT_movingLiquid]
+[2024.04.03-10.11.37:175][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/MAT_movingLiquid]
+[2024.04.03-10.11.37:197][498]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/MAT_movingLiquid_Auto1
+[2024.04.03-10.11.37:197][498]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/MAT_movingLiquid_Auto1BE671A5247912E1DDA1A8D893FD27CFC.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/Autosaves/Game/0_MY_STUFF/MAT_movingLiquid_Auto1.uasset'
+[2024.04.03-10.11.37:199][498]LogFileHelpers: Auto-saving content packages took 0.313
+[2024.04.03-10.12.07:561][590]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/0_MY_STUFF/BP_Paper.BP_Paper
+[2024.04.03-10.12.07:562][590]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.12.07:562][590]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.12.07:573][590]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.04.03-10.12.11:912][861]LogSlate: Window 'BP_Paper' being destroyed
+[2024.04.03-10.13.05:760][800]LogViewport: Scene viewport resized to 566x686, mode Windowed.
+[2024.04.03-10.13.47:108][559]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.04.03-10.13.48:180][644]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/Epic Games/UE_5.3/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.13.48:180][644]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'D:/Epic Games/UE_5.3/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.13.48:180][644]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Content/EditorLandscapeResources: 'D:/Epic Games/UE_5.3/Engine/Content/EditorLandscapeResources' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.13.48:180][644]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'D:/Epic Games/UE_5.3/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.15.20:003][754]LogViewport: Scene viewport resized to 565x686, mode Windowed.
+[2024.04.03-10.15.20:030][754]LogViewport: Scene viewport resized to 561x686, mode Windowed.
+[2024.04.03-10.15.20:059][754]LogViewport: Scene viewport resized to 560x686, mode Windowed.
+[2024.04.03-10.15.20:086][754]LogViewport: Scene viewport resized to 557x686, mode Windowed.
+[2024.04.03-10.15.20:114][754]LogViewport: Scene viewport resized to 550x686, mode Windowed.
+[2024.04.03-10.15.20:142][754]LogViewport: Scene viewport resized to 541x686, mode Windowed.
+[2024.04.03-10.15.20:169][754]LogViewport: Scene viewport resized to 534x686, mode Windowed.
+[2024.04.03-10.15.20:197][754]LogViewport: Scene viewport resized to 527x686, mode Windowed.
+[2024.04.03-10.15.20:225][754]LogViewport: Scene viewport resized to 518x686, mode Windowed.
+[2024.04.03-10.15.20:252][754]LogViewport: Scene viewport resized to 509x686, mode Windowed.
+[2024.04.03-10.15.20:280][754]LogViewport: Scene viewport resized to 497x686, mode Windowed.
+[2024.04.03-10.15.20:309][754]LogViewport: Scene viewport resized to 484x686, mode Windowed.
+[2024.04.03-10.15.20:336][754]LogViewport: Scene viewport resized to 470x686, mode Windowed.
+[2024.04.03-10.15.20:364][754]LogViewport: Scene viewport resized to 456x686, mode Windowed.
+[2024.04.03-10.15.20:391][754]LogViewport: Scene viewport resized to 446x686, mode Windowed.
+[2024.04.03-10.15.20:420][754]LogViewport: Scene viewport resized to 438x686, mode Windowed.
+[2024.04.03-10.15.20:447][754]LogViewport: Scene viewport resized to 431x686, mode Windowed.
+[2024.04.03-10.15.20:474][754]LogViewport: Scene viewport resized to 427x686, mode Windowed.
+[2024.04.03-10.15.20:502][754]LogViewport: Scene viewport resized to 424x686, mode Windowed.
+[2024.04.03-10.15.20:530][754]LogViewport: Scene viewport resized to 422x686, mode Windowed.
+[2024.04.03-10.16.05:041][548]LogSlate: Took 0.036099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.04.03-10.17.28:891][373]BlueprintLog: New page: Compile BP_Paper
+[2024.04.03-10.17.29:058][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.03-10.20.36:880][491]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.04.03-10.20.36:880][491]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.04.03-10.21.13:102][837]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.04.03-10.24.19:102][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.04.03-10.24.19:106][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_1" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/Autosaves/Game/LVL_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.04.03-10.24.19:143][815]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LVL_1_Auto2
+[2024.04.03-10.24.19:144][815]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/LVL_1_Auto2C7D570B94EEBBE7B12632B801DFE2A15.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/Autosaves/Game/LVL_1_Auto2.umap'
+[2024.04.03-10.24.19:146][815]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/Autosaves/Game/LVL_1_Auto2.umap is in the /Temp path, will not scan.
+[2024.04.03-10.24.19:146][815]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.062
+[2024.04.03-10.24.19:146][815]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.062
+[2024.04.03-10.24.19:146][815]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/BP_Paper] ([2] browsable assets)...
+[2024.04.03-10.24.19:160][815]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_Paper.BP_Paper]
+[2024.04.03-10.24.19:161][815]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.24.19:176][815]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/0_MY_STUFF/BP_Paper.BP_Paper_C]
+[2024.04.03-10.24.19:176][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_Paper]
+[2024.04.03-10.24.19:274][815]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_Paper_Auto2
+[2024.04.03-10.24.19:274][815]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/BP_Paper_Auto20902AA734C5EC21D7710A8844DEB71CA.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/Autosaves/Game/0_MY_STUFF/BP_Paper_Auto2.uasset'
+[2024.04.03-10.24.19:275][815]LogFileHelpers: Auto-saving content packages took 0.129
+[2024.04.03-10.26.05:103][437]BlueprintLog: New page: Compile BP_Paper
+[2024.04.03-10.26.05:158][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.03-10.26.06:966][635]LogViewport: Scene viewport resized to 737x530, mode Windowed.
+[2024.04.03-10.26.14:392][466]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.03-10.26.14:510][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.03-10.26.14:546][466]PIE: New page: PIE session: LVL_1 (03.04.2024, 14:26:14)
+[2024.04.03-10.26.14:640][466]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.04.03-10.26.14:641][466]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.04.03-10.26.14:647][466]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.04.03-10.26.14:711][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065083s)
+[2024.04.03-10.26.14:711][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.065174s)
+[2024.04.03-10.26.14:737][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.04.03-10.26.14:774][466]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.26.14:785][466]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.26.14:785][466]LogAIModule: Creating AISystem for world LVL_1
+[2024.04.03-10.26.14:805][466]LogPlayLevel: PIE: World Init took: (0.046236s)
+[2024.04.03-10.26.14:824][466]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.04.03-10.26.14:824][466]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.03-10.26.14:824][466]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.03-10.26.14:824][466]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.03-10.26.14:824][466]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.03-10.26.14:824][466]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.03-10.26.14:824][466]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.03-10.26.14:824][466]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.03-10.26.14:824][466]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.03-10.26.14:825][466]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.03-10.26.14:825][466]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.03-10.26.14:825][466]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.03-10.26.14:827][466]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.03-10.26.14:880][466]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.04.03-10.26.14:880][466]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.03-10.26.14:880][466]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.03-10.26.14:880][466]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.03-10.26.14:881][466]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.04.03-10.26.14:881][466]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.04.03-10.26.14:883][466]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.04.03-10.26.14:883][466]LogInit: FAudioDevice initialized with ID 2.
+[2024.04.03-10.26.14:883][466]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.04.03-10.26.14:883][466]LogAudio: Display: Audio Device (ID: 2) registered with world 'LVL_1'.
+[2024.04.03-10.26.14:883][466]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.04.03-10.26.14:917][466]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.03-10.26.14:935][466]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.04.03-12.26.14
+[2024.04.03-10.26.14:971][466]LogWorld: Bringing up level for play took: 0.053254
+[2024.04.03-10.26.14:973][466]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.04.03-10.26.15:342][466]PIE: Server logged in
+[2024.04.03-10.26.15:343][466]PIE: Play in editor total start time 0,944 seconds.
+[2024.04.03-10.26.34:491][666]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.04.03-10.26.34:491][666]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.26.35:214][750]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.04.03-10.26.35:214][750]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.26.41:818][530]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Total job queries 351, among them cache hits 199 (56.70%)
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Tracking 140 distinct input hashes that result in 87 distinct outputs (62.14%)
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: RAM used: 408,19 KiB of 819,20 MiB budget. Usage: 0.05%
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Shaders Compiled: 76
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Jobs assigned 76, completed 76 (100%)
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Average time worker was idle: 74.54 s
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Time job spent in pending queue: average 0.93 s, longest 3.84 s
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Job execution time: average 1.10 s, max 4.21 s
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Job life time (pending + execution): average 2.03 s, max 4.59
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Shader code size: average 7,473 KiB, min 432 B, max 42,906 KiB
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.61 s
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Jobs were issued in 76 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Average processing rate: 4.87 jobs/sec
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Total thread time: 54,122 s
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Total thread preprocess time: 6,665 s
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Percentage time preprocessing: 12.31%
+[2024.04.03-10.26.42:504][608]LogShaderCompilers: Display: Effective parallelization: 3.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.58 sec, max 1.58 sec, min 1.58 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 39.49% of total time (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 13.85% of total time (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.01% of total time (compiled    8 times, average 0.54 sec, max 0.78 sec, min 0.37 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.49% of total time (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.47% of total time (compiled    6 times, average 0.49 sec, max 0.60 sec, min 0.38 sec)
+[2024.04.03-10.26.42:505][608]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.26.43:246][683]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.26.44:399][818]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.04.03-10.26.44:399][818]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.04.03-10.26.44:399][818]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.04.03-10.26.44:399][818]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.04.03-10.26.44:399][818]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.26.45:356][913]LogBlueprintUserMessages: [BP_PlacingField_C_1] dododod
+[2024.04.03-10.26.45:357][913]LogBlueprintUserMessages: [BP_PlacingField_C_1] checking type
+[2024.04.03-10.26.45:357][913]LogBlueprintUserMessages: [BP_PlacingField_C_1] trying to attach
+[2024.04.03-10.26.45:357][913]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.26.48:507][273]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.26.49:349][372]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.26.56:852][250]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.04.03-10.26.56:852][250]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.04.03-10.26.56:852][250]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.04.03-10.26.56:852][250]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.04.03-10.26.56:852][250]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.27.20:694][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-10.27.20:694][ 86]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.04.03-10.27.20:694][ 86]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-10.27.20:696][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.27.20:721][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.03-10.27.20:728][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.27.20:743][ 86]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.03-10.27.20:793][ 86]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.04.03-10.27.20:863][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.04.03-10.27.20:877][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.04.03-10.27.20:881][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-10.27.20:906][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.03-10.27.20:950][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.04.03-10.27.45:789][663]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/0_MY_STUFF/BP_DC_Kammer.BP_DC_Kammer
+[2024.04.03-10.27.45:790][663]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.27.45:790][663]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.28.33:171][875]BlueprintLog: New page: Compile BP_DC_Kammer
+[2024.04.03-10.28.33:212][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.04.03-10.29.10:155][787]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.04.03-10.29.10:155][787]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.04.03-10.30.28:920][287]BlueprintLog: New page: Compile BP_DC_Kammer
+[2024.04.03-10.30.28:989][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.04.03-10.32.08:122][491]BlueprintLog: New page: Compile BP_DC_Kammer
+[2024.04.03-10.32.08:191][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.03-10.32.13:858][ 57]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.03-10.32.13:892][ 57]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.03-10.32.13:894][ 57]LogPlayLevel: [PlayLevel] Compiling BP_Paper before play...
+[2024.04.03-10.32.13:987][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.03-10.32.13:992][ 57]LogPlayLevel: PlayLevel: Blueprint regeneration took 100 ms (1 blueprints)
+[2024.04.03-10.32.13:992][ 57]PIE: New page: PIE session: LVL_1 (03.04.2024, 14:32:13)
+[2024.04.03-10.32.13:992][ 57]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.04.03-10.32.14:010][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017402s)
+[2024.04.03-10.32.14:010][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.017499s)
+[2024.04.03-10.32.14:027][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.03-10.32.14:028][ 57]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.32.14:028][ 57]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.32.14:029][ 57]LogAIModule: Creating AISystem for world LVL_1
+[2024.04.03-10.32.14:029][ 57]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2024.04.03-10.32.14:029][ 57]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.04.03-10.32.14:029][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.03-10.32.14:029][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.03-10.32.14:029][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.03-10.32.14:029][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.03-10.32.14:029][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.03-10.32.14:029][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.03-10.32.14:029][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.03-10.32.14:029][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.03-10.32.14:030][ 57]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.03-10.32.14:030][ 57]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.03-10.32.14:030][ 57]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.03-10.32.14:032][ 57]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.03-10.32.14:052][ 57]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.04.03-10.32.14:052][ 57]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.03-10.32.14:052][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.03-10.32.14:052][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.03-10.32.14:053][ 57]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.04.03-10.32.14:053][ 57]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.04.03-10.32.14:055][ 57]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.04.03-10.32.14:055][ 57]LogInit: FAudioDevice initialized with ID 3.
+[2024.04.03-10.32.14:055][ 57]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.04.03-10.32.14:055][ 57]LogAudio: Display: Audio Device (ID: 3) registered with world 'LVL_1'.
+[2024.04.03-10.32.14:055][ 57]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.04.03-10.32.14:058][ 57]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.03-10.32.14:061][ 57]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.04.03-12.32.14
+[2024.04.03-10.32.14:061][ 57]LogWorld: Bringing up level for play took: 0.002996
+[2024.04.03-10.32.14:063][ 57]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.04.03-10.32.14:066][ 57]PIE: Server logged in
+[2024.04.03-10.32.14:066][ 57]PIE: Play in editor total start time 0,201 seconds.
+[2024.04.03-10.32.22:863][ 86]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.04.03-10.32.22:863][ 86]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.23:380][147]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.04.03-10.32.23:380][147]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.26:945][564]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.27:442][622]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.29:212][831]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.30:279][957]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.31:192][ 65]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.31:446][ 95]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.31:785][135]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.31:963][156]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.32:127][175]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.32:280][193]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.32:738][247]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.35:168][526]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.40:188][114]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.42:274][358]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.43:123][458]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.32.44:561][626]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.04.03-10.33.03:908][928]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.04.03-10.33.04:746][ 27]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.04.03-10.33.17:276][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-10.33.17:276][516]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.04.03-10.33.17:276][516]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-10.33.17:277][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.33.17:284][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.03-10.33.17:290][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.33.17:305][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-10.33.17:305][516]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.04.03-10.33.17:306][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.03-10.33.17:307][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.03-10.33.17:316][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.04.03-10.33.17:398][517]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.04.03-10.33.22:043][896]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/0_MY_STUFF/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.03-10.33.22:044][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.33.22:044][896]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.34.20:529][407]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-10.34.20:529][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.36.50:304][137]BlueprintLog: New page: Compile BP_DC_Kammer
+[2024.04.03-10.36.50:380][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.04.03-10.36.54:684][581]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.03-10.36.54:691][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.03-10.36.54:691][581]PIE: New page: PIE session: LVL_1 (03.04.2024, 14:36:54)
+[2024.04.03-10.36.54:729][581]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.04.03-10.36.54:747][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017500s)
+[2024.04.03-10.36.54:747][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.017549s)
+[2024.04.03-10.36.54:762][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.03-10.36.54:767][581]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.36.54:767][581]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.36.54:767][581]LogAIModule: Creating AISystem for world LVL_1
+[2024.04.03-10.36.54:768][581]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2024.04.03-10.36.54:768][581]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.03-10.36.54:768][581]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.03-10.36.54:768][581]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.03-10.36.54:768][581]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.03-10.36.54:768][581]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.03-10.36.54:768][581]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.03-10.36.54:768][581]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.03-10.36.54:768][581]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.03-10.36.54:768][581]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.03-10.36.54:769][581]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.03-10.36.54:769][581]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.03-10.36.54:769][581]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.03-10.36.54:771][581]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.03-10.36.54:792][581]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.04.03-10.36.54:792][581]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.03-10.36.54:792][581]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.03-10.36.54:792][581]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.03-10.36.54:793][581]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.03-10.36.54:793][581]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.04.03-10.36.54:794][581]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.03-10.36.54:794][581]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.03-10.36.54:794][581]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.03-10.36.54:794][581]LogAudio: Display: Audio Device (ID: 4) registered with world 'LVL_1'.
+[2024.04.03-10.36.54:794][581]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.03-10.36.54:797][581]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.03-10.36.54:800][581]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.04.03-12.36.54
+[2024.04.03-10.36.54:801][581]LogWorld: Bringing up level for play took: 0.003003
+[2024.04.03-10.36.54:803][581]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.04.03-10.36.54:805][581]PIE: Server logged in
+[2024.04.03-10.36.54:806][581]PIE: Play in editor total start time 0,116 seconds.
+[2024.04.03-10.36.59:587][140]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.04.03-10.37.00:821][284]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.02:086][432]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.04.03-10.37.02:086][432]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.04.03-10.37.02:086][432]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.04.03-10.37.02:086][432]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.04.03-10.37.02:086][432]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.02:971][535]LogBlueprintUserMessages: [BP_PlacingField_C_1] dododod
+[2024.04.03-10.37.02:971][535]LogBlueprintUserMessages: [BP_PlacingField_C_1] checking type
+[2024.04.03-10.37.02:971][535]LogBlueprintUserMessages: [BP_PlacingField_C_1] trying to attach
+[2024.04.03-10.37.02:971][535]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.05:323][813]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.04.03-10.37.05:323][813]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.05:843][875]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.04.03-10.37.05:843][875]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.16:947][176]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.17:945][294]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.22:034][777]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.04.03-10.37.22:034][777]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.04.03-10.37.22:035][777]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.04.03-10.37.22:035][777]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.04.03-10.37.22:035][777]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.39:867][894]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.04.03-10.37.50:552][144]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.04.03-10.37.50:552][144]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.37.59:297][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-10.37.59:297][180]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.04.03-10.37.59:297][180]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-10.37.59:298][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.37.59:331][180]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.03-10.37.59:336][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.37.59:351][180]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.03-10.37.59:351][180]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.03-10.37.59:351][180]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.03-10.37.59:353][180]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.03-10.37.59:357][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-10.37.59:361][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.04.03-10.37.59:455][181]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.04.03-10.38.04:478][711]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.03-10.38.04:488][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.03-10.38.04:488][711]PIE: New page: PIE session: LVL_1 (03.04.2024, 14:38:04)
+[2024.04.03-10.38.04:517][711]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.04.03-10.38.04:535][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017910s)
+[2024.04.03-10.38.04:535][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.017966s)
+[2024.04.03-10.38.04:551][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.04.03-10.38.04:553][711]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.38.04:553][711]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.38.04:553][711]LogAIModule: Creating AISystem for world LVL_1
+[2024.04.03-10.38.04:554][711]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2024.04.03-10.38.04:554][711]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.03-10.38.04:554][711]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.03-10.38.04:554][711]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.03-10.38.04:554][711]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.03-10.38.04:554][711]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.03-10.38.04:554][711]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.03-10.38.04:554][711]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.03-10.38.04:554][711]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.03-10.38.04:554][711]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.03-10.38.04:555][711]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.03-10.38.04:555][711]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.03-10.38.04:555][711]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.03-10.38.04:557][711]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.03-10.38.04:577][711]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.04.03-10.38.04:577][711]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.03-10.38.04:577][711]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.03-10.38.04:577][711]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.03-10.38.04:578][711]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.03-10.38.04:578][711]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.04.03-10.38.04:580][711]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.03-10.38.04:580][711]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.03-10.38.04:580][711]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.03-10.38.04:580][711]LogAudio: Display: Audio Device (ID: 5) registered with world 'LVL_1'.
+[2024.04.03-10.38.04:580][711]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.03-10.38.04:583][711]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.03-10.38.04:586][711]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.04.03-12.38.04
+[2024.04.03-10.38.04:586][711]LogWorld: Bringing up level for play took: 0.003400
+[2024.04.03-10.38.04:589][711]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.04.03-10.38.04:591][711]PIE: Server logged in
+[2024.04.03-10.38.04:592][711]PIE: Play in editor total start time 0,104 seconds.
+[2024.04.03-10.38.07:936][ 92]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.04.03-10.38.09:294][252]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.10:275][367]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.04.03-10.38.10:275][367]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.04.03-10.38.10:276][367]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.04.03-10.38.10:276][367]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.04.03-10.38.10:276][367]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.11:222][478]LogBlueprintUserMessages: [BP_PlacingField_C_1] dododod
+[2024.04.03-10.38.11:222][478]LogBlueprintUserMessages: [BP_PlacingField_C_1] checking type
+[2024.04.03-10.38.11:222][478]LogBlueprintUserMessages: [BP_PlacingField_C_1] trying to attach
+[2024.04.03-10.38.11:223][478]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.13:473][741]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.04.03-10.38.13:473][741]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.13:997][803]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.04.03-10.38.13:997][803]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.14:934][914]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.04.03-10.38.14:934][914]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.18:856][376]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.19:582][461]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.22:656][825]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.04.03-10.38.22:656][825]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.04.03-10.38.22:656][825]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.04.03-10.38.22:656][825]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.04.03-10.38.22:656][825]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.41:535][ 64]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.04.03-10.38.41:535][ 64]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.43:761][327]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.45:645][546]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.04.03-10.38.54:163][546]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.04.03-10.38.58:094][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-10.38.58:094][ 10]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.04.03-10.38.58:094][ 10]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-10.38.58:094][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.38.58:099][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.03-10.38.58:105][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.38.58:119][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.03-10.38.58:120][ 10]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.03-10.38.58:120][ 10]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.03-10.38.58:121][ 10]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.03-10.38.58:128][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.04.03-10.38.58:210][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Total job queries 364, among them cache hits 208 (57.14%)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Tracking 144 distinct input hashes that result in 89 distinct outputs (61.81%)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: RAM used: 414,74 KiB of 819,20 MiB budget. Usage: 0.05%
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Shaders Compiled: 78
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Jobs assigned 78, completed 78 (100%)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Average time worker was idle: 87.66 s
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Time job spent in pending queue: average 0.90 s, longest 3.84 s
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Job execution time: average 1.08 s, max 4.21 s
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Job life time (pending + execution): average 1.99 s, max 4.59
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Shader code size: average 7,32 KiB, min 432 B, max 42,906 KiB
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.11 s
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Jobs were issued in 78 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Average processing rate: 4.84 jobs/sec
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Total thread time: 54,545 s
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Total thread preprocess time: 6,729 s
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Percentage time preprocessing: 12.34%
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Effective parallelization: 3.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.58 sec, max 1.58 sec, min 1.58 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 39.18% of total time (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 13.75% of total time (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.95% of total time (compiled    8 times, average 0.54 sec, max 0.78 sec, min 0.37 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.45% of total time (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.43% of total time (compiled    6 times, average 0.49 sec, max 0.60 sec, min 0.38 sec)
+[2024.04.03-10.39.08:462][ 48]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.39.21:529][ 60]LogViewport: Scene viewport resized to 1423x534, mode Windowed.
+[2024.04.03-10.39.26:170][390]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.03-10.39.26:201][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_1" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/LVL_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.03-10.39.26:262][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.03-10.39.26:303][390]LogSavePackage: Moving output files for package: /Game/LVL_1
+[2024.04.03-10.39.26:304][390]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/LVL_11BA357FD490B0DBADDE17287B797796B.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/LVL_1.umap'
+[2024.04.03-10.39.26:312][390]LogFileHelpers: All files are already saved.
+[2024.04.03-10.39.26:312][390]LogFileHelpers: Saving map 'LVL_1' took 0.111
+[2024.04.03-10.39.26:326][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/BP_Paper" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_Paper.uasset" SILENT=true
+[2024.04.03-10.39.26:370][390]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/BP_Paper
+[2024.04.03-10.39.26:370][390]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/BP_PaperDC0B3AA841AA1335010F329DBF5282C7.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_Paper.uasset'
+[2024.04.03-10.39.26:378][390]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.39.26:390][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/BP_DC_Kammer" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_DC_Kammer.uasset" SILENT=true
+[2024.04.03-10.39.26:419][390]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/BP_DC_Kammer
+[2024.04.03-10.39.26:419][390]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/BP_DC_Kammer90C848AD45A7EAEC490A83ADC9F43F78.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_DC_Kammer.uasset'
+[2024.04.03-10.39.26:421][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/MAT_movingLiquid" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/MAT_movingLiquid.uasset" SILENT=true
+[2024.04.03-10.39.26:422][390]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/MAT_movingLiquid
+[2024.04.03-10.39.26:422][390]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/MAT_movingLiquid59B4437641BB54C368AA4AA86D09BD9F.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/MAT_movingLiquid.uasset'
+[2024.04.03-10.39.26:594][390]LogFileHelpers: InternalPromptForCheckoutAndSave took 422 ms (total: 765 ms)
+[2024.04.03-10.39.26:634][390]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.03-10.39.26:634][390]LogContentValidation: Display: Validating /Script/Engine.World /Game/LVL_1.LVL_1
+[2024.04.03-10.39.26:634][390]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/0_MY_STUFF/BP_Paper.BP_Paper
+[2024.04.03-10.39.26:634][390]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/0_MY_STUFF/BP_DC_Kammer.BP_DC_Kammer
+[2024.04.03-10.39.26:634][390]LogContentValidation: Display: Validating /Script/Engine.Material /Game/0_MY_STUFF/MAT_movingLiquid.MAT_movingLiquid
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Content: 'D:/Epic Games/UE_5.3/Engine/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:556][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:557][909]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.39.33:704][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AdvanceGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AdvanceGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AdvectGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AdvectGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AttachGroomRoots.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AttachGroomRoots', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/BuildGridVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/BuildGridVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ComputeGridWeights.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ComputeGridWeights', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ExtractSharedOrientation.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ExtractSharedOrientation', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ExtractSharedPosition.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ExtractSharedPosition', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomRodsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomRodsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomRodsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomRodsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomSpringsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomSpringsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomSpringsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomSpringsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/IncrementStepIndex.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/IncrementStepIndex', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/InterpolateGroomRoots.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/InterpolateGroomRoots', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/InterpolateNodeValue.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/InterpolateNodeValue', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectGridVelociy.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectGridVelociy', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectRodConstraints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectRodConstraints', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectSpringConstraints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectSpringConstraints', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportGroomPosition.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportGroomPosition', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportSharedOrientation.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportSharedOrientation', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportSharedPosition.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportSharedPosition', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ResetGroomPoints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ResetGroomPoints', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/RewindGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/RewindGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/RewindStableState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/RewindStableState', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetGridBoundary.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetGridBoundary', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetGroomLocation.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetGroomLocation', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGridDatas.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGridDatas', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGroomDatas.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGroomDatas', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGroomPhysics.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGroomPhysics', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleRodsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleRodsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleRodsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleRodsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleSpringsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleSpringsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleSpringsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleSpringsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveRodConstraints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveRodConstraints', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveSpringConstraints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveSpringConstraints', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SpawnGroomNodes.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SpawnGroomNodes', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SpawnStableNodes.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SpawnStableNodes', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableRodsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableRodsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableRodsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableRodsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableSpringsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableSpringsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableSpringsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableSpringsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StoreGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StoreGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGridBox.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGridBox', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:705][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGridVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGridVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGroomVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGroomVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGridTransform.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGridTransform', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGridVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGridVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGroomVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGroomVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Icons/S_GroomActor.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Icons/S_GroomActor', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/DebugHairMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/DebugHairMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairCardsDefaultMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairCardsDefaultMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairDebugMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairDebugMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairDefaultMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairDefaultMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairGroupColors.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairGroupColors', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairMeshesDefaultMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairMeshesDefaultMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:706][909]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/NiagaraHairMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/NiagaraHairMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.39.33:709][909]EditorErrors: Warning: No assets to check in!
+[2024.04.03-10.40.02:672][624]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Base_Color.Base_Color
+[2024.04.03-10.40.02:736][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.03-10.40.02:736][624]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.03-10.40.02:875][624]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.02:875][624]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.02:875][624]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.02:880][624]LogViewport: Scene viewport resized to 1062x448, mode Windowed.
+[2024.04.03-10.40.02:982][626]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.02:983][626]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.02:983][626]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.02:983][626]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.02:983][626]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.14:624][998]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.14:624][998]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.14:624][998]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.14:641][  0]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.14:641][  0]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.14:642][  0]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.14:642][  0]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.14:642][  0]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.16:665][234]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.03-10.40.16:671][234]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.16:671][234]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.16:671][234]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.16:688][236]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.16:688][236]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.16:688][236]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.16:688][236]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.16:688][236]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.21:440][655]LogViewport: Scene viewport resized to 1060x460, mode Windowed.
+[2024.04.03-10.40.21:492][657]LogViewport: Scene viewport resized to 427x157, mode Windowed.
+[2024.04.03-10.40.22:180][722]LogViewport: Scene viewport resized to 429x162, mode Windowed.
+[2024.04.03-10.40.27:332][ 51]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.27:332][ 51]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.27:332][ 51]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.27:364][ 53]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.27:364][ 53]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.27:364][ 53]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.27:364][ 53]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.27:364][ 53]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.29:577][174]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.29:577][174]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.29:577][174]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.29:612][176]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.29:612][176]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.29:612][176]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.29:612][176]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.29:612][176]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.32:760][351]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.32:760][351]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.32:760][351]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.32:793][353]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.32:793][353]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.32:793][353]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.32:793][353]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.32:793][353]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.34:594][453]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.34:594][453]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.34:594][453]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.34:626][455]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.34:626][455]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.34:626][455]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.34:626][455]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.34:626][455]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.36:404][555]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.36:404][555]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.36:404][555]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.36:436][557]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.36:436][557]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.36:436][557]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.36:436][557]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.36:436][557]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.39:696][747]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.39:696][747]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.39:696][747]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.39:729][749]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.39:729][749]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.39:729][749]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.39:729][749]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.39:729][749]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.41:572][852]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.41:572][852]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.41:572][852]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.41:603][854]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.41:603][854]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.41:603][854]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.41:603][854]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.41:604][854]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.46:755][156]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.46:755][156]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.46:755][156]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.46:787][158]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.46:787][158]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.46:787][158]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.46:787][158]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.46:787][158]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.49:563][319]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.49:563][319]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.49:563][319]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.49:596][321]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.49:596][321]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.49:596][321]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.49:596][321]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.49:596][321]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.55:402][668]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.55:402][668]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.55:402][668]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.55:432][670]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.55:432][670]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.55:432][670]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.55:432][670]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.55:432][670]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.56:761][745]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.56:761][745]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.56:761][745]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.56:794][747]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.56:794][747]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.56:794][747]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.56:794][747]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.56:794][747]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.57:867][806]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.57:867][806]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.57:867][806]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.57:898][808]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.57:899][808]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.57:899][808]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.57:899][808]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.57:899][808]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.40.59:134][877]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.40.59:134][877]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.59:134][877]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.40.59:167][879]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.40.59:167][879]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.40.59:167][879]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.40.59:167][879]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.40.59:167][879]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.00:025][925]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.00:025][925]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.00:025][925]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.00:058][927]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.00:058][927]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.00:058][927]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.00:058][927]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.00:058][927]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.00:951][975]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.00:951][975]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.00:951][975]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.00:982][977]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.00:982][977]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.00:982][977]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.00:982][977]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.00:982][977]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.01:802][ 21]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.01:802][ 21]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.01:802][ 21]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.01:833][ 23]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.01:833][ 23]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.01:833][ 23]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.01:833][ 23]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.01:833][ 23]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.02:523][ 59]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.02:523][ 59]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.02:523][ 59]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.02:553][ 61]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.02:553][ 61]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.02:553][ 61]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.02:553][ 61]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.02:553][ 61]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.03:379][105]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.03:379][105]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.03:379][105]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.03:411][107]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.03:411][107]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.03:411][107]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.03:411][107]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.03:411][107]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.04:129][145]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.04:129][145]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.04:129][145]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.04:161][147]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.04:161][147]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.04:161][147]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.04:161][147]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.04:161][147]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.05:074][197]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.05:074][197]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.05:074][197]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.05:106][199]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.05:106][199]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.05:106][199]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.05:107][199]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.05:107][199]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.06:620][285]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.06:620][285]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.06:620][285]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.06:652][287]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.06:652][287]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.06:652][287]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.06:652][287]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.06:652][287]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.36:706][101]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.36:706][101]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.36:706][101]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.36:743][103]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.36:743][103]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.36:743][103]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.36:743][103]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.36:743][103]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.46:034][664]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.46:035][664]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.46:035][664]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.46:067][666]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.46:067][666]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.46:067][666]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.46:067][666]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.46:067][666]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.50:502][929]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.50:502][929]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.50:502][929]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.50:536][931]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.50:536][931]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.50:536][931]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.50:536][931]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.50:536][931]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.52:700][ 57]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.52:700][ 57]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.52:700][ 57]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.52:737][ 59]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.52:737][ 59]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.52:737][ 59]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.52:737][ 59]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.52:737][ 59]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.55:346][208]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.55:346][208]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.55:346][208]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.55:377][210]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.55:377][210]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.55:377][210]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.55:377][210]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.55:377][210]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.57:470][327]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.57:471][327]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.57:471][327]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.57:505][329]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.57:505][329]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.57:505][329]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.57:505][329]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.57:505][329]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.41.59:410][436]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.41.59:410][436]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.59:410][436]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.41.59:441][438]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.41.59:441][438]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.41.59:441][438]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.41.59:441][438]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.41.59:441][438]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.42.02:615][619]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.42.02:615][619]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.42.02:615][619]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.42.02:650][621]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.42.02:650][621]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.42.02:650][621]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.42.02:650][621]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.42.02:650][621]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.42.05:487][784]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.42.05:487][784]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.42.05:487][784]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.42.05:522][786]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.42.05:522][786]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.42.05:522][786]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.42.05:522][786]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.42.05:522][786]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.42.47:462][761]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.03-10.42.47:469][761]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.42.47:469][761]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.42.47:469][761]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.42.47:487][762]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.42.47:487][762]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Total job queries 688, among them cache hits 532 (77.33%)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Tracking 144 distinct input hashes that result in 89 distinct outputs (61.81%)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: RAM used: 414,74 KiB of 819,20 MiB budget. Usage: 0.05%
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Shaders Compiled: 78
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Jobs assigned 78, completed 78 (100%)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Average time worker was idle: 87.66 s
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Time job spent in pending queue: average 0.90 s, longest 3.84 s
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Job execution time: average 1.08 s, max 4.21 s
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Job life time (pending + execution): average 1.99 s, max 4.59
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Shader code size: average 7,32 KiB, min 432 B, max 42,906 KiB
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.11 s
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Jobs were issued in 78 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Average processing rate: 4.84 jobs/sec
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Total thread time: 54,545 s
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Total thread preprocess time: 6,729 s
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Percentage time preprocessing: 12.34%
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Effective parallelization: 3.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.58 sec, max 1.58 sec, min 1.58 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 39.18% of total time (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 13.75% of total time (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.95% of total time (compiled    8 times, average 0.54 sec, max 0.78 sec, min 0.37 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.45% of total time (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.43% of total time (compiled    6 times, average 0.49 sec, max 0.60 sec, min 0.38 sec)
+[2024.04.03-10.42.47:488][762]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.42.47:503][763]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.42.47:503][763]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.42.47:503][763]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.42.47:503][763]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.42.47:503][763]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.43.21:765][765]LogViewport: Scene viewport resized to 430x162, mode Windowed.
+[2024.04.03-10.43.21:792][765]LogViewport: Scene viewport resized to 431x165, mode Windowed.
+[2024.04.03-10.43.21:820][765]LogViewport: Scene viewport resized to 434x169, mode Windowed.
+[2024.04.03-10.43.21:847][765]LogViewport: Scene viewport resized to 440x177, mode Windowed.
+[2024.04.03-10.43.21:876][765]LogViewport: Scene viewport resized to 447x183, mode Windowed.
+[2024.04.03-10.43.21:904][765]LogViewport: Scene viewport resized to 454x192, mode Windowed.
+[2024.04.03-10.43.21:931][765]LogViewport: Scene viewport resized to 460x199, mode Windowed.
+[2024.04.03-10.43.21:958][765]LogViewport: Scene viewport resized to 463x203, mode Windowed.
+[2024.04.03-10.43.21:986][765]LogViewport: Scene viewport resized to 468x207, mode Windowed.
+[2024.04.03-10.43.22:015][765]LogViewport: Scene viewport resized to 474x211, mode Windowed.
+[2024.04.03-10.43.22:041][765]LogViewport: Scene viewport resized to 482x216, mode Windowed.
+[2024.04.03-10.43.22:069][765]LogViewport: Scene viewport resized to 487x220, mode Windowed.
+[2024.04.03-10.43.22:097][765]LogViewport: Scene viewport resized to 490x222, mode Windowed.
+[2024.04.03-10.43.22:126][765]LogViewport: Scene viewport resized to 494x224, mode Windowed.
+[2024.04.03-10.43.22:153][765]LogViewport: Scene viewport resized to 501x228, mode Windowed.
+[2024.04.03-10.43.22:180][765]LogViewport: Scene viewport resized to 506x232, mode Windowed.
+[2024.04.03-10.43.22:209][765]LogViewport: Scene viewport resized to 507x234, mode Windowed.
+[2024.04.03-10.43.22:237][765]LogViewport: Scene viewport resized to 508x235, mode Windowed.
+[2024.04.03-10.43.22:264][765]LogViewport: Scene viewport resized to 509x235, mode Windowed.
+[2024.04.03-10.43.22:293][765]LogViewport: Scene viewport resized to 510x236, mode Windowed.
+[2024.04.03-10.43.43:083][938]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.43.43:083][938]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.43.43:083][938]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.43.44:093][941]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.43.44:093][941]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.43.44:093][941]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.43.44:093][941]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.43.44:093][941]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.43.51:412][131]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.43.51:412][131]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.43.51:412][131]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.43.52:109][134]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.43.52:109][134]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.43.52:109][134]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.43.52:109][134]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.43.52:109][134]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.44.12:765][897]LogViewport: Scene viewport resized to 946x334, mode Windowed.
+[2024.04.03-10.44.24:043][200]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.44.24:043][200]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.44.24:043][200]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.44.25:052][203]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.44.25:053][203]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.44.25:053][203]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.44.25:053][203]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.44.25:053][203]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.44.26:049][206]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.03-10.44.26:062][206]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.03-10.44.26:062][206]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.44.26:062][206]MaterialEditorStats: Shader Count: 0
+[2024.04.03-10.44.26:143][209]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.03-10.44.26:143][209]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.03-10.44.26:143][209]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.03-10.44.26:143][209]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.03-10.44.26:143][209]MaterialEditorStats: Shader Count: 4
+[2024.04.03-10.44.42:566][279]LogMaterialEditor: Applying material Base_Color
+[2024.04.03-10.44.42:671][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.04.03-10.44.43:084][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.04.03-10.44.44:804][383]LogSlate: Window 'Base_Color' being destroyed
+[2024.04.03-10.44.44:828][383]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.04.03-10.44.44:828][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.03-10.44.45:995][505]LogViewport: Scene viewport resized to 1423x534, mode Windowed.
+[2024.04.03-10.45.27:998][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Content: 'D:/Epic Games/UE_5.3/Engine/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:998][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:998][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:998][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:998][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:998][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:998][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.27:999][261]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content: 'D:/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AdvanceGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AdvanceGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AdvectGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AdvectGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AttachGroomRoots.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/AttachGroomRoots', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/BuildGridVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/BuildGridVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ComputeGridWeights.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ComputeGridWeights', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ExtractSharedOrientation.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ExtractSharedOrientation', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ExtractSharedPosition.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ExtractSharedPosition', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomRodsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomRodsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomRodsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomRodsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomSpringsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomSpringsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomSpringsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/GroomSpringsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/IncrementStepIndex.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/IncrementStepIndex', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/InterpolateGroomRoots.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/InterpolateGroomRoots', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/InterpolateNodeValue.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/InterpolateNodeValue', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectGridVelociy.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectGridVelociy', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectRodConstraints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectRodConstraints', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectSpringConstraints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ProjectSpringConstraints', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportGroomPosition.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportGroomPosition', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportSharedOrientation.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportSharedOrientation', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportSharedPosition.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ReportSharedPosition', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ResetGroomPoints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/ResetGroomPoints', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/RewindGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/RewindGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/RewindStableState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/RewindStableState', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetGridBoundary.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetGridBoundary', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetGroomLocation.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetGroomLocation', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGridDatas.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGridDatas', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGroomDatas.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGroomDatas', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGroomPhysics.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SetupGroomPhysics', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleRodsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleRodsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleRodsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleRodsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleSpringsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleSpringsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleSpringsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SimpleSpringsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveRodConstraints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveRodConstraints', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveSpringConstraints.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SolveSpringConstraints', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SpawnGroomNodes.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SpawnGroomNodes', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SpawnStableNodes.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/SpawnStableNodes', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableRodsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableRodsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableRodsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableRodsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableSpringsEmitter.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableSpringsEmitter', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:093][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableSpringsSystem.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StableSpringsSystem', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StoreGroomState.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/StoreGroomState', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGridBox.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGridBox', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGridVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGridVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGroomVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/TransferGroomVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGridTransform.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGridTransform', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGridVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGridVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGroomVelocity.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Emitters/UpdateGroomVelocity', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Icons/S_GroomActor.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Icons/S_GroomActor', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/DebugHairMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/DebugHairMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairCardsDefaultMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairCardsDefaultMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairDebugMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairDebugMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairDefaultMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairDefaultMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairGroupColors.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairGroupColors', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairMeshesDefaultMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/HairMeshesDefaultMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:094][261]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/NiagaraHairMaterial.uasset'. Attempt result was 'D:/Epic Games/UE_5.3/Engine/Plugins/Runtime/HairStrands/Content/Materials/NiagaraHairMaterial', but the path contains illegal characters '.:'
+[2024.04.03-10.45.28:097][261]EditorErrors: Warning: No assets to check in!
+[2024.04.03-10.45.54:141][787]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Total job queries 756, among them cache hits 576 (76.19%)
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Tracking 168 distinct input hashes that result in 98 distinct outputs (58.33%)
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: RAM used: 480,82 KiB of 819,20 MiB budget. Usage: 0.06%
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Shaders Compiled: 78
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Jobs assigned 78, completed 78 (100%)
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Average time worker was idle: 87.66 s
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Time job spent in pending queue: average 0.90 s, longest 3.84 s
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Job execution time: average 1.08 s, max 4.21 s
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Job life time (pending + execution): average 1.99 s, max 4.59
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Shader code size: average 7,32 KiB, min 432 B, max 42,906 KiB
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.11 s
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Jobs were issued in 78 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Average processing rate: 4.84 jobs/sec
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Total thread time: 54,545 s
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Total thread preprocess time: 6,729 s
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Percentage time preprocessing: 12.34%
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Effective parallelization: 3.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.58 sec, max 1.58 sec, min 1.58 sec)
+[2024.04.03-10.45.54:548][787]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 39.18% of total time (compiled   10 times, average 2.14 sec, max 4.16 sec, min 0.58 sec)
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 13.75% of total time (compiled   10 times, average 0.75 sec, max 0.82 sec, min 0.55 sec)
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.95% of total time (compiled    8 times, average 0.54 sec, max 0.78 sec, min 0.37 sec)
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.45% of total time (compiled    3 times, average 0.99 sec, max 1.01 sec, min 0.98 sec)
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.43% of total time (compiled    6 times, average 0.49 sec, max 0.60 sec, min 0.38 sec)
+[2024.04.03-10.45.54:549][787]LogShaderCompilers: Display: ================================================
+[2024.04.03-10.45.54:567][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Base_Color" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/Base_Color.uasset" SILENT=true
+[2024.04.03-10.45.54:569][787]LogSavePackage: Moving output files for package: /Game/Base_Color
+[2024.04.03-10.45.54:570][787]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Saved/Base_ColorF02E58AE4AEF8CE4C45C6D9E99EC4B26.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/Base_Color.uasset'
+[2024.04.03-10.45.54:578][787]LogFileHelpers: InternalPromptForCheckoutAndSave took 436 ms (total: 1.20 sec)
+[2024.04.03-10.45.54:581][787]AssetCheck: New page: Asset Save: Base_Color
+[2024.04.03-10.45.54:581][787]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Base_Color.Base_Color
