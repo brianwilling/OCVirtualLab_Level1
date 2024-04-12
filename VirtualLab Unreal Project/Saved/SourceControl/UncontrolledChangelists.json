@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/NEu234/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/Interaktion/Interaktionsarea/BP_Interaktionsarea.uasset",
+				"D:/NEu234/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/Interaktion/AC_InteraktionsTrace.uasset",
+				"D:/NEu234/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/0_MY_STUFF/BP_FirstPersonCharacter.uasset",
+				"D:/NEu234/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/LVL_1.umap",
 				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/StarterContent/Maps/StarterMap_BuiltData.uasset",
 				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/LVL_1.umap",
 				"/Users/rudolfwilling/Desktop/GitHub/OCVirtualLab_Level1/VirtualLab Unreal Project/Content/StarterContent/Materials/M_Basic_Wall.uasset",
