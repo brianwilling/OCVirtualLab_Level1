@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "VirtualLabEditor Editor Win64 Development (VirtualLab)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_VirtualLab.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

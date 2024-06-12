@@ -1,0 +1,47 @@
+[
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\ConvertProject.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\ConvertProject.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\Grabber.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\Grabber.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\LightSwitch.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\LightSwitch.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\VirtualLab.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\VirtualLab.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\Source\\VirtualLab\\VirtualLab.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Chris\\Documents\\Unreal Projects\\VirtualLab\\.vscode\\compileCommands_Default\\VirtualLab.211.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	}
+]
