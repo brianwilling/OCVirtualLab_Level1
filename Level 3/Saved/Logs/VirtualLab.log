@@ -2802,3 +2802,1608 @@ UnknownFunction []
 [2024.07.03-10.43.21:630][288]LogSlate: Window 'View Changes' being destroyed
 [2024.07.03-10.43.21:636][288]LogSlate: Window 'View Changes' being destroyed
 [2024.07.03-10.43.23:855][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.07.03-11.42.12:836][255]LogDerivedDataCache: C:/Users/lampe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.091 and deleted 0 files with total size 0 MiB and 3 empty folders. Scanned 1966 files in 2907 folders with total size 40 MiB.
+[2024.07.03-12.42.12:830][ 53]LogDerivedDataCache: C:/Users/lampe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.085 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1966 files in 2904 folders with total size 40 MiB.
+[2024.07.03-13.01.08:793][454]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-13.01.08:806][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.03-13.01.08:806][454]PIE: New page: PIE session: LVL_1 (03.07.2024, 17:01:08)
+[2024.07.03-13.01.08:807][454]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.01.08:850][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042855s)
+[2024.07.03-13.01.08:850][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.043056s)
+[2024.07.03-13.01.08:906][454]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2024.07.03-13.01.08:911][454]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.01.08:911][454]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.01.08:911][454]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.01.08:912][454]LogPlayLevel: PIE: World Init took: (0.002020s)
+[2024.07.03-13.01.08:912][454]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.07.03-13.01.08:913][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-13.01.08:913][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-13.01.08:913][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-13.01.08:913][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-13.01.08:913][454]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-13.01.08:913][454]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-13.01.08:913][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-13.01.08:913][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-13.01.08:914][454]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-13.01.08:914][454]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-13.01.08:914][454]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-13.01.08:918][454]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-13.01.08:941][454]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-13.01.08:944][454]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-13.01.08:944][454]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-13.01.08:944][454]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-13.01.08:946][454]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.07.03-13.01.08:946][454]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.07.03-13.01.08:948][454]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.07.03-13.01.08:948][454]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.07.03-13.01.08:949][454]LogInit: FAudioDevice initialized with ID 7.
+[2024.07.03-13.01.08:949][454]LogAudio: Display: Audio Device (ID: 7) registered with world 'LVL_1'.
+[2024.07.03-13.01.08:949][454]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.07.03-13.01.08:972][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.01.08:972][454]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.01.08:979][454]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.01.08
+[2024.07.03-13.01.08:979][454]LogWorld: Bringing up level for play took: 0.006432
+[2024.07.03-13.01.08:983][454]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.07.03-13.01.09:001][454]PIE: Server logged in
+[2024.07.03-13.01.09:004][454]PIE: Play in editor total start time 0,2 seconds.
+[2024.07.03-13.01.09:117][454]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.07.03-13.01.10:359][541]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.01.10:426][546]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.01.10:963][587]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.01.11:015][591]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.01.11:504][630]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.01.11:717][647]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.01.13:688][798]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.14:589][864]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.15:810][953]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.16:909][ 33]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.17:940][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.01.17:940][108]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.01.17:941][108]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-13.01.17:946][108]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.01.17:946][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.01.17:955][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-13.01.17:962][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.01.17:980][108]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.07.03-13.01.17:980][108]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.07.03-13.01.17:983][108]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.07.03-13.01.17:991][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.07.03-13.01.18:093][109]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.07.03-13.01.19:550][244]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-13.01.19:557][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.03-13.01.19:557][244]PIE: New page: PIE session: LVL_1 (03.07.2024, 17:01:19)
+[2024.07.03-13.01.19:557][244]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.01.19:578][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019746s)
+[2024.07.03-13.01.19:578][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.019787s)
+[2024.07.03-13.01.19:593][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.07.03-13.01.19:596][244]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.01.19:596][244]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.01.19:597][244]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.01.19:597][244]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2024.07.03-13.01.19:597][244]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.07.03-13.01.19:597][244]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-13.01.19:597][244]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-13.01.19:597][244]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-13.01.19:597][244]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-13.01.19:597][244]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-13.01.19:597][244]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-13.01.19:597][244]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-13.01.19:597][244]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-13.01.19:598][244]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-13.01.19:598][244]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-13.01.19:598][244]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-13.01.19:600][244]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-13.01.19:621][244]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-13.01.19:622][244]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-13.01.19:622][244]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-13.01.19:622][244]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-13.01.19:623][244]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.07.03-13.01.19:623][244]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.07.03-13.01.19:624][244]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.07.03-13.01.19:624][244]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.07.03-13.01.19:624][244]LogInit: FAudioDevice initialized with ID 8.
+[2024.07.03-13.01.19:624][244]LogAudio: Display: Audio Device (ID: 8) registered with world 'LVL_1'.
+[2024.07.03-13.01.19:624][244]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.07.03-13.01.19:653][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.01.19:653][244]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.01.19:657][244]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.01.19
+[2024.07.03-13.01.19:658][244]LogWorld: Bringing up level for play took: 0.004117
+[2024.07.03-13.01.19:660][244]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.07.03-13.01.19:667][244]PIE: Server logged in
+[2024.07.03-13.01.19:669][244]PIE: Play in editor total start time 0,112 seconds.
+[2024.07.03-13.01.19:697][244]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.07.03-13.01.20:150][270]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.07.03-13.01.20:729][313]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.01.20:796][318]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.01.20:879][324]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.01.21:062][338]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.01.23:140][494]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.23:967][554]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.25:273][650]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.26:458][737]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.26:936][773]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.28:291][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.01.28:291][876]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.01.28:292][876]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-13.01.28:297][876]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.01.28:298][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.01.28:303][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-13.01.28:310][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.01.28:325][876]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.07.03-13.01.28:325][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.07.03-13.01.28:327][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.07.03-13.01.28:334][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.07.03-13.01.28:421][877]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.07.03-13.01.30:355][ 54]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-13.01.30:362][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.03-13.01.30:362][ 54]PIE: New page: PIE session: LVL_1 (03.07.2024, 17:01:30)
+[2024.07.03-13.01.30:362][ 54]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.01.30:382][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019329s)
+[2024.07.03-13.01.30:382][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.019363s)
+[2024.07.03-13.01.30:397][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.07.03-13.01.30:399][ 54]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.01.30:399][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.01.30:400][ 54]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.01.30:400][ 54]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2024.07.03-13.01.30:400][ 54]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.07.03-13.01.30:400][ 54]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-13.01.30:400][ 54]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-13.01.30:400][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-13.01.30:400][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-13.01.30:400][ 54]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-13.01.30:400][ 54]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-13.01.30:400][ 54]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-13.01.30:400][ 54]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-13.01.30:401][ 54]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-13.01.30:401][ 54]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-13.01.30:401][ 54]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-13.01.30:403][ 54]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-13.01.30:424][ 54]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-13.01.30:425][ 54]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-13.01.30:425][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-13.01.30:425][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-13.01.30:426][ 54]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.07.03-13.01.30:426][ 54]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.07.03-13.01.30:427][ 54]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.07.03-13.01.30:427][ 54]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.07.03-13.01.30:427][ 54]LogInit: FAudioDevice initialized with ID 9.
+[2024.07.03-13.01.30:427][ 54]LogAudio: Display: Audio Device (ID: 9) registered with world 'LVL_1'.
+[2024.07.03-13.01.30:427][ 54]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.07.03-13.01.30:459][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.01.30:459][ 54]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.01.30:464][ 54]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.01.30
+[2024.07.03-13.01.30:464][ 54]LogWorld: Bringing up level for play took: 0.004847
+[2024.07.03-13.01.30:467][ 54]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.07.03-13.01.30:474][ 54]PIE: Server logged in
+[2024.07.03-13.01.30:476][ 54]PIE: Play in editor total start time 0,114 seconds.
+[2024.07.03-13.01.30:563][ 54]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.07.03-13.01.30:935][ 77]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.07.03-13.01.31:863][147]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.01.31:893][149]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.01.33:621][279]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.34:970][377]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.36:769][508]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.37:933][591]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.38:442][629]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.39:292][692]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_3". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.01.39:292][692]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.01.39:292][692]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.40:858][811]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.01.40:858][811]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.01.41:562][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.01.41:562][862]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.01.41:562][862]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-13.01.41:567][862]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.01.41:569][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.01.41:575][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-13.01.41:581][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.01.41:598][862]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.07.03-13.01.41:598][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.07.03-13.01.41:601][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.07.03-13.01.41:609][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.07.03-13.01.41:747][863]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.07.03-13.06.57:823][ 49]LogSlate: Window 'Message Log' being destroyed
+[2024.07.03-13.06.57:829][ 49]LogSlate: Window 'Message Log' being destroyed
+[2024.07.03-13.09.15:452][530]BlueprintLog: New page: Compile BP_UV_Lamp
+[2024.07.03-13.09.15:518][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.07.03-13.12.41:713][288]BlueprintLog: New page: Compile BP_UV_Lamp
+[2024.07.03-13.12.41:770][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.07.03-13.12.51:899][432]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-13.12.51:906][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.03-13.12.51:906][432]PIE: New page: PIE session: LVL_1 (03.07.2024, 17:12:51)
+[2024.07.03-13.12.51:906][432]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.12.51:924][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018882s)
+[2024.07.03-13.12.51:925][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018918s)
+[2024.07.03-13.12.51:940][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.07.03-13.12.51:946][432]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.12.51:946][432]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.12.51:946][432]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.12.51:947][432]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2024.07.03-13.12.51:947][432]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.07.03-13.12.51:947][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-13.12.51:947][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-13.12.51:947][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-13.12.51:947][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-13.12.51:947][432]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-13.12.51:947][432]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-13.12.51:947][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-13.12.51:947][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-13.12.51:947][432]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-13.12.51:948][432]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-13.12.51:948][432]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-13.12.51:950][432]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-13.12.51:973][432]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-13.12.51:973][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-13.12.51:973][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-13.12.51:973][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-13.12.51:974][432]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.07.03-13.12.51:974][432]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.07.03-13.12.51:976][432]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.07.03-13.12.51:976][432]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.07.03-13.12.51:976][432]LogInit: FAudioDevice initialized with ID 10.
+[2024.07.03-13.12.51:976][432]LogAudio: Display: Audio Device (ID: 10) registered with world 'LVL_1'.
+[2024.07.03-13.12.51:976][432]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.07.03-13.12.52:003][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.12.52:003][432]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.12.52:007][432]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.12.52
+[2024.07.03-13.12.52:007][432]LogWorld: Bringing up level for play took: 0.003846
+[2024.07.03-13.12.52:010][432]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.07.03-13.12.52:017][432]PIE: Server logged in
+[2024.07.03-13.12.52:019][432]PIE: Play in editor total start time 0,113 seconds.
+[2024.07.03-13.12.52:044][432]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.07.03-13.12.57:304][830]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.12.57:335][832]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.12.57:939][876]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.12.59:082][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.12.59:082][959]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.01:472][135]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.02:929][241]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.03:840][312]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.06:777][534]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.07.03-13.13.06:777][534]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.07:350][577]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.08:717][679]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.09:400][732]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.13.09:400][732]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.11:473][888]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.12:677][976]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.14:211][ 91]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.14:766][133]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.15:958][223]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.16:680][277]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.17:437][334]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.19:034][452]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.20:138][534]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.23:267][766]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.13.23:267][766]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.25:123][903]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.26:512][  5]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.28:257][138]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.29:649][243]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.30:691][323]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.36:009][739]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.37:171][829]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.37:716][871]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.38:294][916]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.40:107][ 51]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.40:785][103]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.42:033][195]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.42:747][250]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.44:349][367]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.47:394][592]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.48:091][643]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.13.48:091][643]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.50:196][798]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.51:246][875]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.52:883][999]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.54:342][107]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.55:426][187]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.55:871][220]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.13.55:871][220]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.57:424][335]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.13.58:422][409]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.00:569][573]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.01:119][615]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.01:896][674]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.02:375][710]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.02:866][748]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.03:384][787]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.04:022][836]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.04:716][889]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.09:984][304]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.16:715][828]LogNet: Browse: /Game/LVL_1
+[2024.07.03-13.14.16:715][828]LogLoad: LoadMap: /Game/LVL_1
+[2024.07.03-13.14.16:715][828]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.14.16:716][828]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.14.16:717][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.14.16:759][828]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.03-13.14.16:762][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.07.03-13.14.16:764][828]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.14.16:783][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018935s)
+[2024.07.03-13.14.16:783][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.019034s)
+[2024.07.03-13.14.16:783][828]LogAudio: Display: Audio Device (ID: 10) registered with world 'LVL_1'.
+[2024.07.03-13.14.16:783][828]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.14.16:783][828]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.14.16:784][828]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.14.16:784][828]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2024.07.03-13.14.16:784][828]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.14.16:787][828]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.14.16
+[2024.07.03-13.14.16:788][828]LogWorld: Bringing up level for play took: 0.002969
+[2024.07.03-13.14.16:790][828]LogLoad: Took 0.075274 seconds to LoadMap(/Game/UEDPIE_0_LVL_1)
+[2024.07.03-13.14.19:888][ 63]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.07.03-13.14.20:956][143]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.21:289][168]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.14.21:342][172]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.14.21:960][219]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.21:960][219]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.21:960][219]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.22:103][230]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.22:103][230]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.22:103][230]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.22:104][230]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.22:268][243]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.22:268][243]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.22:268][243]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.22:268][243]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.22:413][254]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.22:413][254]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.22:413][254]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.22:413][254]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.22:566][266]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.22:566][266]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.22:566][266]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.22:566][266]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.22:718][278]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.22:718][278]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.22:718][278]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.22:718][278]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.22:860][289]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.22:860][289]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.22:860][289]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.22:860][289]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.23:014][301]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.23:014][301]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.23:014][301]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.23:014][301]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.23:169][313]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.23:169][313]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.23:169][313]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.23:169][313]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.23:338][326]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.14.23:338][326]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.23:338][326]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.23:338][326]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.23:481][337]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.23:635][349]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.23:779][360]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.23:933][372]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.24:112][386]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.25:126][465]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.25:126][465]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.25:126][465]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.27:620][655]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.31:788][974]LogNet: Browse: /Game/LVL_1
+[2024.07.03-13.14.31:788][974]LogLoad: LoadMap: /Game/LVL_1
+[2024.07.03-13.14.31:788][974]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.14.31:789][974]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.14.31:789][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.14.31:805][974]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.03-13.14.31:809][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.07.03-13.14.31:811][974]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.14.31:830][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018742s)
+[2024.07.03-13.14.31:830][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018804s)
+[2024.07.03-13.14.31:830][974]LogAudio: Display: Audio Device (ID: 10) registered with world 'LVL_1'.
+[2024.07.03-13.14.31:830][974]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.14.31:830][974]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.14.31:830][974]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.14.31:831][974]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2024.07.03-13.14.31:831][974]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.14.31:833][974]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.14.31
+[2024.07.03-13.14.31:834][974]LogWorld: Bringing up level for play took: 0.002555
+[2024.07.03-13.14.31:836][974]LogLoad: Took 0.047789 seconds to LoadMap(/Game/UEDPIE_0_LVL_1)
+[2024.07.03-13.14.34:850][205]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.14.35:095][224]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.14.35:212][233]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.14.35:333][242]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.14.35:781][276]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.07.03-13.14.35:781][276]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.35:922][287]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.07.03-13.14.35:923][287]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.36:654][342]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.14.36:717][347]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.14.38:522][487]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.07.03-13.14.39:412][555]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.40:287][622]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.40:287][622]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.40:287][622]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.40:735][657]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.40:735][657]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.40:735][657]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.40:881][668]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.40:881][668]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.40:881][668]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.40:881][668]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.41:021][679]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.41:021][679]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.41:021][679]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.41:021][679]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.41:165][690]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.41:165][690]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.41:165][690]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.41:165][690]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.41:303][701]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.41:303][701]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.41:303][701]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.41:303][701]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.41:447][712]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.41:447][712]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.41:447][712]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.41:447][712]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.41:600][724]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.41:600][724]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.41:600][724]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.41:600][724]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.41:742][735]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.41:742][735]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.41:743][735]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.41:743][735]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.41:900][747]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.41:900][747]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.41:900][747]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.41:900][747]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.42:043][758]LogBlueprintUserMessages: [BP_Paper_C_0] open clos
+[2024.07.03-13.14.42:043][758]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.14.42:043][758]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.14.42:043][758]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.42:211][771]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.42:386][784]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.42:525][795]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.42:670][806]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.43:723][888]LogBlueprintUserMessages: [BP_PlacingField_C_1] dododod
+[2024.07.03-13.14.43:723][888]LogBlueprintUserMessages: [BP_PlacingField_C_1] checking type
+[2024.07.03-13.14.43:723][888]LogBlueprintUserMessages: [BP_PlacingField_C_1] trying to attach
+[2024.07.03-13.14.43:723][888]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.46:211][ 78]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.46:591][106]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.47:765][194]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.07.03-13.14.47:765][194]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.07.03-13.14.47:765][194]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.07.03-13.14.47:765][194]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.57:418][948]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.07.03-13.14.57:418][948]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.14.59:435][102]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.00:736][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.00:736][198]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.05:196][528]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.05:585][556]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.06:597][630]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.07.03-13.15.06:597][630]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.07.03-13.15.06:597][630]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.07.03-13.15.06:597][630]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.17:099][457]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.07.03-13.15.17:099][457]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.19:024][603]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.20:082][680]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.21:554][788]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.07.03-13.15.22:317][846]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.07.03-13.15.22:702][876]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.07.03-13.15.23:248][918]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.07.03-13.15.24:975][ 51]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.07.03-13.15.26:943][198]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.30:005][439]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.31:135][526]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.32:349][620]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.33:466][706]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.34:084][753]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.34:795][807]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.35:308][846]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.37:556][ 19]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.38:894][116]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.40:293][219]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.41:362][300]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.42:855][410]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.43:682][470]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [2/1]!
+[2024.07.03-13.15.43:682][470]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.43:682][470]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.43:682][470]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.43:682][470]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.43:682][470]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [2/1]!
+[2024.07.03-13.15.43:682][470]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.43:682][470]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.44:213][509]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [3/1]!
+[2024.07.03-13.15.44:213][509]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.44:213][509]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.44:213][509]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.44:213][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.44:213][509]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [3/1]!
+[2024.07.03-13.15.44:213][509]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.44:213][509]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.44:737][548]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [4/1]!
+[2024.07.03-13.15.44:738][548]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.44:738][548]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.44:738][548]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.44:738][548]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.44:738][548]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [4/1]!
+[2024.07.03-13.15.44:738][548]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.44:738][548]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.45:105][575]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [5/1]!
+[2024.07.03-13.15.45:105][575]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.45:105][575]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.45:105][575]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.45:105][575]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.45:106][575]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [5/1]!
+[2024.07.03-13.15.45:106][575]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.45:106][575]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.45:603][613]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [6/1]!
+[2024.07.03-13.15.45:604][613]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.45:604][613]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.45:604][613]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.45:604][613]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.45:604][613]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [6/1]!
+[2024.07.03-13.15.45:604][613]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.45:604][613]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.46:001][642]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [7/1]!
+[2024.07.03-13.15.46:001][642]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:001][642]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.46:001][642]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:001][642]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.46:001][642]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [7/1]!
+[2024.07.03-13.15.46:001][642]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:001][642]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.46:452][675]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [8/1]!
+[2024.07.03-13.15.46:452][675]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:452][675]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.46:452][675]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:453][675]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.46:453][675]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [8/1]!
+[2024.07.03-13.15.46:453][675]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:453][675]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.46:899][708]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [9/1]!
+[2024.07.03-13.15.46:899][708]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:899][708]LogScript: Warning: Script Msg: Attempted to access index 9 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.46:899][708]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:899][708]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.46:899][708]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [9/1]!
+[2024.07.03-13.15.46:899][708]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.46:899][708]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.47:230][732]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [10/1]!
+[2024.07.03-13.15.47:230][732]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:230][732]LogScript: Warning: Script Msg: Attempted to access index 10 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.47:230][732]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:230][732]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.47:230][732]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [10/1]!
+[2024.07.03-13.15.47:230][732]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:230][732]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.47:558][756]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [11/1]!
+[2024.07.03-13.15.47:558][756]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:558][756]LogScript: Warning: Script Msg: Attempted to access index 11 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.47:558][756]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:558][756]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.47:558][756]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [11/1]!
+[2024.07.03-13.15.47:558][756]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:558][756]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.47:859][778]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [12/1]!
+[2024.07.03-13.15.47:859][778]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:859][778]LogScript: Warning: Script Msg: Attempted to access index 12 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.47:859][778]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:859][778]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.47:859][778]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [12/1]!
+[2024.07.03-13.15.47:859][778]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.47:859][778]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.48:187][802]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [13/1]!
+[2024.07.03-13.15.48:187][802]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:187][802]LogScript: Warning: Script Msg: Attempted to access index 13 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.48:187][802]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:187][802]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.48:187][802]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [13/1]!
+[2024.07.03-13.15.48:187][802]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:187][802]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.48:380][816]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [14/1]!
+[2024.07.03-13.15.48:380][816]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:380][816]LogScript: Warning: Script Msg: Attempted to access index 14 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.48:380][816]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:380][816]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.48:380][816]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [14/1]!
+[2024.07.03-13.15.48:380][816]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:380][816]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.48:547][828]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [15/1]!
+[2024.07.03-13.15.48:547][828]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:547][828]LogScript: Warning: Script Msg: Attempted to access index 15 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.48:547][828]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:547][828]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.48:547][828]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [15/1]!
+[2024.07.03-13.15.48:547][828]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:547][828]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.48:740][842]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [16/1]!
+[2024.07.03-13.15.48:740][842]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:740][842]LogScript: Warning: Script Msg: Attempted to access index 16 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.48:740][842]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:740][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.48:740][842]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [16/1]!
+[2024.07.03-13.15.48:740][842]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:740][842]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.48:932][856]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [17/1]!
+[2024.07.03-13.15.48:932][856]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:932][856]LogScript: Warning: Script Msg: Attempted to access index 17 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.48:932][856]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:932][856]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.48:932][856]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [17/1]!
+[2024.07.03-13.15.48:932][856]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.48:932][856]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.49:275][881]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [18/1]!
+[2024.07.03-13.15.49:275][881]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:275][881]LogScript: Warning: Script Msg: Attempted to access index 18 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.49:275][881]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:275][881]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.49:275][881]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [18/1]!
+[2024.07.03-13.15.49:275][881]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:275][881]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.49:469][895]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [19/1]!
+[2024.07.03-13.15.49:469][895]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:469][895]LogScript: Warning: Script Msg: Attempted to access index 19 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.49:469][895]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:469][895]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.49:469][895]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [19/1]!
+[2024.07.03-13.15.49:469][895]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:469][895]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.49:687][911]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [20/1]!
+[2024.07.03-13.15.49:687][911]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:687][911]LogScript: Warning: Script Msg: Attempted to access index 20 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.49:687][911]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:687][911]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.49:688][911]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [20/1]!
+[2024.07.03-13.15.49:688][911]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:688][911]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.49:854][923]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [21/1]!
+[2024.07.03-13.15.49:855][923]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:855][923]LogScript: Warning: Script Msg: Attempted to access index 21 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.49:855][923]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:855][923]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.49:855][923]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [21/1]!
+[2024.07.03-13.15.49:855][923]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.49:855][923]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.50:061][938]LogScript: Warning: Script Msg: Attempted to set an invalid index on array Attatched_Paper_Array [22/1]!
+[2024.07.03-13.15.50:061][938]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.50:061][938]LogScript: Warning: Script Msg: Attempted to access index 22 from array 'Attatched_Paper_Array' of length 2 in '/Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp_C'!
+[2024.07.03-13.15.50:061][938]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.50:062][938]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item_2". Node:  Attach Actor To Actor Graph:  EventGraph Function:  Execute Ubergraph BP UV Lamp Blueprint:  BP_UV_Lamp
+[2024.07.03-13.15.50:062][938]LogScript: Warning: Script Msg: Attempted to set an invalid index on array LampHasPaper_Array [22/1]!
+[2024.07.03-13.15.50:062][938]LogScript: Warning: Script Msg called by: BP_UV_Lamp_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_UV_Lamp_C_1
+[2024.07.03-13.15.50:062][938]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.15.52:455][ 95]LogNet: Browse: /Game/LVL_1
+[2024.07.03-13.15.52:455][ 95]LogLoad: LoadMap: /Game/LVL_1
+[2024.07.03-13.15.52:455][ 95]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.15.52:456][ 95]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.15.52:456][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.15.52:473][ 95]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.03-13.15.52:476][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.07.03-13.15.52:478][ 95]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.15.52:497][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018816s)
+[2024.07.03-13.15.52:497][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018869s)
+[2024.07.03-13.15.52:497][ 95]LogAudio: Display: Audio Device (ID: 10) registered with world 'LVL_1'.
+[2024.07.03-13.15.52:497][ 95]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.15.52:497][ 95]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.15.52:498][ 95]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.15.52:498][ 95]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2024.07.03-13.15.52:498][ 95]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.15.52:501][ 95]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.15.52
+[2024.07.03-13.15.52:501][ 95]LogWorld: Bringing up level for play took: 0.002676
+[2024.07.03-13.15.52:504][ 95]LogLoad: Took 0.048984 seconds to LoadMap(/Game/UEDPIE_0_LVL_1)
+[2024.07.03-13.16.33:728][326]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.07.03-13.16.34:518][387]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.36:024][504]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.36:024][504]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.36:024][504]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.37:003][581]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.37:003][581]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.37:003][581]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.37:003][581]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.37:132][591]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.37:132][591]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.37:132][591]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.37:132][591]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.37:294][604]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.37:294][604]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.37:295][604]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.37:295][604]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.37:460][617]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.37:460][617]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.37:460][617]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.37:460][617]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.37:612][629]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.37:612][629]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.37:612][629]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.37:612][629]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.37:766][641]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.37:766][641]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.37:766][641]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.37:766][641]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.37:918][653]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.37:918][653]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.37:918][653]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.37:918][653]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.38:074][665]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.38:074][665]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.38:074][665]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.38:074][665]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.38:228][677]LogBlueprintUserMessages: [BP_Paper_C_1] open clos
+[2024.07.03-13.16.38:228][677]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.03-13.16.38:228][677]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.03-13.16.38:228][677]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.38:382][689]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.38:536][701]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.38:676][712]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.38:892][729]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.39:046][741]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.39:342][764]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.03-13.16.42:073][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.16.42:148][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.16.47:396][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.16.47:981][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.16.56:872][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.17.00:535][416]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.17.00:649][425]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.17.14:151][489]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.17.14:180][491]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.17.24:946][372]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.17.24:986][375]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.17.25:281][398]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-13.17.26:392][484]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-13.17.35:577][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.17.35:577][190]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.17.35:578][190]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-13.17.35:583][190]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.17.35:584][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.17.35:590][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-13.17.35:597][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.17.35:614][190]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.07.03-13.17.35:614][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.07.03-13.17.35:616][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.07.03-13.17.35:626][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.07.03-13.17.35:774][191]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.07.03-13.17.49:118][176]LogSlate: Window 'Message Log' being destroyed
+[2024.07.03-13.17.49:126][176]LogSlate: Window 'Message Log' being destroyed
+[2024.07.03-13.18.00:350][105]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-13.18.00:357][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.03-13.18.00:357][105]PIE: New page: PIE session: LVL_1 (03.07.2024, 17:18:00)
+[2024.07.03-13.18.00:357][105]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.18.00:376][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018929s)
+[2024.07.03-13.18.00:376][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018966s)
+[2024.07.03-13.18.00:392][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.07.03-13.18.00:395][105]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.18.00:396][105]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.18.00:396][105]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.18.00:396][105]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2024.07.03-13.18.00:397][105]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.07.03-13.18.00:397][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-13.18.00:397][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-13.18.00:397][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-13.18.00:397][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-13.18.00:397][105]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-13.18.00:397][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-13.18.00:397][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-13.18.00:397][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-13.18.00:397][105]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-13.18.00:397][105]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-13.18.00:397][105]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-13.18.00:400][105]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-13.18.00:421][105]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-13.18.00:421][105]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-13.18.00:421][105]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-13.18.00:421][105]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-13.18.00:422][105]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.07.03-13.18.00:422][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.07.03-13.18.00:424][105]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.07.03-13.18.00:424][105]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.07.03-13.18.00:424][105]LogInit: FAudioDevice initialized with ID 11.
+[2024.07.03-13.18.00:424][105]LogAudio: Display: Audio Device (ID: 11) registered with world 'LVL_1'.
+[2024.07.03-13.18.00:424][105]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.07.03-13.18.00:446][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.18.00:446][105]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.18.00:450][105]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.18.00
+[2024.07.03-13.18.00:451][105]LogWorld: Bringing up level for play took: 0.003940
+[2024.07.03-13.18.00:453][105]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.07.03-13.18.00:460][105]PIE: Server logged in
+[2024.07.03-13.18.00:462][105]PIE: Play in editor total start time 0,106 seconds.
+[2024.07.03-13.18.00:487][105]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.07.03-13.18.02:599][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.18.02:599][252]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.18.02:600][252]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-13.18.02:605][252]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.18.02:606][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.18.02:609][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-13.18.02:616][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.18.02:630][252]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.07.03-13.18.02:631][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.07.03-13.18.02:632][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.07.03-13.18.02:641][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.07.03-13.18.02:719][253]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.07.03-13.18.20:918][780]Cmd: DELETE
+[2024.07.03-13.18.20:925][780]Cmd: ACTOR DELETE
+[2024.07.03-13.18.21:033][780]LogEditorActor: Deleted Actor: BP_DC_Vial_C
+[2024.07.03-13.18.21:034][780]LogEditorActor: Deleted Actor: BP_DC_Vial_C
+[2024.07.03-13.18.21:051][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.07.03-13.18.21:054][780]LogEditorActor: Deleted 2 Actors (0.111 secs)
+[2024.07.03-13.19.12:110][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.07.03-13.19.12:138][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_1" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.07.03-13.19.12:180][262]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LVL_1_Auto5
+[2024.07.03-13.19.12:181][262]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/LVL_1_Auto532CB3CB04AB3D4C6737CFE904D21119E.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto5.umap'
+[2024.07.03-13.19.12:183][262]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto5.umap is in the /Temp path, will not scan.
+[2024.07.03-13.19.12:183][262]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.088
+[2024.07.03-13.19.12:183][262]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.088
+[2024.07.03-13.19.12:183][262]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/BP_UV_Lamp] ([2] browsable assets)...
+[2024.07.03-13.19.12:249][262]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp]
+[2024.07.03-13.19.12:249][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_UV_Lamp]
+[2024.07.03-13.19.12:249][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/BP_UV_Lamp" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/0_MY_STUFF/BP_UV_Lamp_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2024.07.03-13.19.12:296][262]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_UV_Lamp_Auto5
+[2024.07.03-13.19.12:296][262]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/BP_UV_Lamp_Auto56CFD781449D3CB24D4531C9593E6E57B.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/0_MY_STUFF/BP_UV_Lamp_Auto5.uasset'
+[2024.07.03-13.19.12:297][262]LogFileHelpers: Auto-saving content packages took 0.114
+[2024.07.03-13.20.57:480][183]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/0_MY_STUFF/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.07.03-13.20.57:480][183]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.20.57:480][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.32.25:325][750]LogViewport: Scene viewport resized to 1499x598, mode Windowed.
+[2024.07.03-13.32.25:342][751]LogViewport: Scene viewport resized to 1499x589, mode Windowed.
+[2024.07.03-13.32.25:379][752]LogViewport: Scene viewport resized to 1499x554, mode Windowed.
+[2024.07.03-13.32.25:406][753]LogViewport: Scene viewport resized to 1499x525, mode Windowed.
+[2024.07.03-13.32.25:434][754]LogViewport: Scene viewport resized to 1499x500, mode Windowed.
+[2024.07.03-13.32.25:461][755]LogViewport: Scene viewport resized to 1499x482, mode Windowed.
+[2024.07.03-13.32.25:490][756]LogViewport: Scene viewport resized to 1499x465, mode Windowed.
+[2024.07.03-13.32.25:556][757]LogViewport: Scene viewport resized to 1499x433, mode Windowed.
+[2024.07.03-13.32.25:580][758]LogViewport: Scene viewport resized to 1499x423, mode Windowed.
+[2024.07.03-13.32.25:606][759]LogViewport: Scene viewport resized to 1499x413, mode Windowed.
+[2024.07.03-13.32.25:632][760]LogViewport: Scene viewport resized to 1499x401, mode Windowed.
+[2024.07.03-13.32.25:661][761]LogViewport: Scene viewport resized to 1499x389, mode Windowed.
+[2024.07.03-13.32.25:686][762]LogViewport: Scene viewport resized to 1499x380, mode Windowed.
+[2024.07.03-13.32.25:712][763]LogViewport: Scene viewport resized to 1499x371, mode Windowed.
+[2024.07.03-13.32.25:738][764]LogViewport: Scene viewport resized to 1499x358, mode Windowed.
+[2024.07.03-13.32.25:766][765]LogViewport: Scene viewport resized to 1499x345, mode Windowed.
+[2024.07.03-13.32.25:791][766]LogViewport: Scene viewport resized to 1499x335, mode Windowed.
+[2024.07.03-13.32.25:819][767]LogViewport: Scene viewport resized to 1499x325, mode Windowed.
+[2024.07.03-13.32.25:856][768]LogViewport: Scene viewport resized to 1499x314, mode Windowed.
+[2024.07.03-13.32.25:880][769]LogViewport: Scene viewport resized to 1499x309, mode Windowed.
+[2024.07.03-13.32.25:907][770]LogViewport: Scene viewport resized to 1499x300, mode Windowed.
+[2024.07.03-13.32.25:933][771]LogViewport: Scene viewport resized to 1499x291, mode Windowed.
+[2024.07.03-13.32.25:958][772]LogViewport: Scene viewport resized to 1499x284, mode Windowed.
+[2024.07.03-13.32.25:984][773]LogViewport: Scene viewport resized to 1499x278, mode Windowed.
+[2024.07.03-13.32.26:011][774]LogViewport: Scene viewport resized to 1499x269, mode Windowed.
+[2024.07.03-13.32.26:036][775]LogViewport: Scene viewport resized to 1499x265, mode Windowed.
+[2024.07.03-13.32.26:061][776]LogViewport: Scene viewport resized to 1499x263, mode Windowed.
+[2024.07.03-13.32.26:086][777]LogViewport: Scene viewport resized to 1499x260, mode Windowed.
+[2024.07.03-13.32.26:133][780]LogViewport: Scene viewport resized to 1499x259, mode Windowed.
+[2024.07.03-13.32.26:150][781]LogViewport: Scene viewport resized to 1499x257, mode Windowed.
+[2024.07.03-13.32.26:188][782]LogViewport: Scene viewport resized to 1499x254, mode Windowed.
+[2024.07.03-13.32.26:211][783]LogViewport: Scene viewport resized to 1499x252, mode Windowed.
+[2024.07.03-13.32.26:245][784]LogViewport: Scene viewport resized to 1499x249, mode Windowed.
+[2024.07.03-13.32.26:273][785]LogViewport: Scene viewport resized to 1499x246, mode Windowed.
+[2024.07.03-13.32.36:566][549]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.32.36:566][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.32.37:331][603]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.03-13.32.37:331][603]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.32.37:331][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.32.38:100][654]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.07.03-13.32.38:100][654]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.32.38:100][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.32.38:764][698]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.32.38:764][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.32.43:398][ 80]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UUserWidget::AddToPlayerScreen' [Element nicht gefunden.]
+[2024.07.03-13.33.07:502][197]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/0_MY_STUFF/WBP_Versuchsanleitung.WBP_Versuchsanleitung
+[2024.07.03-13.33.07:519][197]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.33.07:519][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.33.07:524][197]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.33.07:524][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.33.07:541][197]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.07.03-13.33.08:333][197]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.07.03-13.33.48:248][848]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.33.48:248][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.33.48:257][848]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.33.48:257][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.34.05:344][163]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/0_MY_STUFF/WBP_InfoFenster.WBP_InfoFenster
+[2024.07.03-13.34.05:344][163]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.34.05:344][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.34.05:352][163]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.34.05:352][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.37.46:518][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.07.03-13.37.46:522][775]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.027
+[2024.07.03-13.37.46:523][775]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/WBP_InfoFenster] ([2] browsable assets)...
+[2024.07.03-13.37.46:527][775]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/0_MY_STUFF/WBP_InfoFenster.WBP_InfoFenster]
+[2024.07.03-13.37.46:528][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/WBP_InfoFenster]
+[2024.07.03-13.37.46:533][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/WBP_InfoFenster_Auto6
+[2024.07.03-13.37.46:533][775]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/WBP_InfoFenster_Auto65281F0CD4A70EDDD031CEF9B00ADA799.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/0_MY_STUFF/WBP_InfoFenster_Auto6.uasset'
+[2024.07.03-13.37.46:534][775]LogFileHelpers: Auto-saving content packages took 0.011
+[2024.07.03-13.41.50:889][651]LogShaderCompilers: Display: ================================================
+[2024.07.03-13.41.50:889][651]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.07.03-13.41.50:889][651]LogShaderCompilers: Display: Total job queries 353, among them cache hits 230 (65.16%)
+[2024.07.03-13.41.50:889][651]LogShaderCompilers: Display: Tracking 123 distinct input hashes that result in 81 distinct outputs (65.85%)
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: RAM used: 366,89 KiB of 819,20 MiB budget. Usage: 0.04%
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Shaders Compiled: 10
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Average time worker was idle: 1286.54 s
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.09 s
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Job execution time: average 0.52 s, max 0.92 s
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Job life time (pending + execution): average 0.57 s, max 1.00
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Shader code size: average 2,108 KiB, min 704 B, max 4,211 KiB
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.92 s
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Average processing rate: 3.42 jobs/sec
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Total thread time: 2,443 s
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Total thread preprocess time: 0,327 s
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Percentage time preprocessing: 13.38%
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Effective parallelization: 0.84 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display:                                                FMeshDecalsVS (compiled    4 times, average 0.40 sec, max 0.43 sec, min 0.36 sec)
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display:                                        FMeshDecalsEmissivePS (compiled    3 times, average 0.14 sec, max 0.16 sec, min 0.12 sec)
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display:                                                FMeshDecalsPS (compiled    3 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display:                                                FMeshDecalsVS - 65.47% of total time (compiled    4 times, average 0.40 sec, max 0.43 sec, min 0.36 sec)
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display:                                        FMeshDecalsEmissivePS - 17.71% of total time (compiled    3 times, average 0.14 sec, max 0.16 sec, min 0.12 sec)
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display:                                                FMeshDecalsPS - 16.82% of total time (compiled    3 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.07.03-13.41.50:890][651]LogShaderCompilers: Display: ================================================
+[2024.07.03-13.42.02:828][743]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/LVL_1_BuiltData.LVL_1_BuiltData
+[2024.07.03-13.42.04:763][885]LogSlate: Window 'LVL_1_BuiltData' being destroyed
+[2024.07.03-13.42.05:795][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.07.03-13.42.12:827][973]LogDerivedDataCache: C:/Users/lampe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.082 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1966 files in 2904 folders with total size 40 MiB.
+[2024.07.03-13.42.19:332][973]LogSlate: Window 'Save Content' being destroyed
+[2024.07.03-13.42.19:480][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.03-13.42.19:504][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_1" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/LVL_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.03-13.42.19:543][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.07.03-13.42.19:585][973]LogSavePackage: Moving output files for package: /Game/LVL_1
+[2024.07.03-13.42.19:586][973]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/LVL_1FDFDA049450F8D5CAFF5F2A68BEFB0BD.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/LVL_1.umap'
+[2024.07.03-13.42.19:593][973]LogFileHelpers: All files are already saved.
+[2024.07.03-13.42.19:593][973]LogFileHelpers: Saving map 'LVL_1' took 0.090
+[2024.07.03-13.42.19:594][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/BP_UV_Lamp" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/0_MY_STUFF/BP_UV_Lamp.uasset" SILENT=true
+[2024.07.03-13.42.19:638][973]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/BP_UV_Lamp
+[2024.07.03-13.42.19:639][973]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/BP_UV_Lamp73D0D56A418AAFC71DF0909AF4FE6F3D.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/0_MY_STUFF/BP_UV_Lamp.uasset'
+[2024.07.03-13.42.19:641][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/WBP_InfoFenster" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/0_MY_STUFF/WBP_InfoFenster.uasset" SILENT=true
+[2024.07.03-13.42.19:645][973]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/WBP_InfoFenster
+[2024.07.03-13.42.19:646][973]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/WBP_InfoFensterFA1D43F2497912270241188DAEAB99EB.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/0_MY_STUFF/WBP_InfoFenster.uasset'
+[2024.07.03-13.42.19:653][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 1.15 sec)
+[2024.07.03-13.42.19:653][973]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LVL_1.LVL_1
+[2024.07.03-13.42.19:654][973]Cmd: MAP LOAD FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/LVL_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.07.03-13.42.19:654][973]LightingResults: New page: Lighting Build
+[2024.07.03-13.42.19:671][973]LoadErrors: New page: Loading map: LVL_1.umap
+[2024.07.03-13.42.19:733][973]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.42.19:733][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.42.19:733][973]MapCheck: New page: Map Check
+[2024.07.03-13.42.19:733][973]LightingResults: New page: Lighting Build
+[2024.07.03-13.42.19:749][973]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.03-13.42.19:758][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.07.03-13.42.20:045][973]LogAudio: Display: Audio Device (ID: 1) registered with world 'LVL_1'.
+[2024.07.03-13.42.20:046][973]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.42.20:046][973]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.42.20:046][973]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.42.20:056][973]LogBlueprintUserMessages: [BP_Ceiling_Lamp_C_1] is on
+[2024.07.03-13.42.20:106][973]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.07.03-13.42.20:126][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.07.03-13.42.20:132][973]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.07.03-13.42.20:132][973]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,159ms to complete.
+[2024.07.03-13.42.20:144][973]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.03-13.42.20:144][973]LogContentValidation: Display: Validating /Script/Engine.World /Game/LVL_1.LVL_1
+[2024.07.03-13.42.20:144][973]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp
+[2024.07.03-13.42.20:144][973]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/0_MY_STUFF/WBP_InfoFenster.WBP_InfoFenster
+[2024.07.03-13.50.16:584][597]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-13.50.16:592][597]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.03-13.50.16:596][597]LogPlayLevel: [PlayLevel] Compiling WBP_InfoFenster before play...
+[2024.07.03-13.50.16:745][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.07.03-13.50.16:754][597]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2024.07.03-13.50.16:754][597]PIE: New page: PIE session: LVL_1 (03.07.2024, 17:50:16)
+[2024.07.03-13.50.16:754][597]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.50.16:773][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018664s)
+[2024.07.03-13.50.16:773][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018702s)
+[2024.07.03-13.50.16:786][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.07.03-13.50.16:787][597]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.50.16:787][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.50.16:788][597]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-13.50.16:788][597]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2024.07.03-13.50.16:788][597]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.07.03-13.50.16:788][597]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-13.50.16:788][597]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-13.50.16:788][597]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-13.50.16:788][597]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-13.50.16:788][597]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-13.50.16:788][597]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-13.50.16:788][597]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-13.50.16:788][597]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-13.50.16:789][597]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-13.50.16:789][597]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-13.50.16:789][597]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-13.50.16:791][597]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-13.50.16:813][597]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-13.50.16:813][597]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-13.50.16:813][597]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-13.50.16:813][597]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-13.50.16:814][597]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.07.03-13.50.16:814][597]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.07.03-13.50.16:816][597]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.07.03-13.50.16:816][597]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.07.03-13.50.16:816][597]LogInit: FAudioDevice initialized with ID 12.
+[2024.07.03-13.50.16:816][597]LogAudio: Display: Audio Device (ID: 12) registered with world 'LVL_1'.
+[2024.07.03-13.50.16:816][597]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.07.03-13.50.16:850][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.50.16:850][597]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-13.50.16:854][597]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-15.50.16
+[2024.07.03-13.50.16:854][597]LogWorld: Bringing up level for play took: 0.003757
+[2024.07.03-13.50.16:857][597]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.07.03-13.50.16:864][597]PIE: Server logged in
+[2024.07.03-13.50.16:867][597]PIE: Play in editor total start time 0,276 seconds.
+[2024.07.03-13.50.16:893][597]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.07.03-13.50.17:676][648]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.07.03-13.50.18:833][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.50.19:117][759]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.50.26:440][277]LogViewport: Scene viewport resized to 1914x999, mode Windowed.
+[2024.07.03-13.50.26:482][277]LogViewport: Scene viewport resized to 1914x987, mode Windowed.
+[2024.07.03-13.50.26:523][277]LogViewport: Scene viewport resized to 1914x945, mode Windowed.
+[2024.07.03-13.50.26:574][277]LogViewport: Scene viewport resized to 1914x847, mode Windowed.
+[2024.07.03-13.50.26:629][277]LogViewport: Scene viewport resized to 1914x690, mode Windowed.
+[2024.07.03-13.50.26:683][277]LogViewport: Scene viewport resized to 1914x630, mode Windowed.
+[2024.07.03-13.50.26:740][277]LogViewport: Scene viewport resized to 1914x598, mode Windowed.
+[2024.07.03-13.50.26:796][277]LogViewport: Scene viewport resized to 1914x595, mode Windowed.
+[2024.07.03-13.50.27:136][277]LogViewport: Scene viewport resized to 1914x596, mode Windowed.
+[2024.07.03-13.50.27:182][277]LogViewport: Scene viewport resized to 1914x597, mode Windowed.
+[2024.07.03-13.50.27:224][277]LogViewport: Scene viewport resized to 1914x598, mode Windowed.
+[2024.07.03-13.50.27:260][277]LogViewport: Scene viewport resized to 1914x599, mode Windowed.
+[2024.07.03-13.50.27:328][277]LogViewport: Scene viewport resized to 1914x598, mode Windowed.
+[2024.07.03-13.50.27:364][277]LogViewport: Scene viewport resized to 1914x597, mode Windowed.
+[2024.07.03-13.50.27:397][277]LogViewport: Scene viewport resized to 1914x596, mode Windowed.
+[2024.07.03-13.50.27:434][277]LogViewport: Scene viewport resized to 1914x594, mode Windowed.
+[2024.07.03-13.50.27:475][277]LogViewport: Scene viewport resized to 1914x593, mode Windowed.
+[2024.07.03-13.50.28:822][366]LogViewport: Scene viewport resized to 1913x593, mode Windowed.
+[2024.07.03-13.50.28:864][366]LogViewport: Scene viewport resized to 1904x593, mode Windowed.
+[2024.07.03-13.50.28:905][366]LogViewport: Scene viewport resized to 1883x593, mode Windowed.
+[2024.07.03-13.50.28:947][366]LogViewport: Scene viewport resized to 1842x593, mode Windowed.
+[2024.07.03-13.50.28:989][366]LogViewport: Scene viewport resized to 1792x593, mode Windowed.
+[2024.07.03-13.50.29:031][366]LogViewport: Scene viewport resized to 1732x593, mode Windowed.
+[2024.07.03-13.50.29:072][366]LogViewport: Scene viewport resized to 1673x593, mode Windowed.
+[2024.07.03-13.50.29:114][366]LogViewport: Scene viewport resized to 1605x593, mode Windowed.
+[2024.07.03-13.50.29:155][366]LogViewport: Scene viewport resized to 1517x593, mode Windowed.
+[2024.07.03-13.50.29:190][366]LogViewport: Scene viewport resized to 1422x593, mode Windowed.
+[2024.07.03-13.50.29:231][366]LogViewport: Scene viewport resized to 1363x593, mode Windowed.
+[2024.07.03-13.50.29:273][366]LogViewport: Scene viewport resized to 1330x593, mode Windowed.
+[2024.07.03-13.50.29:315][366]LogViewport: Scene viewport resized to 1324x593, mode Windowed.
+[2024.07.03-13.50.31:024][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-13.50.31:024][493]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-13.50.31:024][493]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-13.50.31:029][493]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.50.31:030][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.50.31:033][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-13.50.31:040][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.50.31:054][493]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.07.03-13.50.31:054][493]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.07.03-13.50.31:056][493]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.07.03-13.50.31:063][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.07.03-13.50.31:119][494]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.07.03-13.50.32:969][636]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/0_MY_STUFF/WBP_Versuchsanleitung.WBP_Versuchsanleitung
+[2024.07.03-13.50.32:969][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.50.32:969][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.50.32:978][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.50.32:978][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.51.22:583][508]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.51.22:583][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.51.22:591][508]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.51.22:591][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.51.23:867][648]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.51.23:867][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.51.23:876][648]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-13.51.23:876][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-13.58.48:525][ 14]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Content/EditorBlueprintResources: 'D:/Epic Games/UE_5.3/Engine/Content/EditorBlueprintResources' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.07.03-13.58.48:525][ 14]SourceControl: fatal: D:/Epic Games/UE_5.3/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset: 'D:/Epic Games/UE_5.3/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset' is outside repository at 'C:/Users/lampe/Desktop/OCVirtualLab_Level1'
+[2024.07.03-13.58.49:797][159]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/LVL_1.LVL_1:PersistentLevel.LVL_1
+[2024.07.03-13.58.49:798][159]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-13.58.49:798][159]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-13.59.33:114][663]LogContentBrowser: Attempting asset rename: LVL_1 -> LVL_3
+[2024.07.03-13.59.49:564][663]LogSlate: Window 'Message' being destroyed
+[2024.07.03-13.59.49:568][663]Message dialog closed, result: Cancel, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+LVL_1
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2024.07.03-14.00.06:223][109]LogViewport: Scene viewport resized to 1499x245, mode Windowed.
+[2024.07.03-14.00.06:252][111]LogViewport: Scene viewport resized to 1499x247, mode Windowed.
+[2024.07.03-14.00.06:275][112]LogViewport: Scene viewport resized to 1499x252, mode Windowed.
+[2024.07.03-14.00.06:301][113]LogViewport: Scene viewport resized to 1499x260, mode Windowed.
+[2024.07.03-14.00.06:325][114]LogViewport: Scene viewport resized to 1499x273, mode Windowed.
+[2024.07.03-14.00.06:355][115]LogViewport: Scene viewport resized to 1499x285, mode Windowed.
+[2024.07.03-14.00.06:382][116]LogViewport: Scene viewport resized to 1499x298, mode Windowed.
+[2024.07.03-14.00.06:407][117]LogViewport: Scene viewport resized to 1499x317, mode Windowed.
+[2024.07.03-14.00.06:433][118]LogViewport: Scene viewport resized to 1499x333, mode Windowed.
+[2024.07.03-14.00.06:459][119]LogViewport: Scene viewport resized to 1499x345, mode Windowed.
+[2024.07.03-14.00.06:485][120]LogViewport: Scene viewport resized to 1499x360, mode Windowed.
+[2024.07.03-14.00.06:510][121]LogViewport: Scene viewport resized to 1499x377, mode Windowed.
+[2024.07.03-14.00.06:537][122]LogViewport: Scene viewport resized to 1499x405, mode Windowed.
+[2024.07.03-14.00.06:562][123]LogViewport: Scene viewport resized to 1499x430, mode Windowed.
+[2024.07.03-14.00.06:588][124]LogViewport: Scene viewport resized to 1499x452, mode Windowed.
+[2024.07.03-14.00.06:617][125]LogViewport: Scene viewport resized to 1499x474, mode Windowed.
+[2024.07.03-14.00.06:646][126]LogViewport: Scene viewport resized to 1499x500, mode Windowed.
+[2024.07.03-14.00.06:669][127]LogViewport: Scene viewport resized to 1499x517, mode Windowed.
+[2024.07.03-14.00.06:699][128]LogViewport: Scene viewport resized to 1499x532, mode Windowed.
+[2024.07.03-14.00.06:728][129]LogViewport: Scene viewport resized to 1499x549, mode Windowed.
+[2024.07.03-14.00.06:754][130]LogViewport: Scene viewport resized to 1499x562, mode Windowed.
+[2024.07.03-14.00.06:782][131]LogViewport: Scene viewport resized to 1499x574, mode Windowed.
+[2024.07.03-14.00.06:808][132]LogViewport: Scene viewport resized to 1499x584, mode Windowed.
+[2024.07.03-14.00.06:833][133]LogViewport: Scene viewport resized to 1499x589, mode Windowed.
+[2024.07.03-14.00.06:861][134]LogViewport: Scene viewport resized to 1499x591, mode Windowed.
+[2024.07.03-14.00.06:888][135]LogViewport: Scene viewport resized to 1499x593, mode Windowed.
+[2024.07.03-14.00.06:913][136]LogViewport: Scene viewport resized to 1499x595, mode Windowed.
+[2024.07.03-14.00.06:939][137]LogViewport: Scene viewport resized to 1499x596, mode Windowed.
+[2024.07.03-14.00.06:964][138]LogViewport: Scene viewport resized to 1499x597, mode Windowed.
+[2024.07.03-14.00.17:279][ 24]LogViewport: Scene viewport resized to 1499x596, mode Windowed.
+[2024.07.03-14.00.17:292][ 25]LogViewport: Scene viewport resized to 1499x594, mode Windowed.
+[2024.07.03-14.00.17:329][ 26]LogViewport: Scene viewport resized to 1499x586, mode Windowed.
+[2024.07.03-14.00.17:354][ 27]LogViewport: Scene viewport resized to 1499x580, mode Windowed.
+[2024.07.03-14.00.17:380][ 28]LogViewport: Scene viewport resized to 1499x572, mode Windowed.
+[2024.07.03-14.00.17:408][ 29]LogViewport: Scene viewport resized to 1499x564, mode Windowed.
+[2024.07.03-14.00.17:434][ 30]LogViewport: Scene viewport resized to 1499x556, mode Windowed.
+[2024.07.03-14.00.17:462][ 31]LogViewport: Scene viewport resized to 1499x548, mode Windowed.
+[2024.07.03-14.00.17:488][ 32]LogViewport: Scene viewport resized to 1499x542, mode Windowed.
+[2024.07.03-14.00.17:514][ 33]LogViewport: Scene viewport resized to 1499x536, mode Windowed.
+[2024.07.03-14.00.17:541][ 34]LogViewport: Scene viewport resized to 1499x531, mode Windowed.
+[2024.07.03-14.00.17:567][ 35]LogViewport: Scene viewport resized to 1499x526, mode Windowed.
+[2024.07.03-14.00.17:594][ 36]LogViewport: Scene viewport resized to 1499x520, mode Windowed.
+[2024.07.03-14.00.17:619][ 37]LogViewport: Scene viewport resized to 1499x514, mode Windowed.
+[2024.07.03-14.00.17:645][ 38]LogViewport: Scene viewport resized to 1499x507, mode Windowed.
+[2024.07.03-14.00.17:671][ 39]LogViewport: Scene viewport resized to 1499x500, mode Windowed.
+[2024.07.03-14.00.17:701][ 40]LogViewport: Scene viewport resized to 1499x490, mode Windowed.
+[2024.07.03-14.00.17:727][ 41]LogViewport: Scene viewport resized to 1499x480, mode Windowed.
+[2024.07.03-14.00.17:752][ 42]LogViewport: Scene viewport resized to 1499x472, mode Windowed.
+[2024.07.03-14.00.17:780][ 43]LogViewport: Scene viewport resized to 1499x466, mode Windowed.
+[2024.07.03-14.00.17:817][ 44]LogViewport: Scene viewport resized to 1499x460, mode Windowed.
+[2024.07.03-14.00.17:839][ 45]LogViewport: Scene viewport resized to 1499x457, mode Windowed.
+[2024.07.03-14.00.17:866][ 46]LogViewport: Scene viewport resized to 1499x452, mode Windowed.
+[2024.07.03-14.00.17:890][ 47]LogViewport: Scene viewport resized to 1499x446, mode Windowed.
+[2024.07.03-14.00.17:916][ 48]LogViewport: Scene viewport resized to 1499x442, mode Windowed.
+[2024.07.03-14.00.17:943][ 49]LogViewport: Scene viewport resized to 1499x441, mode Windowed.
+[2024.07.03-14.01.02:625][940]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/0_MY_STUFF/BP_DC_Vial.BP_DC_Vial
+[2024.07.03-14.01.02:625][940]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-14.01.02:625][940]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-14.01.31:268][521]LogSlate: Window 'BP_DC_Vial' being destroyed
+[2024.07.03-14.01.31:279][521]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-14.01.31:279][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.01.34:210][787]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-14.01.34:217][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.03-14.01.34:217][787]PIE: New page: PIE session: LVL_1 (03.07.2024, 18:01:34)
+[2024.07.03-14.01.34:217][787]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-14.01.34:235][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018323s)
+[2024.07.03-14.01.34:235][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018356s)
+[2024.07.03-14.01.34:259][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.07.03-14.01.34:266][787]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-14.01.34:266][787]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-14.01.34:266][787]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-14.01.34:267][787]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2024.07.03-14.01.34:267][787]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.07.03-14.01.34:267][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-14.01.34:267][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-14.01.34:267][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-14.01.34:267][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-14.01.34:267][787]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-14.01.34:267][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-14.01.34:267][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-14.01.34:267][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-14.01.34:268][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-14.01.34:268][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-14.01.34:268][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-14.01.34:270][787]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-14.01.34:292][787]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-14.01.34:292][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-14.01.34:292][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-14.01.34:292][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-14.01.34:293][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.07.03-14.01.34:293][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.07.03-14.01.34:294][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.07.03-14.01.34:294][787]LogInit: FAudioDevice initialized with ID 13.
+[2024.07.03-14.01.34:294][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.07.03-14.01.34:294][787]LogAudio: Display: Audio Device (ID: 13) registered with world 'LVL_1'.
+[2024.07.03-14.01.34:294][787]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.07.03-14.01.34:317][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-14.01.34:318][787]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-14.01.34:322][787]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-16.01.34
+[2024.07.03-14.01.34:322][787]LogWorld: Bringing up level for play took: 0.004008
+[2024.07.03-14.01.34:325][787]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2024.07.03-14.01.34:332][787]PIE: Server logged in
+[2024.07.03-14.01.34:336][787]PIE: Play in editor total start time 0,119 seconds.
+[2024.07.03-14.01.34:361][787]LogViewport: Scene viewport resized to 1324x593, mode Windowed.
+[2024.07.03-14.01.36:144][915]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-14.01.36:284][926]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-14.01.36:520][944]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-14.01.36:559][947]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-14.01.36:586][949]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-14.01.38:031][ 63]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-14.01.41:630][346]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.03-14.01.41:656][348]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.03-14.01.44:108][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-14.01.44:108][539]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-14.01.44:109][539]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-14.01.44:114][539]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-14.01.44:115][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.01.44:118][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-14.01.44:125][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.01.44:139][539]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.03-14.01.44:140][539]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.07.03-14.01.44:140][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.07.03-14.01.44:142][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.07.03-14.01.44:150][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.07.03-14.01.44:196][540]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2024.07.03-14.01.56:516][573]LogViewport: Scene viewport resized to 1500x441, mode Windowed.
+[2024.07.03-14.01.56:533][574]LogViewport: Scene viewport resized to 1498x441, mode Windowed.
+[2024.07.03-14.01.56:571][575]LogViewport: Scene viewport resized to 1491x441, mode Windowed.
+[2024.07.03-14.01.56:605][576]LogViewport: Scene viewport resized to 1476x441, mode Windowed.
+[2024.07.03-14.01.56:631][577]LogViewport: Scene viewport resized to 1462x441, mode Windowed.
+[2024.07.03-14.01.56:660][578]LogViewport: Scene viewport resized to 1449x441, mode Windowed.
+[2024.07.03-14.01.56:697][579]LogViewport: Scene viewport resized to 1430x441, mode Windowed.
+[2024.07.03-14.01.56:721][580]LogViewport: Scene viewport resized to 1420x441, mode Windowed.
+[2024.07.03-14.01.56:752][581]LogViewport: Scene viewport resized to 1404x441, mode Windowed.
+[2024.07.03-14.01.56:778][582]LogViewport: Scene viewport resized to 1392x441, mode Windowed.
+[2024.07.03-14.01.56:807][583]LogViewport: Scene viewport resized to 1377x441, mode Windowed.
+[2024.07.03-14.01.56:834][584]LogViewport: Scene viewport resized to 1361x441, mode Windowed.
+[2024.07.03-14.01.56:861][585]LogViewport: Scene viewport resized to 1351x441, mode Windowed.
+[2024.07.03-14.01.56:891][586]LogViewport: Scene viewport resized to 1336x441, mode Windowed.
+[2024.07.03-14.01.56:915][587]LogViewport: Scene viewport resized to 1324x441, mode Windowed.
+[2024.07.03-14.01.56:943][588]LogViewport: Scene viewport resized to 1304x441, mode Windowed.
+[2024.07.03-14.01.56:970][589]LogViewport: Scene viewport resized to 1287x441, mode Windowed.
+[2024.07.03-14.01.57:005][590]LogViewport: Scene viewport resized to 1264x441, mode Windowed.
+[2024.07.03-14.01.57:031][591]LogViewport: Scene viewport resized to 1251x441, mode Windowed.
+[2024.07.03-14.01.57:061][592]LogViewport: Scene viewport resized to 1231x441, mode Windowed.
+[2024.07.03-14.01.57:086][593]LogViewport: Scene viewport resized to 1215x441, mode Windowed.
+[2024.07.03-14.01.57:114][594]LogViewport: Scene viewport resized to 1206x441, mode Windowed.
+[2024.07.03-14.01.57:141][595]LogViewport: Scene viewport resized to 1198x441, mode Windowed.
+[2024.07.03-14.03.19:603][846]LogWindows: LaunchURL https://docs.unrealengine.com/5.3/de/Engine/Physics/Collision?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2024.07.03-14.05.52:474][278]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/0_MY_STUFF/BP_Pencil.BP_Pencil
+[2024.07.03-14.05.52:474][278]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-14.05.52:474][278]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-14.06.24:701][ 85]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-14.06.24:701][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.17.55:978][552]LogViewport: Scene viewport resized to 1198x439, mode Windowed.
+[2024.07.03-14.17.55:995][553]LogViewport: Scene viewport resized to 1198x430, mode Windowed.
+[2024.07.03-14.17.56:034][554]LogViewport: Scene viewport resized to 1198x386, mode Windowed.
+[2024.07.03-14.17.56:061][555]LogViewport: Scene viewport resized to 1198x347, mode Windowed.
+[2024.07.03-14.17.56:089][556]LogViewport: Scene viewport resized to 1198x307, mode Windowed.
+[2024.07.03-14.17.56:125][557]LogViewport: Scene viewport resized to 1198x290, mode Windowed.
+[2024.07.03-14.17.56:150][558]LogViewport: Scene viewport resized to 1198x288, mode Windowed.
+[2024.07.03-14.18.03:520][105]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.07.03-14.18.09:291][427]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.07.03-14.18.09:312][427]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.07.03-14.18.09:319][427]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.07.03-14.18.09:395][428]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.07.03-14.18.26:372][963]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_Anleitung_LVL3
+[2024.07.03-14.18.26:463][963]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.07.03-14.18.27:984][ 97]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/0_MY_STUFF/WBP_Anleitung_LVL3.WBP_Anleitung_LVL3
+[2024.07.03-14.18.27:985][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-14.18.27:985][ 97]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-14.18.27:993][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-14.18.27:993][ 97]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-14.19.19:026][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.07.03-14.19.19:033][847]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.029
+[2024.07.03-14.19.19:033][847]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/WBP_Anleitung_LVL3] ([2] browsable assets)...
+[2024.07.03-14.19.19:037][847]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/0_MY_STUFF/WBP_Anleitung_LVL3.WBP_Anleitung_LVL3]
+[2024.07.03-14.19.19:037][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/WBP_Anleitung_LVL3]
+[2024.07.03-14.19.19:040][847]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/WBP_Anleitung_LVL3_Auto7
+[2024.07.03-14.19.19:040][847]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/WBP_Anleitung_LVL3_Auto73E8A8ABE43B154480041A8960EE856B2.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/0_MY_STUFF/WBP_Anleitung_LVL3_Auto7.uasset'
+[2024.07.03-14.19.19:061][847]LogFileHelpers: Auto-saving content packages took 0.028
+[2024.07.03-14.21.37:853][939]LogSlate: Window 'WBP_Anleitung_LVL3' being destroyed
+[2024.07.03-14.30.53:199][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.07.03-14.30.53:203][ 61]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.021
+[2024.07.03-14.30.53:203][ 61]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/WBP_Anleitung_LVL3] ([2] browsable assets)...
+[2024.07.03-14.30.53:207][ 61]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/0_MY_STUFF/WBP_Anleitung_LVL3.WBP_Anleitung_LVL3]
+[2024.07.03-14.30.53:207][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/WBP_Anleitung_LVL3]
+[2024.07.03-14.30.53:211][ 61]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/WBP_Anleitung_LVL3_Auto8
+[2024.07.03-14.30.53:211][ 61]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/WBP_Anleitung_LVL3_Auto8B4595ABC4F7C6A906ED58E94DC5FDB0F.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/0_MY_STUFF/WBP_Anleitung_LVL3_Auto8.uasset'
+[2024.07.03-14.30.53:212][ 61]LogFileHelpers: Auto-saving content packages took 0.009
+[2024.07.03-14.31.12:334][961]LogEditorTransaction: Undo Move Widget
+[2024.07.03-14.31.47:229][ 62]LogEditorTransaction: Undo Remove Widget
+[2024.07.03-14.35.05:934][653]LogViewport: Scene viewport resized to 879x286, mode Windowed.
+[2024.07.03-14.35.26:521][843]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.03-14.35.34:220][764]BlueprintLog: New page: Compile WBP_Anleitung_LVL3
+[2024.07.03-14.35.34:247][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.07.03-14.37.24:210][ 76]BlueprintLog: New page: Compile LVL_1
+[2024.07.03-14.37.24:261][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.07.03-14.37.25:774][223]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-14.37.25:781][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.03-14.37.25:781][223]PIE: New page: PIE session: LVL_1 (03.07.2024, 18:37:25)
+[2024.07.03-14.37.25:781][223]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-14.37.25:800][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018941s)
+[2024.07.03-14.37.25:800][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018979s)
+[2024.07.03-14.37.25:818][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.07.03-14.37.25:820][223]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-14.37.25:820][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-14.37.25:820][223]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-14.37.25:821][223]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2024.07.03-14.37.25:821][223]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.07.03-14.37.25:821][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-14.37.25:821][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-14.37.25:821][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-14.37.25:821][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-14.37.25:821][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-14.37.25:821][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-14.37.25:821][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-14.37.25:821][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-14.37.25:822][223]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-14.37.25:822][223]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-14.37.25:822][223]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-14.37.25:824][223]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-14.37.25:848][223]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-14.37.25:848][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-14.37.25:848][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-14.37.25:848][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-14.37.25:848][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.07.03-14.37.25:848][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.07.03-14.37.25:851][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.07.03-14.37.25:851][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.07.03-14.37.25:851][223]LogInit: FAudioDevice initialized with ID 14.
+[2024.07.03-14.37.25:851][223]LogAudio: Display: Audio Device (ID: 14) registered with world 'LVL_1'.
+[2024.07.03-14.37.25:851][223]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.07.03-14.37.25:877][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-14.37.25:877][223]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-14.37.25:881][223]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-16.37.25
+[2024.07.03-14.37.25:881][223]LogWorld: Bringing up level for play took: 0.003643
+[2024.07.03-14.37.25:884][223]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2024.07.03-14.37.25:892][223]PIE: Server logged in
+[2024.07.03-14.37.25:895][223]PIE: Play in editor total start time 0,114 seconds.
+[2024.07.03-14.37.25:982][223]LogViewport: Scene viewport resized to 1324x593, mode Windowed.
+[2024.07.03-14.37.40:397][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-14.37.40:397][424]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-14.37.40:397][424]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-14.37.40:403][424]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-14.37.40:404][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.37.40:406][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-14.37.40:414][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.37.40:430][424]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.07.03-14.37.40:431][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.07.03-14.37.40:432][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.07.03-14.37.40:441][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.07.03-14.37.40:518][425]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2024.07.03-14.41.08:362][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.07.03-14.41.08:366][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_1" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.07.03-14.41.08:408][310]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LVL_1_Auto9
+[2024.07.03-14.41.08:409][310]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/LVL_1_Auto967AB505C4072F8872B224D98475AE678.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto9.umap'
+[2024.07.03-14.41.08:410][310]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto9.umap is in the /Temp path, will not scan.
+[2024.07.03-14.41.08:411][310]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.067
+[2024.07.03-14.41.08:411][310]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.067
+[2024.07.03-14.41.08:411][310]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/WBP_Anleitung_LVL3] ([2] browsable assets)...
+[2024.07.03-14.41.08:415][310]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/0_MY_STUFF/WBP_Anleitung_LVL3.WBP_Anleitung_LVL3]
+[2024.07.03-14.41.08:415][310]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/WBP_Anleitung_LVL3]
+[2024.07.03-14.41.08:420][310]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/WBP_Anleitung_LVL3_Auto9
+[2024.07.03-14.41.08:420][310]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/WBP_Anleitung_LVL3_Auto9CBC8752149D3CF884E094091FE5CB2FC.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/0_MY_STUFF/WBP_Anleitung_LVL3_Auto9.uasset'
+[2024.07.03-14.41.08:421][310]LogFileHelpers: Auto-saving content packages took 0.010
+[2024.07.03-14.42.12:849][504]LogDerivedDataCache: C:/Users/lampe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.103 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1967 files in 2906 folders with total size 40 MiB.
+[2024.07.03-14.43.14:035][818]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.03-14.43.20:901][632]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.03-14.43.50:336][137]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.03-14.45.10:193][454]SourceControl: Error: fatal: Invalid path 'D:/Epic Games/UE_5.3/Engine/Content/UMG': No such file or directory
+[2024.07.03-14.47.30:694][155]BlueprintLog: New page: Compile WBP_Anleitung_LVL3
+[2024.07.03-14.47.30:725][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.07.03-14.48.29:171][108]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18422818374267826478
+[2024.07.03-14.48.29:179][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.29:229][109]LogSlate: Took 0.005205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.29:233][109]LogSlate: Took 0.003420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.29:237][109]LogSlate: Took 0.003528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.29:242][109]LogSlate: Took 0.003407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.29:252][109]LogSlate: Took 0.004405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.29:280][109]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.07.03-14.48.29:303][110]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 3/2 Textures; frames since last flush: 2
+[2024.07.03-14.48.29:321][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.29:329][111]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.29:329][111]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.29:330][111]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.29:332][111]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.29:338][111]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.29:361][111]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.07.03-14.48.29:372][111]LogSlate: Warning: Setting the threshold to trigger a flush to 3 non-atlased textures as there is a lot of font data being cached.
+[2024.07.03-14.48.29:747][154]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 4/3 Textures; frames since last flush: 44
+[2024.07.03-14.48.29:762][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.29:771][155]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.29:772][155]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.29:773][155]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.29:774][155]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.29:780][155]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.29:804][155]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.07.03-14.48.29:839][156]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 3/2 Textures; frames since last flush: 2
+[2024.07.03-14.48.29:844][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.29:852][157]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.29:852][157]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.29:853][157]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.29:854][157]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.29:860][157]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.29:885][157]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.07.03-14.48.29:913][158]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 3/2 Textures; frames since last flush: 2
+[2024.07.03-14.48.29:917][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.29:925][159]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.29:925][159]LogSlate: Took 0.000079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.29:926][159]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.29:928][159]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.29:934][159]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.29:957][159]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.07.03-14.48.30:000][161]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 3/2 Textures; frames since last flush: 3
+[2024.07.03-14.48.30:012][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.30:020][162]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.30:020][162]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.30:021][162]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.30:022][162]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.30:028][162]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.30:069][163]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 2
+[2024.07.03-14.48.30:079][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.30:086][164]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.30:087][164]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.30:088][164]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.30:089][164]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.30:096][164]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.30:140][165]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 2
+[2024.07.03-14.48.30:142][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.30:148][166]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.30:149][166]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.30:150][166]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.30:151][166]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.30:157][166]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.30:212][168]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 3
+[2024.07.03-14.48.30:214][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.30:221][169]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.30:222][169]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.30:223][169]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.30:224][169]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.30:230][169]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.30:318][174]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 6
+[2024.07.03-14.48.30:319][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.30:325][175]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.30:325][175]LogSlate: Took 0.000079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.30:326][175]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.30:328][175]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.30:334][175]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.48.30:642][205]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 31
+[2024.07.03-14.48.30:643][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.48.30:649][206]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.07.03-14.48.30:649][206]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.07.03-14.48.30:651][206]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.07.03-14.48.30:652][206]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.03-14.48.30:658][206]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.07.03-14.49.12:146][139]LogSlate: Took 0.007258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.07.03-14.49.28:343][ 54]LogSlate: Took 0.006291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.07.03-14.51.08:809][593]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2024.07.03-14.51.08:814][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_1" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.07.03-14.51.08:868][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LVL_1_Auto0
+[2024.07.03-14.51.08:869][593]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/LVL_1_Auto0FE8073BE45ACE64E13C056A00F3B0660.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto0.umap'
+[2024.07.03-14.51.08:871][593]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/LVL_1_Auto0.umap is in the /Temp path, will not scan.
+[2024.07.03-14.51.08:871][593]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.081
+[2024.07.03-14.51.08:871][593]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.081
+[2024.07.03-14.51.08:871][593]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/WBP_Anleitung_LVL3] ([2] browsable assets)...
+[2024.07.03-14.51.08:876][593]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/0_MY_STUFF/WBP_Anleitung_LVL3.WBP_Anleitung_LVL3]
+[2024.07.03-14.51.08:876][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/WBP_Anleitung_LVL3]
+[2024.07.03-14.51.08:881][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/WBP_Anleitung_LVL3_Auto0
+[2024.07.03-14.51.08:881][593]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/WBP_Anleitung_LVL3_Auto06F249CBD42189B44A61DA29E7DC6BC9E.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/Autosaves/Game/0_MY_STUFF/WBP_Anleitung_LVL3_Auto0.uasset'
+[2024.07.03-14.51.08:882][593]LogFileHelpers: Auto-saving content packages took 0.012
+[2024.07.03-14.56.28:474][677]BlueprintLog: New page: Compile WBP_Anleitung_LVL3
+[2024.07.03-14.56.28:509][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.07.03-14.56.29:340][768]LogSlate: Took 0.006155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.03-14.56.29:345][768]LogViewport: Scene viewport resized to 534x286, mode Windowed.
+[2024.07.03-14.56.30:835][902]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-14.56.30:842][902]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.03-14.56.30:843][902]LogPlayLevel: [PlayLevel] Compiling LVL_1 before play...
+[2024.07.03-14.56.30:881][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.07.03-14.56.30:885][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 42 ms (1 blueprints)
+[2024.07.03-14.56.30:885][902]PIE: New page: PIE session: LVL_1 (03.07.2024, 18:56:30)
+[2024.07.03-14.56.30:885][902]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-14.56.30:903][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018322s)
+[2024.07.03-14.56.30:903][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018359s)
+[2024.07.03-14.56.30:921][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.07.03-14.56.30:922][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-14.56.30:922][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-14.56.30:923][902]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-14.56.30:923][902]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2024.07.03-14.56.30:923][902]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.07.03-14.56.30:923][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-14.56.30:923][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-14.56.30:923][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-14.56.30:923][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-14.56.30:923][902]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-14.56.30:923][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-14.56.30:923][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-14.56.30:923][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-14.56.30:924][902]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-14.56.30:924][902]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-14.56.30:924][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-14.56.30:926][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-14.56.30:949][902]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-14.56.30:949][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-14.56.30:949][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-14.56.30:949][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-14.56.30:950][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.07.03-14.56.30:950][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.07.03-14.56.30:952][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.07.03-14.56.30:952][902]LogInit: FAudioDevice initialized with ID 15.
+[2024.07.03-14.56.30:952][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.07.03-14.56.30:952][902]LogAudio: Display: Audio Device (ID: 15) registered with world 'LVL_1'.
+[2024.07.03-14.56.30:952][902]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.07.03-14.56.30:972][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-14.56.30:973][902]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-14.56.30:976][902]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-16.56.30
+[2024.07.03-14.56.30:977][902]LogWorld: Bringing up level for play took: 0.003612
+[2024.07.03-14.56.30:979][902]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.07.03-14.56.30:985][902]PIE: Server logged in
+[2024.07.03-14.56.30:987][902]PIE: Play in editor total start time 0,145 seconds.
+[2024.07.03-14.56.31:073][902]LogViewport: Scene viewport resized to 1324x593, mode Windowed.
+[2024.07.03-14.56.36:285][338]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.07.03-14.56.41:022][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-14.56.41:022][738]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-14.56.41:022][738]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-14.56.41:028][738]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-14.56.41:029][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.56.41:032][738]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-14.56.41:041][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.56.41:058][738]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.07.03-14.56.41:058][738]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.07.03-14.56.41:060][738]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.07.03-14.56.41:072][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.07.03-14.56.41:155][739]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.07.03-14.57.01:684][ 10]BlueprintLog: New page: Compile WBP_Anleitung_LVL3
+[2024.07.03-14.57.01:708][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.07.03-14.57.03:153][155]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.07.03-14.57.03:160][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.03-14.57.03:161][155]PIE: New page: PIE session: LVL_1 (03.07.2024, 18:57:03)
+[2024.07.03-14.57.03:161][155]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.03-14.57.03:179][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018520s)
+[2024.07.03-14.57.03:179][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.018557s)
+[2024.07.03-14.57.03:197][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.07.03-14.57.03:200][155]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.03-14.57.03:200][155]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.03-14.57.03:200][155]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.03-14.57.03:200][155]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2024.07.03-14.57.03:201][155]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.07.03-14.57.03:201][155]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.03-14.57.03:201][155]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.03-14.57.03:201][155]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.03-14.57.03:201][155]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.03-14.57.03:201][155]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.03-14.57.03:201][155]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.03-14.57.03:201][155]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.03-14.57.03:201][155]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.03-14.57.03:201][155]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.03-14.57.03:201][155]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.03-14.57.03:201][155]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.03-14.57.03:203][155]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.03-14.57.03:224][155]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (USB Audio Device)
+[2024.07.03-14.57.03:225][155]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.03-14.57.03:225][155]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.03-14.57.03:225][155]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.03-14.57.03:225][155]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.07.03-14.57.03:225][155]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.07.03-14.57.03:227][155]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.07.03-14.57.03:227][155]LogInit: FAudioDevice initialized with ID 16.
+[2024.07.03-14.57.03:227][155]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.07.03-14.57.03:227][155]LogAudio: Display: Audio Device (ID: 16) registered with world 'LVL_1'.
+[2024.07.03-14.57.03:227][155]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.07.03-14.57.03:253][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-14.57.03:253][155]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.03-14.57.03:256][155]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.03-16.57.03
+[2024.07.03-14.57.03:257][155]LogWorld: Bringing up level for play took: 0.003571
+[2024.07.03-14.57.03:260][155]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2024.07.03-14.57.03:266][155]PIE: Server logged in
+[2024.07.03-14.57.03:267][155]PIE: Play in editor total start time 0,107 seconds.
+[2024.07.03-14.57.03:297][155]LogViewport: Scene viewport resized to 1324x593, mode Windowed.
+[2024.07.03-14.57.04:199][219]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.07.03-14.57.39:288][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.03-14.57.39:288][224]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.03-14.57.39:289][224]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.07.03-14.57.39:294][224]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.03-14.57.39:295][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.57.39:298][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.03-14.57.39:307][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.03-14.57.39:325][224]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.03-14.57.39:325][224]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.07.03-14.57.39:325][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.07.03-14.57.39:328][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.07.03-14.57.39:336][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.07.03-14.57.39:413][225]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2024.07.03-14.57.41:361][417]LogViewport: Scene viewport resized to 1198x288, mode Windowed.
+[2024.07.03-14.57.47:217][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.07.03-14.57.47:369][903]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.03-14.57.47:397][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_1" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/LVL_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.03-14.57.47:438][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.07.03-14.57.47:484][903]LogSavePackage: Moving output files for package: /Game/LVL_1
+[2024.07.03-14.57.47:484][903]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/LVL_142048770464B71D4FA234987CF3CB151.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/LVL_1.umap'
+[2024.07.03-14.57.47:493][903]LogFileHelpers: All files are already saved.
+[2024.07.03-14.57.47:493][903]LogFileHelpers: Saving map 'LVL_1' took 0.097
+[2024.07.03-14.57.47:496][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/WBP_Anleitung_LVL3" FILE="C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/0_MY_STUFF/WBP_Anleitung_LVL3.uasset" SILENT=true
+[2024.07.03-14.57.47:504][903]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/WBP_Anleitung_LVL3
+[2024.07.03-14.57.47:504][903]LogSavePackage: Moving 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/WBP_Anleitung_LVL30838BF07460CB501F4DEEFB52DF0A600.tmp' to 'C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Content/0_MY_STUFF/WBP_Anleitung_LVL3.uasset'
+[2024.07.03-14.57.47:696][903]LogFileHelpers: InternalPromptForCheckoutAndSave took 327 ms (total: 1.48 sec)
+[2024.07.03-14.57.47:701][903]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.03-14.57.47:701][903]LogContentValidation: Display: Validating /Script/Engine.World /Game/LVL_1.LVL_1
+[2024.07.03-14.57.47:701][903]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/0_MY_STUFF/WBP_Anleitung_LVL3.WBP_Anleitung_LVL3
