@@ -1296,3 +1296,165 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.07.04-15.13.42:830][827]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
 [2024.07.04-15.14.01:415][836]BlueprintLog: New page: Compile WBP_Versuchsanleitung
 [2024.07.04-15.14.01:470][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2024.07.04-15.14.32:429][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2024.07.04-15.14.32:432][149]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_1' took 0.090
+[2024.07.04-15.14.32:433][149]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/WBP_Versuchsanleitung] ([2] browsable assets)...
+[2024.07.04-15.14.32:457][149]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/0_MY_STUFF/WBP_Versuchsanleitung.WBP_Versuchsanleitung]
+[2024.07.04-15.14.32:457][149]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/WBP_Versuchsanleitung]
+[2024.07.04-15.14.32:475][149]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.017060 seconds
+[2024.07.04-15.14.32:488][149]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/WBP_Versuchsanleitung_Auto1
+[2024.07.04-15.14.32:490][149]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/WBP_Versuchsanleitung_Auto1F44C3D224866993C887D5CB7EB5AFEC6.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/WBP_Versuchsanleitung_Auto1.uasset'
+[2024.07.04-15.14.32:492][149]LogFileHelpers: Auto-saving content packages took 0.060
+[2024.07.04-15.16.25:325][738]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/0_MY_STUFF/BP_DC_Kammer.BP_DC_Kammer
+[2024.07.04-15.16.25:325][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.04-15.16.25:326][738]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.04-15.18.54:449][436]BlueprintLog: New page: Compile BP_DC_Kammer
+[2024.07.04-15.18.54:544][436]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2024.07.04-15.19.08:401][186]BlueprintLog: New page: Compile BP_DC_Kammer
+[2024.07.04-15.19.08:493][186]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2024.07.04-15.19.22:299][759]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.04-15.19.22:315][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.04-15.19.22:315][759]PIE: New page: PIE session: LVL_1 (04.07.2024, 19:19:22)
+[2024.07.04-15.19.22:315][759]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.04-15.19.22:359][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045036s)
+[2024.07.04-15.19.22:359][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.045122s)
+[2024.07.04-15.19.22:390][759]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2024.07.04-15.19.22:399][759]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.04-15.19.22:399][759]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.04-15.19.22:400][759]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.04-15.19.22:401][759]LogPlayLevel: PIE: World Init took: (0.002452s)
+[2024.07.04-15.19.22:401][759]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.07.04-15.19.22:401][759]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.04-15.19.22:401][759]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.04-15.19.22:401][759]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.04-15.19.22:401][759]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.04-15.19.22:401][759]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.04-15.19.22:401][759]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.04-15.19.22:401][759]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.04-15.19.22:401][759]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.04-15.19.22:402][759]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.04-15.19.22:402][759]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.04-15.19.22:402][759]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.04-15.19.22:406][759]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.04-15.19.22:630][759]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.07.04-15.19.22:631][759]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.04-15.19.22:631][759]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.04-15.19.22:631][759]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.04-15.19.22:633][759]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.07.04-15.19.22:633][759]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.07.04-15.19.22:637][759]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.07.04-15.19.22:637][759]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.07.04-15.19.22:637][759]LogInit: FAudioDevice initialized with ID 3.
+[2024.07.04-15.19.22:637][759]LogAudio: Display: Audio Device (ID: 3) registered with world 'LVL_1'.
+[2024.07.04-15.19.22:637][759]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.07.04-15.19.22:642][759]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.04-15.19.22:649][759]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.04-17.19.22
+[2024.07.04-15.19.22:649][759]LogWorld: Bringing up level for play took: 0.006301
+[2024.07.04-15.19.22:653][759]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.07.04-15.19.22:658][759]PIE: Server logged in
+[2024.07.04-15.19.22:659][759]PIE: Play in editor total start time 0,346 seconds.
+[2024.07.04-15.19.26:032][766]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Nothing in range
+[2024.07.04-15.19.29:819][802]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.04-15.19.31:096][824]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.04-15.19.31:262][827]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.04-15.19.31:742][835]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.04-15.19.32:964][856]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.07.04-15.19.32:964][856]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.19.33:792][870]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.04-15.19.33:865][871]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.04-15.19.36:778][921]LogNet: Browse: /Game/LVL_1
+[2024.07.04-15.19.36:779][921]LogLoad: LoadMap: /Game/LVL_1
+[2024.07.04-15.19.36:779][921]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.04-15.19.36:782][921]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.04-15.19.36:783][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.04-15.19.36:814][921]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.04-15.19.36:841][921]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2024.07.04-15.19.36:880][921]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_1
+[2024.07.04-15.19.36:924][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043731s)
+[2024.07.04-15.19.36:924][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_1.LVL_1 to /Game/UEDPIE_0_LVL_1.LVL_1 (0.043850s)
+[2024.07.04-15.19.36:925][921]LogAudio: Display: Audio Device (ID: 3) registered with world 'LVL_1'.
+[2024.07.04-15.19.36:925][921]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.04-15.19.36:925][921]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.04-15.19.36:926][921]LogAIModule: Creating AISystem for world LVL_1
+[2024.07.04-15.19.36:926][921]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2024.07.04-15.19.36:926][921]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.07.04-15.19.36:932][921]LogWorld: Bringing World /Game/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 0) at 2024.07.04-17.19.36
+[2024.07.04-15.19.36:933][921]LogWorld: Bringing up level for play took: 0.006044
+[2024.07.04-15.19.36:941][921]LogLoad: Took 0.162440 seconds to LoadMap(/Game/UEDPIE_0_LVL_1)
+[2024.07.04-15.19.40:187][972]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.04-15.19.40:544][978]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.04-15.19.40:841][983]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.04-15.19.40:899][984]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.04-15.19.41:807][999]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.04-15.19.42:118][  4]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.04-15.19.43:031][ 19]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.07.04-15.19.43:031][ 19]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.19.43:627][ 29]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.07.04-15.19.43:627][ 29]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.19.44:861][ 49]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.04-15.19.44:923][ 50]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.04-15.19.45:364][ 57]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.07.04-15.19.45:552][ 60]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.07.04-15.19.48:315][107]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.07.04-15.19.49:461][126]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.19.52:571][179]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.07.04-15.19.52:571][179]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.07.04-15.19.52:571][179]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.07.04-15.19.52:571][179]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.07.04-15.19.52:571][179]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.19.58:106][271]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.19.59:677][297]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.20.05:874][403]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.07.04-15.20.05:874][403]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.07.04-15.20.05:874][403]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.07.04-15.20.05:874][403]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.07.04-15.20.05:874][403]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.20.20:582][676]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.07.04-15.20.20:582][676]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.20.27:109][791]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Paper
+	BP_DC_Kammer_C /Game/UEDPIE_0_LVL_1.LVL_1:PersistentLevel.BP_DC_Kammer_C_1
+	Function /Game/0_MY_STUFF/BP_DC_Kammer.BP_DC_Kammer_C:ExecuteUbergraph_BP_DC_Kammer:0E74
+[2024.07.04-15.20.27:109][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP DC Kammer Blueprint:  BP_DC_Kammer
+[2024.07.04-15.20.27:109][791]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.20.30:278][845]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Combining
+[2024.07.04-15.20.35:597][935]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 
+[2024.07.04-15.20.36:348][948]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.07.04-15.20.37:624][970]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Interacting
+[2024.07.04-15.20.38:692][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.04-15.20.38:692][988]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_1
+[2024.07.04-15.20.38:692][988]LogWorld: UWorld::CleanupWorld for LVL_1, bSessionEnded=true, bCleanupResources=true
+[2024.07.04-15.20.38:694][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.04-15.20.38:801][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.04-15.20.38:811][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.04-15.20.38:839][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.04-15.20.38:839][988]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.07.04-15.20.38:841][988]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.07.04-15.20.38:844][988]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.07.04-15.20.38:860][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2024.07.04-15.20.39:115][989]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.07.04-15.20.42:236][998]LogSlate: Window 'Message Log' being destroyed
+[2024.07.04-15.20.42:375][998]LogSlate: Window 'Message Log' being destroyed
+[2024.07.04-15.22.09:931][376]BlueprintLog: New page: Compile BP_UV_Lamp
+[2024.07.04-15.22.10:021][376]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2024.07.04-15.22.21:618][574]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.04-15.22.21:750][574]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.04-15.22.21:993][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/BP_UV_Lamp" FILE="../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/BP_UV_Lamp.uasset" SILENT=true
+[2024.07.04-15.22.22:068][574]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/BP_UV_Lamp
+[2024.07.04-15.22.22:069][574]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_UV_LampF57FAF5B4CC1E407E1A7808C75F46EB3.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/BP_UV_Lamp.uasset'
+[2024.07.04-15.22.22:093][574]LogFileHelpers: InternalPromptForCheckoutAndSave took 474 ms
+[2024.07.04-15.22.22:096][574]AssetCheck: New page: Asset Save: BP_UV_Lamp
+[2024.07.04-15.22.22:096][574]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp
+[2024.07.04-15.22.22:715][605]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.04-15.22.22:809][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/BP_UV_Lamp" FILE="../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/BP_UV_Lamp.uasset" SILENT=true
+[2024.07.04-15.22.22:889][605]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/BP_UV_Lamp
+[2024.07.04-15.22.22:892][605]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_UV_LampEE40EF9B4B0B177A2C7B01957247CDD5.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/BP_UV_Lamp.uasset'
+[2024.07.04-15.22.22:912][605]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 671 ms)
+[2024.07.04-15.22.22:915][605]AssetCheck: New page: Asset Save: BP_UV_Lamp
+[2024.07.04-15.22.22:915][605]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp
+[2024.07.04-15.22.23:496][635]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.04-15.22.23:593][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/BP_UV_Lamp" FILE="../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/BP_UV_Lamp.uasset" SILENT=true
+[2024.07.04-15.22.23:661][635]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/BP_UV_Lamp
+[2024.07.04-15.22.23:663][635]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_UV_Lamp2CCF58A14B18B32C710243B25336EFC5.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/BP_UV_Lamp.uasset'
+[2024.07.04-15.22.23:684][635]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 859 ms)
+[2024.07.04-15.22.23:687][635]AssetCheck: New page: Asset Save: BP_UV_Lamp
+[2024.07.04-15.22.23:687][635]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/0_MY_STUFF/BP_UV_Lamp.BP_UV_Lamp
