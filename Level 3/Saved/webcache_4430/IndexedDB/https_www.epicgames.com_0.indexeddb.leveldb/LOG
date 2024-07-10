@@ -1,0 +1,6 @@
+2024/07/10-18:53:14.891 61b8 Creating DB C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/webcache_4430\IndexedDB\https_www.epicgames.com_0.indexeddb.leveldb since it was missing.
+2024/07/10-18:53:14.900 61b8 Reusing MANIFEST C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/webcache_4430\IndexedDB\https_www.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/10-18:53:47.621 5b70 Level-0 table #5: started
+2024/07/10-18:53:47.629 5b70 Level-0 table #5: 3070 bytes OK
+2024/07/10-18:53:47.631 5b70 Delete type=0 #3
+2024/07/10-18:53:47.631 5b70 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
