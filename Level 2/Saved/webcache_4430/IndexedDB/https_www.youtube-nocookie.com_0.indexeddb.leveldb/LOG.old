@@ -1,0 +1,6 @@
+2024/08/20-18:05:11.377 10bc Creating DB C:/Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2024/08/20-18:05:11.452 10bc Reusing MANIFEST C:/Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/20-18:05:20.768 2918 Level-0 table #5: started
+2024/08/20-18:05:21.044 2918 Level-0 table #5: 848 bytes OK
+2024/08/20-18:05:21.047 2918 Delete type=0 #3
+2024/08/20-18:05:21.048 2918 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
