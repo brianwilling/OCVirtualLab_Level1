@@ -1,18 +1,1 @@
-[0827/144513.784:ERROR:entry_impl.cc(1075)] No file for 800002aa
-[0827/144514.814:ERROR:entry_impl.cc(1075)] No file for 800002ab
-[0827/144523.277:ERROR:entry_impl.cc(1075)] No file for 800002ac
-[0827/144523.277:ERROR:entry_impl.cc(1075)] No file for 800002b2
-[0827/144523.277:ERROR:entry_impl.cc(1075)] No file for 800002b5
-[0827/144523.278:ERROR:entry_impl.cc(1075)] No file for 800002b8
-[0827/144525.318:ERROR:entry_impl.cc(1075)] No file for 800002ae
-[0827/144525.318:ERROR:entry_impl.cc(1075)] No file for 800002af
-[0827/144701.423:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
-[0827/151517.636:ERROR:entry_impl.cc(1075)] No file for 800002b0
-[0827/151546.455:ERROR:entry_impl.cc(1075)] No file for 800002b1
-[0827/151546.574:ERROR:entry_impl.cc(1075)] No file for 800002b1
-[0827/151547.432:ERROR:entry_impl.cc(1075)] No file for 800002b3
-[0827/151627.661:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[0827/151627.983:ERROR:entry_impl.cc(1075)] No file for 800002bd
-[0827/151628.648:ERROR:entry_impl.cc(1075)] No file for 800002b9
-[0827/185456.047:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
-[0827/185456.047:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0829/151631.060:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
