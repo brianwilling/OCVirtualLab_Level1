@@ -1,3 +1,2 @@
-2024/08/29-15:14:30.910 d5c Reusing MANIFEST C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2024/08/29-15:14:30.911 d5c Recovering log #4
-2024/08/29-15:14:30.911 d5c Reusing old log C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/webcache_4430\Local Storage\leveldb/000004.log 
+2024/07/10-18:50:09.000 3440 Creating DB C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/webcache_4430\Local Storage\leveldb since it was missing.
+2024/07/10-18:50:09.018 3440 Reusing MANIFEST C:/Users/lampe/Desktop/OCVirtualLab_Level1/Level 3/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
