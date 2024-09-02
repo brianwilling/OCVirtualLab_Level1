@@ -1,5 +1,0 @@
-[0820/215728.249:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
-[0820/215800.724:ERROR:cache_util_win.cc(20)] Unable to move the cache: Zugriff verweigert (0x5)
-[0820/215800.725:ERROR:cache_util.cc(144)] Unable to move cache folder C:/Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/webcache_4430\Cache to C:/Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/webcache_4430\old_Cache_000
-[0820/215800.725:ERROR:disk_cache.cc(184)] Unable to create cache
-[0820/215938.259:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
