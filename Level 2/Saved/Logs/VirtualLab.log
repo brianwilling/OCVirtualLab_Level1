@@ -1967,3 +1967,826 @@ LogInit: Object subsystem initialized
 [2024.09.24-14.11.34:194][230]LogFileHelpers: InternalPromptForCheckoutAndSave took 461 ms (total: 1.66 sec)
 [2024.09.24-14.11.34:198][230]AssetCheck: New page: Asset Save: LVL_2
 [2024.09.24-14.11.34:199][230]LogContentValidation: Display: Validating /Script/Engine.World /Game/LVL_2.LVL_2
+[2024.09.24-14.21.35:074][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2024.09.24-14.21.35:077][ 24]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_2' took 0.046
+[2024.09.24-14.21.35:078][ 24]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/BP_Paper_LVL2] ([2] browsable assets)...
+[2024.09.24-14.21.39:539][ 24]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_Paper_LVL2.BP_Paper_LVL2]
+[2024.09.24-14.21.39:543][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_Paper_LVL2]
+[2024.09.24-14.21.39:763][ 24]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_Paper_LVL2_Auto3
+[2024.09.24-14.21.39:765][ 24]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_Paper_LVL2_Auto385FABDA0497E07DBDE4960A645C8C137.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/BP_Paper_LVL2_Auto3.uasset'
+[2024.09.24-14.21.39:771][ 24]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/BP_DC_Kammer_LVL2] ([2] browsable assets)...
+[2024.09.24-14.21.44:786][ 24]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22847F00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 5.000001 seconds.
+[2024.09.24-14.21.44:790][ 24]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22848C00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 5.003352 seconds.
+[2024.09.24-14.21.44:857][ 24]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_DC_Kammer_LVL2.BP_DC_Kammer_LVL2]
+[2024.09.24-14.21.44:862][ 24]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-14.21.49:209][ 24]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/0_MY_STUFF/BP_DC_Kammer_LVL2.BP_DC_Kammer_LVL2_C]
+[2024.09.24-14.21.49:209][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_DC_Kammer_LVL2]
+[2024.09.24-14.21.49:312][ 24]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_DC_Kammer_LVL2_Auto3
+[2024.09.24-14.21.49:313][ 24]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_DC_Kammer_LVL2_Auto31A199A344B44FDCE6170B59C4D610FE7.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/BP_DC_Kammer_LVL2_Auto3.uasset'
+[2024.09.24-14.21.49:319][ 24]LogFileHelpers: Auto-saving content packages took 14.241
+[2024.09.24-14.21.54:480][ 27]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22847700) on the [0x0000073C0E32CB00, 3D] queue has not completed after 5.000000 seconds.
+[2024.09.24-14.21.55:565][ 27]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22842200) on the [0x0000073C0E32CB00, 3D] queue has not completed after 6.083279 seconds.
+[2024.09.24-14.21.55:906][ 27]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22848200) on the [0x0000073C0E32CB00, 3D] queue has not completed after 6.423275 seconds.
+[2024.09.24-14.21.55:927][ 27]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22846B00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 6.283247 seconds.
+[2024.09.24-14.21.55:948][ 27]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22840D00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 6.304471 seconds.
+[2024.09.24-14.21.55:974][ 27]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C45CDBB00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 6.329326 seconds.
+[2024.09.24-14.45.35:322][271]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.319 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 872 files in 1574 folders with total size 35 MiB.
+[2024.09.24-15.08.48:927][444]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.09.24-15.45.35:216][ 34]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.212 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 872 files in 1574 folders with total size 35 MiB.
+[2024.09.24-16.45.35:235][785]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.230 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 872 files in 1574 folders with total size 35 MiB.
+[2024.09.24-17.45.34:332][545]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.326 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 872 files in 1574 folders with total size 35 MiB.
+[2024.09.24-18.09.26:026][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22846B00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 5.000001 seconds.
+[2024.09.24-18.09.30:357][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C8711BB00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 9.331510 seconds.
+[2024.09.24-18.09.31:224][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22844800) on the [0x0000073C0E32CB00, 3D] queue has not completed after 10.196315 seconds.
+[2024.09.24-18.09.31:225][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22842B00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 10.196629 seconds.
+[2024.09.24-18.09.31:226][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22848500) on the [0x0000073C0E32CB00, 3D] queue has not completed after 10.196296 seconds.
+[2024.09.24-18.09.31:227][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22848700) on the [0x0000073C0E32CB00, 3D] queue has not completed after 10.196079 seconds.
+[2024.09.24-18.09.31:227][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22841100) on the [0x0000073C0E32CB00, 3D] queue has not completed after 10.195647 seconds.
+[2024.09.24-18.09.31:442][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22840B00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 10.384416 seconds.
+[2024.09.24-18.09.31:529][808]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.09.24-18.09.33:511][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22848200) on the [0x0000073C0E32CB00, 3D] queue has not completed after 12.451736 seconds.
+[2024.09.24-18.09.33:643][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22841B00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 12.068466 seconds.
+[2024.09.24-18.09.33:647][808]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22848300) on the [0x0000073C0E32CB00, 3D] queue has not completed after 12.071703 seconds.
+[2024.09.24-18.12.37:086][358]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.09.24-18.12.37:635][359]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.09.24-18.12.37:681][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.24-18.12.37:682][359]PIE: New page: PIE session: LVL_2 (24.09.2024, 22:12:37)
+[2024.09.24-18.12.37:686][359]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.12.37:827][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139275s)
+[2024.09.24-18.12.37:827][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_2.LVL_2 to /Game/UEDPIE_0_LVL_2.LVL_2 (0.139948s)
+[2024.09.24-18.12.38:107][359]LogUObjectHash: Compacting FUObjectHashTables data took  11.06ms
+[2024.09.24-18.12.38:132][359]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-18.12.38:133][359]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-18.12.38:135][359]LogAIModule: Creating AISystem for world LVL_2
+[2024.09.24-18.12.38:137][359]LogPlayLevel: PIE: World Init took: (0.006116s)
+[2024.09.24-18.12.38:138][359]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.09.24-18.12.38:138][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.24-18.12.38:138][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.24-18.12.38:138][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.24-18.12.38:138][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.24-18.12.38:138][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.09.24-18.12.38:138][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.24-18.12.38:138][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.09.24-18.12.38:138][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.24-18.12.38:141][359]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.24-18.12.38:141][359]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.24-18.12.38:141][359]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.24-18.12.38:148][359]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.24-18.12.38:418][359]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.09.24-18.12.38:431][359]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.24-18.12.38:432][359]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.24-18.12.38:432][359]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.24-18.12.38:443][359]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.09.24-18.12.38:443][359]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.09.24-18.12.38:448][359]LogInit: FAudioDevice initialized with ID 8.
+[2024.09.24-18.12.38:448][359]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.09.24-18.12.38:448][359]LogAudio: Display: Audio Device (ID: 8) registered with world 'LVL_2'.
+[2024.09.24-18.12.38:448][359]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.09.24-18.12.38:449][359]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.09.24-18.12.38:582][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.12.38:582][359]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.09.24-18.12.38:596][359]LogWorld: Bringing World /Game/UEDPIE_0_LVL_2.LVL_2 up for play (max tick rate 0) at 2024.09.24-20.12.38
+[2024.09.24-18.12.38:597][359]LogWorld: Bringing up level for play took: 0.018751
+[2024.09.24-18.12.38:605][359]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.09.24-18.12.38:652][359]PIE: Server logged in
+[2024.09.24-18.12.38:656][359]PIE: Play in editor total start time 0,98 seconds.
+[2024.09.24-18.12.38:862][359]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.09.24-18.12.42:357][362]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Nothing in range
+[2024.09.24-18.12.44:512][367]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.12.44:798][368]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.12.46:864][376]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.12.47:090][377]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.12.49:786][388]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.12.50:475][397]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.12.50:551][398]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.12.51:235][407]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.12.51:556][410]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.12.51:783][412]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.12.52:154][416]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.12.52:434][419]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.12.53:714][434]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-18.12.53:714][434]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.12.53:859][436]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-18.12.53:859][436]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.12.54:058][438]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-18.12.54:058][438]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.12.57:722][481]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.09.24-18.12.59:184][497]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.01:301][520]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-18.13.01:301][520]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-18.13.01:303][520]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-18.13.01:303][520]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-18.13.01:303][520]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.03:181][539]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.05:789][567]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.12:381][640]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.14:235][660]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.17:782][698]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.09.24-18.13.17:782][698]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-18.13.17:783][698]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-18.13.17:783][698]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.09.24-18.13.17:783][698]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.26:010][802]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-18.13.26:010][802]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.32:157][870]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Paper
+	BP_DC_Kammer_LVL2_C /Game/UEDPIE_0_LVL_2.LVL_2:PersistentLevel.BP_DC_Kammer_C_1
+	Function /Game/0_MY_STUFF/BP_DC_Kammer_LVL2.BP_DC_Kammer_LVL2_C:ExecuteUbergraph_BP_DC_Kammer_LVL2:0EA4
+[2024.09.24-18.13.32:159][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP DC Kammer LVL2 Blueprint:  BP_DC_Kammer_LVL2
+[2024.09.24-18.13.32:159][870]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.36:134][915]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.39:536][949]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Interacting
+[2024.09.24-18.13.56:572][159]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.13.57:245][166]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.14.10:936][345]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.14.11:197][348]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.14.22:426][491]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.14.23:780][505]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.14.31:470][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.14.31:470][599]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.14.31:472][599]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.09.24-18.14.31:542][599]LogWorld: UWorld::CleanupWorld for LVL_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.24-18.14.31:545][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.14.31:551][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.24-18.14.31:562][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.14.31:596][599]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.09.24-18.14.31:596][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.09.24-18.14.31:601][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.09.24-18.14.31:621][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2024.09.24-18.14.31:947][600]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.09.24-18.14.34:047][608]LogSlate: Window 'Message Log' being destroyed
+[2024.09.24-18.14.34:161][608]LogSlate: Window 'Message Log' being destroyed
+[2024.09.24-18.21.12:159][731]BlueprintLog: New page: Compile BP_Paper_LVL2
+[2024.09.24-18.21.12:383][731]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2024.09.24-18.21.16:951][844]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.09.24-18.21.16:969][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.24-18.21.16:970][844]PIE: New page: PIE session: LVL_2 (24.09.2024, 22:21:16)
+[2024.09.24-18.21.16:970][844]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.21.17:043][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073340s)
+[2024.09.24-18.21.17:043][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_2.LVL_2 to /Game/UEDPIE_0_LVL_2.LVL_2 (0.073531s)
+[2024.09.24-18.21.17:199][844]LogUObjectHash: Compacting FUObjectHashTables data took   7.54ms
+[2024.09.24-18.21.17:213][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-18.21.17:213][844]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-18.21.17:215][844]LogAIModule: Creating AISystem for world LVL_2
+[2024.09.24-18.21.17:216][844]LogPlayLevel: PIE: World Init took: (0.003387s)
+[2024.09.24-18.21.17:216][844]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.09.24-18.21.17:216][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.24-18.21.17:216][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.24-18.21.17:216][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.24-18.21.17:217][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.24-18.21.17:217][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.09.24-18.21.17:217][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.24-18.21.17:217][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.09.24-18.21.17:217][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.24-18.21.17:218][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.24-18.21.17:218][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.24-18.21.17:218][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.24-18.21.17:224][844]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.24-18.21.17:509][844]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.09.24-18.21.17:509][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.24-18.21.17:509][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.24-18.21.17:510][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.24-18.21.17:512][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.09.24-18.21.17:512][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.09.24-18.21.17:515][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.09.24-18.21.17:515][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.09.24-18.21.17:516][844]LogInit: FAudioDevice initialized with ID 9.
+[2024.09.24-18.21.17:516][844]LogAudio: Display: Audio Device (ID: 9) registered with world 'LVL_2'.
+[2024.09.24-18.21.17:516][844]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.09.24-18.21.17:576][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.21.17:576][844]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.09.24-18.21.17:585][844]LogWorld: Bringing World /Game/UEDPIE_0_LVL_2.LVL_2 up for play (max tick rate 0) at 2024.09.24-20.21.17
+[2024.09.24-18.21.17:586][844]LogWorld: Bringing up level for play took: 0.007870
+[2024.09.24-18.21.17:596][844]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.09.24-18.21.17:606][844]PIE: Server logged in
+[2024.09.24-18.21.17:609][844]PIE: Play in editor total start time 0,641 seconds.
+[2024.09.24-18.21.17:679][844]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.09.24-18.21.21:186][848]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Nothing in range
+[2024.09.24-18.21.28:244][879]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.21.28:332][880]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.21.33:352][939]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.21.34:140][948]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.21.34:562][952]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.21.34:981][956]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.21.35:982][966]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-18.21.35:982][966]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.21.36:668][973]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-18.21.36:668][973]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.21.40:165][ 11]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.09.24-18.21.42:823][ 38]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.21.45:137][ 61]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-18.21.45:137][ 61]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-18.21.45:137][ 61]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-18.21.45:137][ 61]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-18.21.45:137][ 61]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.21.46:583][ 75]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.21.48:116][ 90]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.21.49:913][108]LogBlueprintUserMessages: [BP_PlacingField_C_1] dododod
+[2024.09.24-18.21.49:914][108]LogBlueprintUserMessages: [BP_PlacingField_C_1] checking type
+[2024.09.24-18.21.49:914][108]LogBlueprintUserMessages: [BP_PlacingField_C_1] trying to attach
+[2024.09.24-18.21.49:914][108]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.21.54:895][159]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.21.56:294][173]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.00:705][218]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.09.24-18.22.00:705][218]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-18.22.00:705][218]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-18.22.00:705][218]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.09.24-18.22.00:706][218]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.10:136][328]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-18.22.10:136][328]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.16:858][401]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Paper
+	BP_DC_Kammer_LVL2_C /Game/UEDPIE_0_LVL_2.LVL_2:PersistentLevel.BP_DC_Kammer_C_1
+	Function /Game/0_MY_STUFF/BP_DC_Kammer_LVL2.BP_DC_Kammer_LVL2_C:ExecuteUbergraph_BP_DC_Kammer_LVL2:0EA4
+[2024.09.24-18.22.16:858][401]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP DC Kammer LVL2 Blueprint:  BP_DC_Kammer_LVL2
+[2024.09.24-18.22.16:858][401]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.22:022][456]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.26:622][504]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Interacting
+[2024.09.24-18.22.40:425][660]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.42:331][680]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.46:959][733]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.50:973][778]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.22.55:609][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.22.55:610][831]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.22.55:611][831]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.09.24-18.22.55:693][831]LogWorld: UWorld::CleanupWorld for LVL_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.24-18.22.55:696][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.22.55:700][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.24-18.22.55:713][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.22.55:754][831]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.24-18.22.55:754][831]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.09.24-18.22.55:755][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.09.24-18.22.55:761][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.09.24-18.22.55:779][831]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2024.09.24-18.22.56:033][832]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.09.24-18.23.02:016][962]LogSlate: Window 'Message Log' being destroyed
+[2024.09.24-18.23.02:036][962]LogSlate: Window 'Message Log' being destroyed
+[2024.09.24-18.23.41:285][844]BlueprintLog: New page: Compile BP_Paper_LVL2
+[2024.09.24-18.23.41:500][844]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2024.09.24-18.24.06:288][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2024.09.24-18.24.06:299][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-18.24.06:310][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_2" FILE="../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.09.24-18.24.06:407][ 91]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LVL_2_Auto4
+[2024.09.24-18.24.06:409][ 91]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/LVL_2_Auto4547F1E6E4D79FFDE28E6118077BD95F4.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto4.umap'
+[2024.09.24-18.24.06:414][ 91]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto4.umap is in the /Temp path, will not scan.
+[2024.09.24-18.24.06:422][ 91]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_2' took 0.168
+[2024.09.24-18.24.06:422][ 91]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.168
+[2024.09.24-18.24.06:423][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/BP_Paper_LVL2] ([2] browsable assets)...
+[2024.09.24-18.24.06:513][ 91]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_Paper_LVL2.BP_Paper_LVL2]
+[2024.09.24-18.24.06:516][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_Paper_LVL2]
+[2024.09.24-18.24.06:663][ 91]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_Paper_LVL2_Auto4
+[2024.09.24-18.24.06:665][ 91]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_Paper_LVL2_Auto43E6DC78A430EB5E6CCB19CA7DDE8D708.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/BP_Paper_LVL2_Auto4.uasset'
+[2024.09.24-18.24.06:670][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/BP_DC_Kammer_LVL2] ([2] browsable assets)...
+[2024.09.24-18.24.06:979][ 91]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_DC_Kammer_LVL2.BP_DC_Kammer_LVL2]
+[2024.09.24-18.24.06:982][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_DC_Kammer_LVL2]
+[2024.09.24-18.24.07:046][ 91]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_DC_Kammer_LVL2_Auto4
+[2024.09.24-18.24.07:046][ 91]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_DC_Kammer_LVL2_Auto499F59FC4479E2D61AE375B8F7E27C91F.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/BP_DC_Kammer_LVL2_Auto4.uasset'
+[2024.09.24-18.24.07:050][ 91]LogFileHelpers: Auto-saving content packages took 0.628
+[2024.09.24-18.39.22:003][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22848300) on the [0x0000073C0E32CB00, 3D] queue has not completed after 5.000000 seconds.
+[2024.09.24-18.39.23:232][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22840F00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 6.228476 seconds.
+[2024.09.24-18.39.23:261][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22845A00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 6.253929 seconds.
+[2024.09.24-18.39.27:616][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C8711A000) on the [0x0000073C0E32CB00, 3D] queue has not completed after 10.607523 seconds.
+[2024.09.24-18.39.29:713][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22843200) on the [0x0000073C0E32CB00, 3D] queue has not completed after 12.704130 seconds.
+[2024.09.24-18.39.30:299][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C2284BA00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 13.289845 seconds.
+[2024.09.24-18.39.30:314][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22844200) on the [0x0000073C0E32CB00, 3D] queue has not completed after 13.304191 seconds.
+[2024.09.24-18.39.30:314][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22849100) on the [0x0000073C0E32CB00, 3D] queue has not completed after 13.304310 seconds.
+[2024.09.24-18.39.30:387][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C2284BE00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 13.376161 seconds.
+[2024.09.24-18.39.30:387][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22841900) on the [0x0000073C0E32CB00, 3D] queue has not completed after 13.376228 seconds.
+[2024.09.24-18.39.30:388][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22848B00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 9.720985 seconds.
+[2024.09.24-18.39.30:455][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22844F00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 9.786550 seconds.
+[2024.09.24-18.39.30:460][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C2284BC00) on the [0x0000073C0E32CB00, 3D] queue has not completed after 9.788746 seconds.
+[2024.09.24-18.39.30:462][263]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000073C22844800) on the [0x0000073C0E32CB00, 3D] queue has not completed after 9.783071 seconds.
+[2024.09.24-18.45.35:244][ 51]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.237 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 906 files in 1624 folders with total size 36 MiB.
+[2024.09.24-18.49.14:747][722]BlueprintLog: New page: Compile BP_Paper_LVL2
+[2024.09.24-18.49.14:999][722]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2024.09.24-18.50.55:751][831]BlueprintLog: New page: Compile BP_Paper_LVL2
+[2024.09.24-18.50.55:990][831]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: ================================================
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: Total job queries 226, among them cache hits 118 (52.21%)
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: Tracking 108 distinct input hashes that result in 69 distinct outputs (63.89%)
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: RAM used: 316,08 KiB of 819,20 MiB budget. Usage: 0.04%
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.09.24-18.50.58:726][858]LogShaderCompilers: Display: ================================================
+[2024.09.24-18.50.59:793][862]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.09.24-18.50.59:813][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.24-18.50.59:813][862]PIE: New page: PIE session: LVL_2 (24.09.2024, 22:50:59)
+[2024.09.24-18.50.59:814][862]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.50.59:863][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048569s)
+[2024.09.24-18.50.59:863][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_2.LVL_2 to /Game/UEDPIE_0_LVL_2.LVL_2 (0.048772s)
+[2024.09.24-18.51.00:384][862]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2024.09.24-18.51.00:400][862]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-18.51.00:400][862]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-18.51.00:401][862]LogAIModule: Creating AISystem for world LVL_2
+[2024.09.24-18.51.00:402][862]LogPlayLevel: PIE: World Init took: (0.001857s)
+[2024.09.24-18.51.00:402][862]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.09.24-18.51.00:402][862]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.24-18.51.00:402][862]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.24-18.51.00:402][862]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.24-18.51.00:402][862]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.24-18.51.00:402][862]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.09.24-18.51.00:402][862]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.24-18.51.00:402][862]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.09.24-18.51.00:402][862]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.24-18.51.00:403][862]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.24-18.51.00:403][862]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.24-18.51.00:403][862]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.24-18.51.00:408][862]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.24-18.51.00:661][862]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.09.24-18.51.00:663][862]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.24-18.51.00:665][862]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.24-18.51.00:665][862]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.24-18.51.00:667][862]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.09.24-18.51.00:667][862]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.09.24-18.51.00:670][862]LogInit: FAudioDevice initialized with ID 10.
+[2024.09.24-18.51.00:671][862]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.09.24-18.51.00:671][862]LogAudio: Display: Audio Device (ID: 10) registered with world 'LVL_2'.
+[2024.09.24-18.51.00:671][862]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.09.24-18.51.00:671][862]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.09.24-18.51.00:750][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.51.00:751][862]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.09.24-18.51.00:760][862]LogWorld: Bringing World /Game/UEDPIE_0_LVL_2.LVL_2 up for play (max tick rate 0) at 2024.09.24-20.51.00
+[2024.09.24-18.51.00:761][862]LogWorld: Bringing up level for play took: 0.009200
+[2024.09.24-18.51.00:769][862]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.09.24-18.51.00:780][862]PIE: Server logged in
+[2024.09.24-18.51.00:783][862]PIE: Play in editor total start time 0,97 seconds.
+[2024.09.24-18.51.00:848][862]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.09.24-18.51.03:549][865]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Nothing in range
+[2024.09.24-18.51.10:653][922]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.51.10:744][923]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.51.11:267][929]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.51.12:224][940]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.51.12:546][943]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.51.12:628][944]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.51.12:825][946]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.51.12:932][947]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.51.14:497][963]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-18.51.14:497][963]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.14:883][967]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-18.51.14:883][967]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.21:636][ 40]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.24:261][ 67]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.27:615][101]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.09.24-18.51.27:615][101]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.09.24-18.51.27:615][101]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.32:320][154]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-18.51.32:320][154]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.33:379][165]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.09.24-18.51.33:379][165]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.09.24-18.51.33:379][165]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.39:185][232]LogNet: Browse: /Game/LVL_2
+[2024.09.24-18.51.39:185][232]LogLoad: LoadMap: /Game/LVL_2
+[2024.09.24-18.51.39:185][232]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.51.39:186][232]LogWorld: UWorld::CleanupWorld for LVL_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.24-18.51.39:188][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.51.39:223][232]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.24-18.51.39:270][232]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2024.09.24-18.51.39:277][232]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.51.39:320][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043679s)
+[2024.09.24-18.51.39:321][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_2.LVL_2 to /Game/UEDPIE_0_LVL_2.LVL_2 (0.043805s)
+[2024.09.24-18.51.39:321][232]LogAudio: Display: Audio Device (ID: 10) registered with world 'LVL_2'.
+[2024.09.24-18.51.39:321][232]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-18.51.39:321][232]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-18.51.39:322][232]LogAIModule: Creating AISystem for world LVL_2
+[2024.09.24-18.51.39:323][232]LogPlayLevel: PIE: World Init took: (0.003079s)
+[2024.09.24-18.51.39:324][232]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.09.24-18.51.39:331][232]LogWorld: Bringing World /Game/UEDPIE_0_LVL_2.LVL_2 up for play (max tick rate 0) at 2024.09.24-20.51.39
+[2024.09.24-18.51.39:332][232]LogWorld: Bringing up level for play took: 0.007783
+[2024.09.24-18.51.39:341][232]LogLoad: Took 0.156747 seconds to LoadMap(/Game/UEDPIE_0_LVL_2)
+[2024.09.24-18.51.47:957][292]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.09.24-18.51.48:995][299]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.51.49:138][300]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.51.50:194][308]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.50:799][313]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.51.50:928][314]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.51.52:856][330]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-18.51.52:857][330]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-18.51.52:858][330]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-18.51.52:858][330]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-18.51.52:858][330]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.55:142][348]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.57:423][366]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.51.59:664][384]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.52.00:710][392]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.52.01:355][397]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.52.01:484][398]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.52.01:608][399]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.52.01:740][400]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.52.03:165][412]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-18.52.03:165][412]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.52.03:517][415]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-18.52.03:517][415]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.52.11:322][482]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.52.13:704][501]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.52.17:727][533]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.09.24-18.52.17:728][533]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-18.52.17:728][533]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-18.52.17:728][533]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.09.24-18.52.17:728][533]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.52.29:893][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.29:993][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:096][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:197][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:302][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:409][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:510][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:615][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:714][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:814][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.30:921][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.31:018][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.31:122][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.31:223][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.31:324][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.31:430][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.31:530][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.31:631][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.33:518][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.52.33:518][683]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.52.33:520][683]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.09.24-18.52.33:607][683]LogWorld: UWorld::CleanupWorld for LVL_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.24-18.52.33:610][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.52.33:615][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.24-18.52.33:626][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.52.33:667][683]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.09.24-18.52.33:667][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.09.24-18.52.33:671][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.09.24-18.52.33:700][683]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2024.09.24-18.52.34:025][684]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.09.24-18.53.30:617][999]BlueprintLog: New page: Compile BP_Paper_LVL2
+[2024.09.24-18.53.30:788][999]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2024.09.24-18.53.36:355][ 22]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.09.24-18.53.36:374][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.24-18.53.36:374][ 22]PIE: New page: PIE session: LVL_2 (24.09.2024, 22:53:36)
+[2024.09.24-18.53.36:375][ 22]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.53.36:434][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059434s)
+[2024.09.24-18.53.36:434][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_2.LVL_2 to /Game/UEDPIE_0_LVL_2.LVL_2 (0.059528s)
+[2024.09.24-18.53.36:589][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2024.09.24-18.53.36:595][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-18.53.36:595][ 22]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-18.53.36:595][ 22]LogAIModule: Creating AISystem for world LVL_2
+[2024.09.24-18.53.36:596][ 22]LogPlayLevel: PIE: World Init took: (0.001896s)
+[2024.09.24-18.53.36:596][ 22]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.09.24-18.53.36:596][ 22]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.24-18.53.36:596][ 22]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.24-18.53.36:596][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.24-18.53.36:597][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.24-18.53.36:597][ 22]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.09.24-18.53.36:597][ 22]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.24-18.53.36:597][ 22]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.09.24-18.53.36:597][ 22]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.24-18.53.36:599][ 22]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.24-18.53.36:599][ 22]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.24-18.53.36:599][ 22]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.24-18.53.36:603][ 22]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.24-18.53.36:845][ 22]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.09.24-18.53.36:846][ 22]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.24-18.53.36:846][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.24-18.53.36:846][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.24-18.53.36:850][ 22]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.09.24-18.53.36:850][ 22]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.09.24-18.53.36:855][ 22]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.09.24-18.53.36:855][ 22]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.09.24-18.53.36:855][ 22]LogInit: FAudioDevice initialized with ID 11.
+[2024.09.24-18.53.36:855][ 22]LogAudio: Display: Audio Device (ID: 11) registered with world 'LVL_2'.
+[2024.09.24-18.53.36:855][ 22]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.09.24-18.53.37:036][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.53.37:036][ 22]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.09.24-18.53.37:045][ 22]LogWorld: Bringing World /Game/UEDPIE_0_LVL_2.LVL_2 up for play (max tick rate 0) at 2024.09.24-20.53.37
+[2024.09.24-18.53.37:045][ 22]LogWorld: Bringing up level for play took: 0.008637
+[2024.09.24-18.53.37:063][ 22]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.09.24-18.53.37:075][ 22]PIE: Server logged in
+[2024.09.24-18.53.37:079][ 22]PIE: Play in editor total start time 0,705 seconds.
+[2024.09.24-18.53.37:151][ 22]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.09.24-18.53.39:875][ 25]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Nothing in range
+[2024.09.24-18.53.57:988][ 69]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.09.24-18.54.08:645][ 96]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.54.25:119][138]LogNet: Browse: /Game/LVL_2
+[2024.09.24-18.54.25:119][138]LogLoad: LoadMap: /Game/LVL_2
+[2024.09.24-18.54.25:119][138]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.54.25:120][138]LogWorld: UWorld::CleanupWorld for LVL_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.24-18.54.25:122][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.54.25:178][138]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.24-18.54.25:512][138]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2024.09.24-18.54.25:517][138]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.54.25:567][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049695s)
+[2024.09.24-18.54.25:567][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_2.LVL_2 to /Game/UEDPIE_0_LVL_2.LVL_2 (0.049811s)
+[2024.09.24-18.54.25:567][138]LogAudio: Display: Audio Device (ID: 11) registered with world 'LVL_2'.
+[2024.09.24-18.54.25:567][138]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-18.54.25:568][138]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-18.54.25:569][138]LogAIModule: Creating AISystem for world LVL_2
+[2024.09.24-18.54.25:569][138]LogPlayLevel: PIE: World Init took: (0.002660s)
+[2024.09.24-18.54.25:570][138]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.09.24-18.54.25:587][138]LogWorld: Bringing World /Game/UEDPIE_0_LVL_2.LVL_2 up for play (max tick rate 0) at 2024.09.24-20.54.25
+[2024.09.24-18.54.25:587][138]LogWorld: Bringing up level for play took: 0.016867
+[2024.09.24-18.54.25:594][138]LogLoad: Took 0.478177 seconds to LoadMap(/Game/UEDPIE_0_LVL_2)
+[2024.09.24-18.55.02:697][537]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.55.03:494][546]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.55.03:926][550]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.55.04:341][554]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.55.05:640][567]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.55.05:721][568]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.55.05:896][570]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.55.05:982][571]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.55.06:060][572]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-18.55.06:385][576]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-18.55.07:750][593]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-18.55.07:751][593]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.07:918][595]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-18.55.07:919][595]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.08:052][596]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-18.55.08:052][596]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.10:998][628]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.09.24-18.55.12:756][646]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.13:154][650]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.15:735][677]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-18.55.15:735][677]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-18.55.15:737][677]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-18.55.15:737][677]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-18.55.15:738][677]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.21:469][735]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.23:220][753]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.26:160][783]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.09.24-18.55.26:160][783]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-18.55.26:161][783]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-18.55.26:161][783]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.09.24-18.55.26:161][783]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-18.55.46:158][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-18.55.46:159][ 17]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_2
+[2024.09.24-18.55.46:161][ 17]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.09.24-18.55.46:229][ 17]LogWorld: UWorld::CleanupWorld for LVL_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.24-18.55.46:231][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.55.46:240][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.24-18.55.46:253][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-18.55.46:293][ 17]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.09.24-18.55.46:293][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.09.24-18.55.46:295][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.09.24-18.55.46:313][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2024.09.24-18.55.46:523][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.09.24-18.57.18:160][963]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2024.09.24-18.57.18:171][963]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-18.57.18:182][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_2" FILE="../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.09.24-18.57.18:277][963]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LVL_2_Auto5
+[2024.09.24-18.57.18:277][963]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/LVL_2_Auto588543DD44E53BD7EE39E0EA08589C843.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto5.umap'
+[2024.09.24-18.57.18:281][963]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto5.umap is in the /Temp path, will not scan.
+[2024.09.24-18.57.18:281][963]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/LVL_2_Auto5 is in the /Temp path, will not scan.
+[2024.09.24-18.57.18:281][963]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/LVL_2_Auto5 is in the /Temp path, will not scan.
+[2024.09.24-18.57.18:291][963]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_2' took 0.162
+[2024.09.24-18.57.18:291][963]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.162
+[2024.09.24-18.57.18:291][963]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/BP_Paper_LVL2] ([2] browsable assets)...
+[2024.09.24-18.57.18:385][963]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_Paper_LVL2.BP_Paper_LVL2]
+[2024.09.24-18.57.18:388][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_Paper_LVL2]
+[2024.09.24-18.57.18:549][963]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_Paper_LVL2_Auto5
+[2024.09.24-18.57.18:549][963]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_Paper_LVL2_Auto5F63DE15C4981BCD483F657A1080438A4.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/BP_Paper_LVL2_Auto5.uasset'
+[2024.09.24-18.57.18:553][963]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/BP_DC_Kammer_LVL2] ([2] browsable assets)...
+[2024.09.24-18.57.18:792][963]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_DC_Kammer_LVL2.BP_DC_Kammer_LVL2]
+[2024.09.24-18.57.18:802][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_DC_Kammer_LVL2]
+[2024.09.24-18.57.18:890][963]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_DC_Kammer_LVL2_Auto5
+[2024.09.24-18.57.18:890][963]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_DC_Kammer_LVL2_Auto5FA5E94A84D3D474739D9EF91C87095C2.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/BP_DC_Kammer_LVL2_Auto5.uasset'
+[2024.09.24-18.57.18:894][963]LogFileHelpers: Auto-saving content packages took 0.603
+[2024.09.24-19.00.07:171][238]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.09.24-19.00.07:199][238]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.09.24-19.00.07:250][238]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.09.24-19.00.07:375][239]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.09.24-19.00.30:147][823]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> NewWidgetBlueprint
+[2024.09.24-19.00.30:171][823]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.09.24-19.00.59:804][567]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_Warnung_vor_Überlauf
+[2024.09.24-19.01.00:066][567]LogMetaData: Removing '/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf.SKEL_WBP_Warnung_vor_Überlauf_C' ref from Metadata '/Game/0_MY_STUFF/NewWidgetBlueprint.PackageMetaData'
+[2024.09.24-19.01.00:066][567]LogMetaData: Removing '/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf.WBP_Warnung_vor_Überlauf_C' ref from Metadata '/Game/0_MY_STUFF/NewWidgetBlueprint.PackageMetaData'
+[2024.09.24-19.01.00:066][567]LogMetaData: Removing '/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf.WBP_Warnung_vor_Überlauf:EventGraph.K2Node_Event_0' ref from Metadata '/Game/0_MY_STUFF/NewWidgetBlueprint.PackageMetaData'
+[2024.09.24-19.01.00:066][567]LogMetaData: Removing '/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf.WBP_Warnung_vor_Überlauf:EventGraph.K2Node_Event_1' ref from Metadata '/Game/0_MY_STUFF/NewWidgetBlueprint.PackageMetaData'
+[2024.09.24-19.01.00:066][567]LogMetaData: Removing '/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf.WBP_Warnung_vor_Überlauf:EventGraph.K2Node_Event_2' ref from Metadata '/Game/0_MY_STUFF/NewWidgetBlueprint.PackageMetaData'
+[2024.09.24-19.01.00:092][567]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.24-19.01.00:218][567]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf
+[2024.09.24-19.01.00:218][567]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/WBP_Warnung_vor_Überlauf9F1073E14B50B67FAAE64C99E4D50E2E.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/WBP_Warnung_vor_Überlauf.uasset'
+[2024.09.24-19.01.00:268][567]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 1.84 sec)
+[2024.09.24-19.01.00:329][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2024.09.24-19.01.00:363][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.09.24-19.01.00:395][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.09.24-19.01.00:405][567]AssetCheck: New page: Asset Save: WBP_Warnung_vor_Überlauf
+[2024.09.24-19.01.00:405][567]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf.WBP_Warnung_vor_Überlauf
+[2024.09.24-19.01.02:858][624]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf.WBP_Warnung_vor_Überlauf
+[2024.09.24-19.01.02:860][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-19.01.02:860][624]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-19.01.02:885][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-19.01.02:885][624]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-19.01.02:906][624]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.09.24-19.01.03:699][624]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.09.24-19.02.06:680][927]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/0_MY_STUFF/WBP_Versuchsanleitung.WBP_Versuchsanleitung
+[2024.09.24-19.02.06:680][927]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-19.02.06:680][927]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-19.02.06:717][927]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-19.02.06:717][927]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-19.05.19:549][902]LogSlate: Window 'Color Picker' being destroyed
+[2024.09.24-19.09.07:642][115]LogSlate: Window 'Color Picker' being destroyed
+[2024.09.24-19.09.14:698][457]LogSlate: Window 'Color Picker' being destroyed
+[2024.09.24-19.09.35:774][452]LogSlate: Window 'Color Picker' being destroyed
+[2024.09.24-19.09.47:683][ 54]LogSlate: Window 'Color Picker' being destroyed
+[2024.09.24-19.11.45:986][278]BlueprintLog: New page: Compile WBP_Warnung_vor_Überlauf
+[2024.09.24-19.11.46:064][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2024.09.24-19.14.49:216][705]BlueprintLog: New page: Compile BP_Paper_LVL2
+[2024.09.24-19.14.49:455][705]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2024.09.24-19.14.52:441][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.24-19.14.52:641][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0_MY_STUFF/BP_Paper_LVL2" FILE="../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/BP_Paper_LVL2.uasset" SILENT=true
+[2024.09.24-19.14.52:798][739]LogSavePackage: Moving output files for package: /Game/0_MY_STUFF/BP_Paper_LVL2
+[2024.09.24-19.14.52:800][739]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_Paper_LVL2C789271B46C1BD80C8E9D8B7CDA8E57B.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Content/0_MY_STUFF/BP_Paper_LVL2.uasset'
+[2024.09.24-19.14.52:824][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 382 ms (total: 2.22 sec)
+[2024.09.24-19.14.52:831][739]AssetCheck: New page: Asset Save: BP_Paper_LVL2
+[2024.09.24-19.14.52:831][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/0_MY_STUFF/BP_Paper_LVL2.BP_Paper_LVL2
+[2024.09.24-19.19.43:233][715]BlueprintLog: New page: Compile BP_FirstPersonCharacter_LVL2
+[2024.09.24-19.19.43:569][715]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2024.09.24-19.19.47:267][735]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.09.24-19.19.47:284][735]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.09.24-19.19.47:337][735]LogPlayLevel: [PlayLevel] Compiling BP_Paper_LVL2 before play...
+[2024.09.24-19.19.48:370][735]LogPlayLevel: [PlayLevel] Compiling BP_DC_Kammer_LVL2 before play...
+[2024.09.24-19.19.48:471][735]LogPlayLevel: [PlayLevel] Compiling LVL_2 before play...
+[2024.09.24-19.19.48:550][735]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2024.09.24-19.19.48:554][735]LogPlayLevel: PlayLevel: Blueprint regeneration took 1269 ms (3 blueprints)
+[2024.09.24-19.19.48:554][735]PIE: New page: PIE session: LVL_2 (24.09.2024, 23:19:48)
+[2024.09.24-19.19.48:554][735]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_2
+[2024.09.24-19.19.48:596][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041357s)
+[2024.09.24-19.19.48:596][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_2.LVL_2 to /Game/UEDPIE_0_LVL_2.LVL_2 (0.041433s)
+[2024.09.24-19.19.48:624][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2024.09.24-19.19.48:629][735]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-19.19.48:629][735]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-19.19.48:630][735]LogAIModule: Creating AISystem for world LVL_2
+[2024.09.24-19.19.48:631][735]LogPlayLevel: PIE: World Init took: (0.001935s)
+[2024.09.24-19.19.48:631][735]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.09.24-19.19.48:631][735]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.24-19.19.48:631][735]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.24-19.19.48:631][735]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.24-19.19.48:631][735]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.24-19.19.48:631][735]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.09.24-19.19.48:631][735]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.24-19.19.48:631][735]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.09.24-19.19.48:631][735]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.24-19.19.48:632][735]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.24-19.19.48:632][735]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.24-19.19.48:632][735]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.24-19.19.48:636][735]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.24-19.19.48:871][735]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2024.09.24-19.19.48:872][735]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.24-19.19.48:872][735]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.24-19.19.48:872][735]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.24-19.19.48:875][735]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.09.24-19.19.48:875][735]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.09.24-19.19.48:879][735]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.09.24-19.19.48:879][735]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.09.24-19.19.48:879][735]LogInit: FAudioDevice initialized with ID 12.
+[2024.09.24-19.19.48:879][735]LogAudio: Display: Audio Device (ID: 12) registered with world 'LVL_2'.
+[2024.09.24-19.19.48:879][735]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.09.24-19.19.48:979][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.19.48:980][735]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.09.24-19.19.48:989][735]LogWorld: Bringing World /Game/UEDPIE_0_LVL_2.LVL_2 up for play (max tick rate 0) at 2024.09.24-21.19.48
+[2024.09.24-19.19.48:989][735]LogWorld: Bringing up level for play took: 0.008437
+[2024.09.24-19.19.48:995][735]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.09.24-19.19.49:007][735]PIE: Server logged in
+[2024.09.24-19.19.49:010][735]PIE: Play in editor total start time 1,725 seconds.
+[2024.09.24-19.19.49:088][735]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.09.24-19.19.52:937][740]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Nothing in range
+[2024.09.24-19.20.09:134][892]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-19.20.09:244][893]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-19.20.13:336][933]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.09.24-19.20.14:176][941]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-19.20.14:282][942]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-19.20.15:676][955]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.20.18:894][988]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-19.20.18:894][988]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.605 Y=3.197 Z=0.000
+[2024.09.24-19.20.18:897][988]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-19.20.18:897][988]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.605 Y=3.197 Z=0.000
+[2024.09.24-19.20.18:897][988]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.20.21:394][ 12]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-19.20.21:502][ 13]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-19.20.22:154][ 19]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-19.20.23:087][ 28]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-19.20.23:427][ 31]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-19.20.23:755][ 34]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-19.20.24:523][ 41]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-19.20.24:523][ 41]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.20.25:151][ 47]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-19.20.25:151][ 47]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.20.32:315][122]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.20.33:694][135]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.20.36:867][165]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.09.24-19.20.36:868][165]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-19.20.36:868][165]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-19.20.36:868][165]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.09.24-19.20.36:868][165]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.20.49:056][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:134][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:219][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:301][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:386][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:464][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:549][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:632][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:714][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:794][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:878][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.49:959][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:042][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:123][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:207][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:289][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:371][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:451][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:534][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:618][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:700][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.50:780][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.20.55:490][385]LogNet: Browse: /Game/LVL_2
+[2024.09.24-19.20.55:490][385]LogLoad: LoadMap: /Game/LVL_2
+[2024.09.24-19.20.55:490][385]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_2
+[2024.09.24-19.20.55:491][385]LogWorld: UWorld::CleanupWorld for LVL_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.24-19.20.55:493][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-19.20.55:528][385]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.24-19.20.55:575][385]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2024.09.24-19.20.55:583][385]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LVL_2
+[2024.09.24-19.20.55:627][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044097s)
+[2024.09.24-19.20.55:627][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LVL_2.LVL_2 to /Game/UEDPIE_0_LVL_2.LVL_2 (0.044235s)
+[2024.09.24-19.20.55:627][385]LogAudio: Display: Audio Device (ID: 12) registered with world 'LVL_2'.
+[2024.09.24-19.20.55:628][385]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.24-19.20.55:628][385]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-19.20.55:630][385]LogAIModule: Creating AISystem for world LVL_2
+[2024.09.24-19.20.55:632][385]LogPlayLevel: PIE: World Init took: (0.004533s)
+[2024.09.24-19.20.55:632][385]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.09.24-19.20.55:639][385]LogWorld: Bringing World /Game/UEDPIE_0_LVL_2.LVL_2 up for play (max tick rate 0) at 2024.09.24-21.20.55
+[2024.09.24-19.20.55:640][385]LogWorld: Bringing up level for play took: 0.006529
+[2024.09.24-19.20.55:650][385]LogLoad: Took 0.160496 seconds to LoadMap(/Game/UEDPIE_0_LVL_2)
+[2024.09.24-19.21.01:333][428]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-19.21.02:199][435]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-19.21.03:474][444]LogBlueprintUserMessages: [BP_Becherglas_C_1] true
+[2024.09.24-19.21.03:914][447]LogBlueprintUserMessages: [BP_Becherglas_C_1] false
+[2024.09.24-19.21.06:160][468]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-19.21.06:160][468]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.06:372][470]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] fill with liquid
+[2024.09.24-19.21.06:372][470]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.10:893][513]LogBlueprintUserMessages: [BP_PlacingField_C_1] settiong
+[2024.09.24-19.21.13:318][534]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.17:405][573]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-19.21.17:405][573]LogBlueprintUserMessages: [BP_DC_Dot_C_0] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-19.21.17:406][573]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=1.000 Y=1.000 Z=1.000
+[2024.09.24-19.21.17:406][573]LogBlueprintUserMessages: [BP_DC_Dot_C_1] X=4.572 Y=3.149 Z=0.000
+[2024.09.24-19.21.17:406][573]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.24:482][638]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.26:338][654]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.29:578][682]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Closing chamber
+[2024.09.24-19.21.29:578][682]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-19.21.29:578][682]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] is setting bool
+[2024.09.24-19.21.29:578][682]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] not holding relevant actor
+[2024.09.24-19.21.29:578][682]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.38:449][771]LogBlueprintUserMessages: [BP_DC_Kammer_C_1] Opening chamber
+[2024.09.24-19.21.38:449][771]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.45:474][838]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Paper
+	BP_DC_Kammer_LVL2_C /Game/UEDPIE_0_LVL_2.LVL_2:PersistentLevel.BP_DC_Kammer_C_1
+	Function /Game/0_MY_STUFF/BP_DC_Kammer_LVL2.BP_DC_Kammer_LVL2_C:ExecuteUbergraph_BP_DC_Kammer_LVL2:0EA4
+[2024.09.24-19.21.45:474][838]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Paper". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP DC Kammer LVL2 Blueprint:  BP_DC_Kammer_LVL2
+[2024.09.24-19.21.45:474][838]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.49:539][877]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.21.52:332][901]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Interacting
+[2024.09.24-19.22.08:012][ 57]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.22.09:475][ 70]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.22.11:060][ 84]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.22.12:760][ 99]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.22.13:986][110]LogBlueprintUserMessages: [BP_FirstPersonCharacter_LVL2_C_0] Combining
+[2024.09.24-19.23.37:447][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.24-19.23.37:448][ 30]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LVL_2
+[2024.09.24-19.23.37:451][ 30]LogSlate: Window 'VirtualLab Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.09.24-19.23.37:551][ 30]LogWorld: UWorld::CleanupWorld for LVL_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.24-19.23.37:554][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-19.23.37:561][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.24-19.23.37:571][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.24-19.23.37:614][ 30]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.09.24-19.23.37:614][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.09.24-19.23.37:618][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.09.24-19.23.37:643][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2024.09.24-19.23.38:000][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.09.24-19.23.39:632][ 38]LogSlate: Window 'Message Log' being destroyed
+[2024.09.24-19.23.39:789][ 38]LogSlate: Window 'Message Log' being destroyed
+[2024.09.24-19.24.07:536][122]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2024.09.24-19.24.07:549][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.24-19.24.07:560][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LVL_2" FILE="../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.09.24-19.24.07:669][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LVL_2_Auto6
+[2024.09.24-19.24.07:669][122]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/LVL_2_Auto670A06A2B4843E94DE43F26A90F1A65C7.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto6.umap'
+[2024.09.24-19.24.07:684][122]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/LVL_2_Auto6.umap is in the /Temp path, will not scan.
+[2024.09.24-19.24.07:685][122]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/LVL_2_Auto6 is in the /Temp path, will not scan.
+[2024.09.24-19.24.07:685][122]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/LVL_2_Auto6 is in the /Temp path, will not scan.
+[2024.09.24-19.24.07:717][122]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LVL_2' took 0.221
+[2024.09.24-19.24.07:717][122]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.221
+[2024.09.24-19.24.07:719][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/BP_Paper_LVL2] ([2] browsable assets)...
+[2024.09.24-19.24.08:212][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_Paper_LVL2.BP_Paper_LVL2]
+[2024.09.24-19.24.08:215][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_Paper_LVL2]
+[2024.09.24-19.24.08:446][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_Paper_LVL2_Auto6
+[2024.09.24-19.24.08:446][122]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_Paper_LVL2_Auto6007386704F4CCD0669A97EA5D84E8EC3.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/BP_Paper_LVL2_Auto6.uasset'
+[2024.09.24-19.24.08:449][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/0_MY_STUFF/BP_DC_Kammer_LVL2] ([2] browsable assets)...
+[2024.09.24-19.24.08:531][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/0_MY_STUFF/BP_DC_Kammer_LVL2.BP_DC_Kammer_LVL2]
+[2024.09.24-19.24.08:531][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/BP_DC_Kammer_LVL2]
+[2024.09.24-19.24.08:680][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/BP_DC_Kammer_LVL2_Auto6
+[2024.09.24-19.24.08:680][122]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/BP_DC_Kammer_LVL2_Auto66931DA7743BF84207F0C4193DDCE45B4.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/BP_DC_Kammer_LVL2_Auto6.uasset'
+[2024.09.24-19.24.08:684][122]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf] ([2] browsable assets)...
+[2024.09.24-19.24.08:696][122]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf.WBP_Warnung_vor_Überlauf]
+[2024.09.24-19.24.08:696][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf]
+[2024.09.24-19.24.08:707][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf_Auto6
+[2024.09.24-19.24.08:708][122]LogSavePackage: Moving '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/WBP_Warnung_vor_Überlauf_Auto6E0473D8842E31D169574FBABC006F443.tmp' to '../../../../../../Users/User/Desktop/GitHub/OCVirtualLab_Level1/Level 2/Saved/Autosaves/Game/0_MY_STUFF/WBP_Warnung_vor_Überlauf_Auto6.uasset'
+[2024.09.24-19.24.08:712][122]LogFileHelpers: Auto-saving content packages took 0.996
