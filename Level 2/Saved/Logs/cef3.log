@@ -1,1 +1,17 @@
-[0820/221524.977:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[1228/152415.493:ERROR:backend_impl.cc(1041)] Critical error found -8
+[1228/152415.495:ERROR:entry_impl.cc(1075)] No file for c1030000
+[1228/152415.495:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.495:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.495:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.495:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.495:ERROR:entry_impl.cc(1075)] No file for c1030002
+[1228/152415.495:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.495:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.496:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.496:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.509:ERROR:entry_impl.cc(1075)] No file for c1030004
+[1228/152415.510:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.510:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152415.572:WARNING:storage_block-inl.h(146)] Failed data load.
+[1228/152438.779:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[1228/152613.508:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
